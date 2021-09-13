@@ -5,7 +5,8 @@ permalink: /publication/De_Cian_et_al_2019
 date: October 2019
 venue: 'Environmental Science & Policy'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1462901119304216'
-citation: 'De Cian, E., Pavanello, F., Randazzo, T., Mistry, M. N., & Davide, M. (2019). &quot; Households’ adaptation in a warming climate. Air conditioning and thermal insulation choices.&quot; <i>Environmental Science & Policy</i>. 100, 136-157.'
 ---
+
+(with E. De Cian, T. Randazzo, M. Davide & M. Mistry)
 
 [Download paper here](https://github.com/FPavanello/FPavanello.github.io/files/De_Cian_et_al_2019.pdf)
