@@ -11,30 +11,32 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BA. in Economics and Trade, Ca' Foscari University of Venice, 2013-2016 (cum laude)
+* MSc. in Economics and Finace (CV: Economics), Ca' Foscari University of Venice, 2016-2018 (cum laude)
+* Ph.D in Economics, GitHub University, 2023 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sep 2021 - Feb 2022: Internship
+  * OECD
+  * Supervisor: Elisa Lanzi
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+* Dec 2018 - Aug 2019: Research Assistant
+  * Ca' Foscari University of Venice
+  * Supervisor: Enrica De Cian
+
+Affiliations
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* University of Bologna
+* CMCC
+* Ca' Foscari University of Venice
+  
+Computer Skills
+======
+* Stata (Advanced)
+* R (Advanced)
+* GAMS, EViews, Gretl and QGIS (Basic)
+* Latex and Microsoft Office (Advanced)
 
 Publications
 ======
@@ -42,18 +44,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
