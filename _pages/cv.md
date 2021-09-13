@@ -13,7 +13,7 @@ Education
 ======
 * BA. in Economics and Trade, Ca' Foscari University of Venice, 2013-2016 (cum laude)
 * MSc. in Economics and Finace (CV: Economics), Ca' Foscari University of Venice, 2016-2018 (cum laude)
-* Ph.D in Economics, GitHub University, 2023 (expected)
+* Ph.D in Economics, University of Bologna, 2019 -
 
 Work experience
 ======
