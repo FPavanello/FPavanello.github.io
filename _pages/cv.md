@@ -46,6 +46,5 @@ Publications
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* TA in Industrial Economics (2017 and 2018)
+  * Ca' Foscari University of Venice
