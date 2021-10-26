@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a PhD Student in Economics at [University of Bologna](https://www.unibo.it/it) in the Department of Economics. I am also a Research Affiliated at the [Euro-Mediterranean Centre on Climate Change](https://www.cmcc.it/) and at [Ca' Foscari University of Venice](https://www.unive.it/).
+Welcome! I am a PhD Student in Economics at [University of Bologna](https://www.unibo.it/it) in the Department of Economics. I am also a Research Affiliate at the [Euro-Mediterranean Centre on Climate Change](https://www.cmcc.it/) and at [Ca' Foscari University of Venice](https://www.unive.it/).
 
 My research relates to the relationship between climate change and households’ adaptation strategies. Applying micro-econometric methods, I am currently studying the impact of climate change on the residential electricity demand along both the intensive and extensive margin.
 
