@@ -13,8 +13,8 @@ author_profile: true
 
 [Adaptation to climate change: air conditioning and the role of remittances.](https://fpavanello.github.io/files/Randazzo_et_al_WP.pdf) (with E. De Cian & T. Randazzo, Working Paper)
 
-Reducing Inequality in the Access to Cooling Energy: Evidence from the Residential Electricity Market in India. (Work in Progess)
+Reducing Inequality in the Access to Cooling Energy: Evidence from the Residential Electricity Market in India. (Work in Progress)
 
-The Social Drivers of Adaptation Inequality: Global Evidence from Air-conditioning. (with E. De Cian, G. Falchetta & I. Sue Wing, Work in Progess)
+The Social Drivers of Adaptation Inequality: Global Evidence from Air-conditioning. (with E. De Cian, G. Falchetta & I. Sue Wing, Work in Progress)
 
-Relative Prices and the Impact of Climate Change upon the Economy (with D. Difino, Work in Progess)
+Relative Prices and the Impact of Climate Change upon the Economy (with D. Difino, Work in Progress)
