@@ -15,6 +15,6 @@ author_profile: true
 
 Reducing Inequality in the Access to Cooling Energy: Evidence from the Residential Electricity Market in India. (Work in Progress)
 
-The Social Drivers of Adaptation Inequality: Global Evidence from Air-conditioning. (with E. De Cian, G. Falchetta & I. Sue Wing, Work in Progress)
+The Impact of Air-conditioning on Residential Electricity Demand across World Countries. (with E. De Cian, G. Falchetta & I. Sue Wing, Work in Progress)
 
 Relative Prices and the Impact of Climate Change upon the Economy (with D. Difino, Work in Progress)
