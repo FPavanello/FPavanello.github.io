@@ -17,4 +17,6 @@ Reducing Inequality in the Access to Cooling Energy: Evidence from the Residenti
 
 The Impact of Air-conditioning on Residential Electricity Demand across World Countries. (with E. De Cian, G. Falchetta & I. Sue Wing, Work in Progress)
 
+Electricity Consumption and Air-conditioning: a Global Model and Future Gridded Projections. (with E. De Cian, G. Falchetta & I. Sue Wing, Work in Progress)
+
 Relative Prices and the Impact of Climate Change upon the Economy (with D. Difino, Work in Progress)
