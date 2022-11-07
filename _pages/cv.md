@@ -9,4 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](https://fpavanello.github.io/files/CV.pdf)
+[Full CV](https://fpavanello.github.io/files/CV.pdf)
+
+**Current Position**
+
+- 2019-2024: PhD Candidate in Economics, University of Bologna
