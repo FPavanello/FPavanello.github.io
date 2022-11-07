@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal website! 
+**Welcome to my personal website!** 
 
 - I am an applied environmental economist with main focuses on climate change and energy poverty. 
 
