@@ -12,7 +12,7 @@ redirect_from:
 
 - I am an applied environmental economist with main focuses on climate change and energy poverty. 
 
-- I am a PhD Candidate in Economics at the [University of Bologna](https://www.unibo.it/it). 
+- I am a 4th year PhD Candidate in Economics at the [University of Bologna](https://www.unibo.it/it). 
 
 - I am also a Research Affiliate at the [Euro-Mediterranean Centre on Climate Change](https://www.cmcc.it/) and at [Ca' Foscari University of Venice](https://www.unive.it/).
 
