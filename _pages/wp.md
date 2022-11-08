@@ -16,11 +16,8 @@ author_profile: true
 
 - Reducing Inequality in the Access to Cooling Energy: Evidence from the Residential Electricity Market in India. (with I. Sue Wing) \[**Job Market Paper**\]
 
-- The Impact of Air-conditioning on Residential Electricity Demand across World Countries.  
-(with E. De Cian, G. Falchetta, I. Sue Wing)
+- The Impact of Air-conditioning on Residential Electricity Demand across World Countries. (with E. De Cian, G. Falchetta, I. Sue Wing)
 
-- Electricity Consumption and Air-conditioning: a Global Model and Future Gridded Projections.  
-(with E. De Cian, G. Falchetta, I. Sue Wing)
+- Electricity Consumption and Air-conditioning: a Global Model and Future Gridded Projections. (with E. De Cian, G. Falchetta, I. Sue Wing)
 
-- The (Relative) Price of Climate Change.  
-(with D. Difino)
+- The (Relative) Prices of Climate Change. (with D. Difino)
