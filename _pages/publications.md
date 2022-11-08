@@ -18,11 +18,6 @@ author_profile: true
 
 
 - [**Households’ adaptation in a warming climate. Air conditioning and thermal insulation choices**](https://fpavanello.github.io/files/De_Cian_et_al_2019.pdf). (with E. De Cian, T. Randazzo, M. Davide & M. Mistry). _Environmental Science & Policy_, 2019
-  - Abstract:<details>
-  <summary>Click me</summary>
-  
-Adjustments in the final use of energy are a critical margin of adaptation for maintaining indoor thermal comfort. This paper explores how households have been adopting air conditioning and thermal insulation to cope with different climatic conditions, and how climatic factors interact with socio-economic, demographic, and household characteristics across eight OECD countries. Changes in the cumulative number of hot and cold days over the year, urbanization, demographics and household characteristics, including attitudes towards energy efficiency, strongly affect those two margins of adaptation, along with income. If the historically-observed adaptation behaviour is maintained also under future socio-economic pathways and climate scenarios, the impact of global warming and income on air conditioning adoption will be reinforced by urbanization trends, which on the contrary will make it more difficult to improve building thermal insulation.
-  
-  </details>
+  - Abstract: <details> Adjustments in the final use of energy are a critical margin of adaptation for maintaining indoor thermal comfort. This paper explores how households have been adopting air conditioning and thermal insulation to cope with different climatic conditions, and how climatic factors interact with socio-economic, demographic, and household characteristics across eight OECD countries. Changes in the cumulative number of hot and cold days over the year, urbanization, demographics and household characteristics, including attitudes towards energy efficiency, strongly affect those two margins of adaptation, along with income. If the historically-observed adaptation behaviour is maintained also under future socio-economic pathways and climate scenarios, the impact of global warming and income on air conditioning adoption will be reinforced by urbanization trends, which on the contrary will make it more difficult to improve building thermal insulation. </details>
   
   - Media Coverage: [la Repubblica](https://www.repubblica.it/ambiente/2019/07/15/news/cambiamenti_climatici_la_grande_corsa_ai_climatizzatori_e_gia_iniziata-231253051/)
