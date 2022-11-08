@@ -23,5 +23,5 @@ author_profile: true
 - Electricity Consumption and Air-conditioning: a Global Model and Future Gridded Projections.  
 (with E. De Cian, G. Falchetta, I. Sue Wing)
 
-The (Relative) Price of Climate Change.  
+- The (Relative) Price of Climate Change.  
 (with D. Difino)
