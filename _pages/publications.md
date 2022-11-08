@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-- Pavanello, F., De Cian, E., Davide, M., Mistry, M., Cruz, T., Bezerra, P., Jagu, D., Renner, S., Schaeffer R. & Lucena, A. F. (2021). [**Air-conditioning and the adaptation cooling deficit in emerging economies**](https://www.nature.com/articles/s41467-021-26592-2). _Nature Communications_
+- **Pavanello, F.**, De Cian, E., Davide, M., Mistry, M., Cruz, T., Bezerra, P., Jagu, D., Renner, S., Schaeffer R. & Lucena, A. F. [**Air-conditioning and the adaptation cooling deficit in emerging economies**](https://www.nature.com/articles/s41467-021-26592-2). _Nature Communications_ (2021)
   - <details> 
       <summary>Abstract</summary> Increasing temperatures will make space cooling a necessity for maintain comfort and protecting human health, and rising income levels will allow more people to purchase and run air conditioners. Here we show that, in Brazil, India, Indonesia, and Mexico income and humidity-adjusted temperature are common determinants for adopting air-conditioning, but their relative contribution varies in relation to household characteristics. Adoption rates are higher among households living in higher quality dwellings in urban areas, and among those with higher levels of education. Air-conditioning is unevenly distributed across income levels, making evident the existence of a disparity in access to cooling devices. Although the adoption of air-conditioning could increase between twofold and sixteen-fold by 2040, from 64 to 100 million families with access to electricity will not be able to adequately satisfy their demand for thermal comfort. The need to sustain electricity expenditure in response to higher temperatures can also create unequal opportunities to adapt. </details>
   
@@ -18,7 +18,7 @@ author_profile: true
 
 
 
-- [**Households’ adaptation in a warming climate. Air conditioning and thermal insulation choices**](https://fpavanello.github.io/files/De_Cian_et_al_2019.pdf). (with E. De Cian, T. Randazzo, M. Davide & M. Mistry). _Environmental Science & Policy_, 2019
+- De Cian, E., **Pavanello, F.**, Randazzo, T., Mistry, M. N., & Davide, M. [**Households’ adaptation in a warming climate. Air conditioning and thermal insulation choices**](https://fpavanello.github.io/files/De_Cian_et_al_2019.pdf). _Environmental Science & Policy_ (2019)
   - <details> 
       <summary>Abstract</summary> Adjustments in the final use of energy are a critical margin of adaptation for maintaining indoor thermal comfort. This paper explores how households have been adopting air conditioning and thermal insulation to cope with different climatic conditions, and how climatic factors interact with socio-economic, demographic, and household characteristics across eight OECD countries. Changes in the cumulative number of hot and cold days over the year, urbanization, demographics and household characteristics, including attitudes towards energy efficiency, strongly affect those two margins of adaptation, along with income. If the historically-observed adaptation behaviour is maintained also under future socio-economic pathways and climate scenarios, the impact of global warming and income on air conditioning adoption will be reinforced by urbanization trends, which on the contrary will make it more difficult to improve building thermal insulation. </details>
   
