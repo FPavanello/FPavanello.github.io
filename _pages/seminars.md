@@ -7,10 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.seminars reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
 **2022**
 
 - 1st Padova Workshop on Environmental and Resource Economics - University of Padova (invited)
