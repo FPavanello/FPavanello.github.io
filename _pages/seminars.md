@@ -25,7 +25,7 @@ author_profile: true
 - 26th Annual Conference of the European Association of Environmental and Resource Economists
 - First-year PhD Internal Seminar - University of Bologna
 
-**2021**
+**2019**
 
 - 7th Annual Conference of the Italian Association of Environmental and Resource Economists
 
