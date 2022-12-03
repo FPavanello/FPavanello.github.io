@@ -14,15 +14,18 @@ author_profile: true
 - 10th Annual Conference of Italian Society for Climate Sciences
 - PhD Weekend Workshop - University of Bologna and Unicredit Foundation
 - Third-year PhD Internal Seminar - University of Bologna
-- 10th Annual Conference of the Italian Association of Environmental and Resource Economists
 - 27th Annual Conference of the European Association of Environmental and Resource Economists
+- 10th Annual Conference of the Italian Association of Environmental and Resource Economists
 
 **2021**
 
+- 26th Annual Conference of the European Association of Environmental and Resource Economists
+- 9th Annual Conference of the Italian Association of Environmental and Resource Economists
 - Second-year PhD Internal Seminar - University of Bologna
 - European Geosciences Union General Assembly
-- 9th Annual Conference of the Italian Association of Environmental and Resource Economists
-- 26th Annual Conference of the European Association of Environmental and Resource Economists
+
+**2020**
+
 - First-year PhD Internal Seminar - University of Bologna
 
 **2019**
