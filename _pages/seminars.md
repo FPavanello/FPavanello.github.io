@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+**2023**
+
+- 11th Annual Conference of the Italian Association of Environmental and Resource Economists (forthcoming)
+
 **2022**
 
 - 1st Padova Workshop on Environmental and Resource Economics - University of Padova (invited)
