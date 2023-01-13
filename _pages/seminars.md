@@ -9,7 +9,7 @@ author_profile: true
 
 **2023**
 
-- 11th Annual Conference of the Italian Association of Environmental and Resource Economists (forthcoming)
+- 11th Annual Conference of the Italian Association of Environmental and Resource Economists
 
 **2022**
 
