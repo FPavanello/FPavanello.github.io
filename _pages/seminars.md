@@ -9,9 +9,9 @@ author_profile: true
 
 **2023**
 
-- Internal Seminar (2) - CMCC and Ca’ Foscari University of Venice
+- Internal Seminar (Mar) - CMCC and Ca’ Foscari University of Venice
 - 11th Annual Conference of the Italian Association of Environmental and Resource Economists
-- Internal Seminar (1) - CMCC and Ca’ Foscari University of Venice
+- Internal Seminar (Feb) - CMCC and Ca’ Foscari University of Venice
 
 **2022**
 
