@@ -12,7 +12,7 @@ author_profile: true
 {% endfor %}
 
 - Adaptation to climate change: air-conditioning and the role of remittances. (with E. De Cian, T. Randazzo)  
- \[_Accepted at Journal of Environmental Economics and Management_\] [\[Latest Version\]](https://fpavanello.github.io/files/airconrem.pdf) [\[Working Paper Version\]](https://fpavanello.github.io/files/Randazzo_et_al_WP.pdf)
+ \[_Accepted at Journal of Environmental Economics and Management_\] [\[Latest Version\]](https://fpavanello.github.io/files/airconrem_jeem2023.pdf) [\[Working Paper Version\]](https://fpavanello.github.io/files/Randazzo_et_al_WP.pdf)
   - <details> 
       <summary>Abstract</summary> Do remittances improve the ability of households to adapt to global warming? We try to answer this question by studying the behaviours of households in Mexico, a country that experiences a large and stable flow of remittances. Using an instrumental variable approach, we find an important role of remittances in the climate adaptation process. Remittances are used for adopting air-conditioning, which is an important cooling device for responding to high temperatures and to maintain thermal comfort at home. We exploit climate and income heterogeneity by showing that large differences exist in the use of remittances for climate adaptation between coastal and inland regions, as well as among different income groups. We conclude by quantifying the overall increase in welfare that households attain by adopting air-conditioning. </details> 
 
