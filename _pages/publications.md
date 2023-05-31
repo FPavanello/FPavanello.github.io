@@ -28,4 +28,4 @@ author_profile: true
   
   - Media Coverage: [la Repubblica](https://www.repubblica.it/ambiente/2019/07/15/news/cambiamenti_climatici_la_grande_corsa_ai_climatizzatori_e_gia_iniziata-231253051/)
   - Interview: [SBS.au](https://www.sbs.com.au/language/italian/audio/l-impatto-dei-condizionatori-sul-cambiamento-climatico)
-  - Previous Version: [Working Paper](https://fpavanello.github.io/files/Randazzo_et_al_WP.pdf)
+  - Previous Version: [Working Paper](https://fpavanello.github.io/files/De_Cian_et_al_WP.pdf)
