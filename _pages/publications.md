@@ -12,6 +12,7 @@ author_profile: true
       <summary>Abstract</summary> Do remittances improve the ability of households to adapt to global warming? We try to answer this question by studying the behaviours of households in Mexico, a country that experiences a large and stable flow of remittances. Using an instrumental variable approach, we find an important role of remittances in the climate adaptation process. Remittances are used for adopting air-conditioning, which is an important cooling device for responding to high temperatures and to maintain thermal comfort at home. We exploit climate and income heterogeneity by showing that large differences exist in the use of remittances for climate adaptation between coastal and inland regions, as well as among different income groups. We conclude by quantifying the overall increase in welfare that households attain by adopting air-conditioning. </details> 
       
   - Previous Version: [Working Paper](https://fpavanello.github.io/files/Randazzo_et_al_WP.pdf)
+<br/>
 
 - **Pavanello, F.**, De Cian, E., Davide, M., Mistry, M., Cruz, T., Bezerra, P., Jagu, D., Renner, S., Schaeffer R. & Lucena, A. F. [**Air-conditioning and the adaptation cooling deficit in emerging economies**](https://www.nature.com/articles/s41467-021-26592-2). _Nature Communications_ (2021)
   - <details> 
@@ -19,7 +20,7 @@ author_profile: true
   
   - Media Coverage: [Le Scienze](https://www.lescienze.it/news/2021/11/09/news/cambiamenti_climatici_aria_condizionata_emergenza_emissioni_disuguaglianze-4980185/?rss), [la Repubblica](https://www.repubblica.it/green-and-blue/2021/11/09/news/l_uso_dei_condizionatori_aumentera_in_tutto_il_mondo_con_danni_per_il_clima_e_per_i_piu_poveri-325719453/?rss), [LA STAMPA](https://www.lastampa.it/green-and-blue/2021/11/09/news/l_uso_dei_condizionatori_aumentera_in_tutto_il_mondo_con_danni_per_il_clima_e_per_i_piu_poveri-325719453/)
   - [\[Replication\]](https://github.com/Energy-a/Comparative_paper_NatComms) [\[Data\]](https://data.mendeley.com/datasets/ws7cmwbnfg/1) [\[Interactive Visualisation\]](https://public.tableau.com/app/profile/enrica.de.cian/viz/Cooling-deficit-emerging-countries-natcom/Dataviz-widescreen?publish=yes)
-
+<br/>
 
 
 - De Cian, E., **Pavanello, F.**, Randazzo, T., Mistry, M. N., & Davide, M. [**Households’ adaptation in a warming climate. Air conditioning and thermal insulation choices**](https://fpavanello.github.io/files/De_Cian_et_al_2019.pdf). _Environmental Science & Policy_ (2019)
