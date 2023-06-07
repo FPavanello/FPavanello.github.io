@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-- Randazzo, T., **Pavanello, F.**, De Cian, E. [**Adaptation to climate change: Air-conditioning and the role of remittances**](https://www.sciencedirect.com/science/article/pii/S0095069623000360). _Journal of Environmental Economics and Management_ (2023) <br/>
+- Randazzo, T., **Pavanello, F.**, De Cian, E. [**Adaptation to climate change: Air-conditioning and the role of remittances**](https://www.sciencedirect.com/science/article/pii/S0095069623000360). _Journal of Environmental Economics and Management_ (2023)
   - <details> 
       <summary>Abstract</summary> Do remittances improve the ability of households to adapt to global warming? We try to answer this question by studying the behaviours of households in Mexico, a country that experiences a large and stable flow of remittances. Using an instrumental variable approach, we find an important role of remittances in the climate adaptation process. Remittances are used for adopting air-conditioning, which is an important cooling device for responding to high temperatures and to maintain thermal comfort at home. We exploit climate and income heterogeneity by showing that large differences exist in the use of remittances for climate adaptation between coastal and inland regions, as well as among different income groups. We conclude by quantifying the overall increase in welfare that households attain by adopting air-conditioning. </details> 
       
@@ -15,7 +15,6 @@ author_profile: true
 <br/>
 
 - **Pavanello, F.**, De Cian, E., Davide, M., Mistry, M., Cruz, T., Bezerra, P., Jagu, D., Renner, S., Schaeffer R. & Lucena, A. F. [**Air-conditioning and the adaptation cooling deficit in emerging economies**](https://www.nature.com/articles/s41467-021-26592-2). _Nature Communications_ (2021)
-<br/>
   - <details> 
       <summary>Abstract</summary> Increasing temperatures will make space cooling a necessity for maintain comfort and protecting human health, and rising income levels will allow more people to purchase and run air conditioners. Here we show that, in Brazil, India, Indonesia, and Mexico income and humidity-adjusted temperature are common determinants for adopting air-conditioning, but their relative contribution varies in relation to household characteristics. Adoption rates are higher among households living in higher quality dwellings in urban areas, and among those with higher levels of education. Air-conditioning is unevenly distributed across income levels, making evident the existence of a disparity in access to cooling devices. Although the adoption of air-conditioning could increase between twofold and sixteen-fold by 2040, from 64 to 100 million families with access to electricity will not be able to adequately satisfy their demand for thermal comfort. The need to sustain electricity expenditure in response to higher temperatures can also create unequal opportunities to adapt. </details>
   
