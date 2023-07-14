@@ -10,13 +10,13 @@ redirect_from:
 
 **Welcome to my personal website!** 
 
-- I am an **applied environmental economist** with main focuses on climate change and energy poverty. 
+- I am an **applied environmental economist** with main focuses on the economics of adaptation to climate change. 
 
 - I am a **4th year PhD Candidate in Economics** at the [University of Bologna](https://www.unibo.it/it). 
 
 - I am currently visiting the [Boston University](https://www.bu.edu/), hosted by [Ian Sue Wing](https://people.bu.edu/isw/).
 
-- My research relates to the **relationship between the impacts of climate change and households’ adaptation strategies**. Applying micro-econometric methods, I am currently studying the impact of climate change on the residential electricity demand along both the intensive and extensive margin. 
+- My **current research** relates to the **relationship between climate change impacts and household adaptation strategies**, particularly in developing economies. Applying micro-econometric methods, I study: 1) the **social costs of climate change**, especially in terms of health impacts; 2) **household adaptation** through residential cooling electricity; 3) the **unequal access** to residential cooling as an adaptation measure.
 
 - I am also a **research affiliate** at the [Euro-Mediterranean Centre on Climate Change](https://www.cmcc.it/) and at [Ca' Foscari University of Venice](https://www.unive.it/).
 
