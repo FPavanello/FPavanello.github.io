@@ -9,6 +9,8 @@ author_profile: true
 
 **2023**
 
+- LSE Environment Week (scheduled)
+- Center for Climate and Health Seminar Series - Boston University (scheduled)
 - Internal Seminar (Mar) - CMCC and Ca’ Foscari University of Venice
 - 11th Annual Conference of the Italian Association of Environmental and Resource Economists
 - Internal Seminar (Feb) - CMCC and Ca’ Foscari University of Venice
