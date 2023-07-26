@@ -34,6 +34,6 @@ author_profile: true
       <summary>Abstract</summary><p align="justify"> The interplay of a warming climate and socio-demographic transformations will increasingly boost global heat exposure. Thus, assessing local uptake of energy-intensive appliances for indoor thermal adaptation and its impacts is a crucial policy goal. Here we train statistical models based on multi-country household survey data (n = 530,666) to generate global gridded projections of residential air-conditioning (AC) energy use. Our results indicate that the share of households owning AC could grow from 26% to 36-47% by 2050, implying a surge in the global residential AC electricity sector from 500 TWh/yr. to about 950-1,400 TWh/yr. in 2050. We show that this growth will be highly unequal both within and across countries, regions, and income groups. We estimate 2.5-3.3 billion heat-exposed people will not be able to afford AC in 2050. Our gridded estimates provide the missing input for modelling the impacts of residential AC on decarbonization pathways and health outcomes. </p></details>
    - <font size = "1"> Presented at: 15th IAMC Annual Meeting </font>
 
-- **Temperature, Mortality and Adaptation in an Ageing Country: Evidence from Italy**. (with G. Valenti)
+- **No Country for Old Men: Temperature, Mortality and Adaptation in Italy**. (with G. Valenti)
 
 - **The (Relative) Prices of Climate Change**. (with D. Difino)
