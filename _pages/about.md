@@ -16,7 +16,7 @@ redirect_from:
 
 - I am currently visiting the [Boston University](https://www.bu.edu/), hosted by [Ian Sue Wing](https://people.bu.edu/isw/).
 
-- My **current research** relates to the **relationship between climate change impacts and household adaptation strategies**, particularly in developing economies. Applying micro-econometric methods, I study: 1) the **social costs of climate change**, especially in terms of health impacts; 2) **household adaptation** through residential cooling electricity; 3) the **unequal access** to residential cooling as an adaptation measure.
+- My **current research** relates to the **relationship between climate change impacts and household adaptation strategies**, particularly in developing economies. Applying micro-econometric methods, I study: 1) the **social costs of climate change**, especially in terms of health impacts; 2) **household adaptation** through residential cooling electricity; 3) the **inequality** in the access to adaptation.
 
 - I am also a **research affiliate** at the [Euro-Mediterranean Centre on Climate Change](https://www.cmcc.it/) and at [Ca' Foscari University of Venice](https://www.unive.it/).
 
