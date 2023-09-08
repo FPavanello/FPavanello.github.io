@@ -21,8 +21,8 @@ author_profile: true
 - **Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions** (with J. Fouré, R. Dellink, E. Lanzi) [\[OECD Working Paper\]](https://www.oecd-ilibrary.org/environment/public-finance-resilience-in-the-transition-towards-carbon-neutrality_7f3275e0-en)
   - <details>
       <summary>Abstract</summary><p align="justify"> This paper presents a detailed economic modelling analysis of public finance in the transition towards carbon neutrality. It outlines results from a Net-Zero Emission Ambition scenario, which reflects the ambition to achieve net-zero carbon dioxide emissions globally by mid-century, using a broad and regionspecific policy package that combines various policy instruments: carbon pricing, removal of fossil fuel support, regulations in the power sector, and other policies that stimulate investments by firms and households to reduce and decarbonise energy use. The analysis relies on the OECD global computable general equilibrium ENV-Linkages model. Results show that transitioning towards carbon neutrality is feasible when considering economic and fiscal consequences. The scenario achieves carbon neutrality while maintaining continued economic growth, despite a limited negative impact on global GDP and on public revenues. The fiscal effects reflect a tradeoff between instruments that increase public revenues (carbon pricing) or reduce public expenditures (fossil fuel subsidies removal), on the one hand, and more costly instruments (subsidies) and indirect effects (tax base erosion and changes in fiscal and economic structure) on the other hand. </p></details>
-	- <font size = "1"> Presented at: 25th GEA Annual Conference, 15th IAMC Annual Meeting (2022) </font>
-	- <font size = "1"> Media Coverage: [Financial Times](https://t.co/aip0DwlWXv) </font> 
+  - Media Coverage: [Financial Times](https://t.co/aip0DwlWXv) 
+  - <font size = "1"> Presented at: 25th GEA Annual Conference, 15th IAMC Annual Meeting (2022) </font>
       
 ## Working in Progress
 
@@ -34,7 +34,7 @@ author_profile: true
 - **Global gridded scenarios of residential cooling energy to 2050**. (with E. De Cian, G. Falchetta, I. Sue Wing)
   - <details> 
       <summary>Abstract</summary><p align="justify"> The interplay of a warming climate and socio-demographic transformations will increasingly boost global heat exposure. Thus, assessing local uptake of energy-intensive appliances for indoor thermal adaptation and its impacts is a crucial policy goal. Here we train statistical models based on multi-country household survey data (n = 530,666) to generate global gridded projections of residential air-conditioning (AC) energy use. Our results indicate that the share of households owning AC could grow from 26% to 36-47% by 2050, implying a surge in the global residential AC electricity sector from 500 TWh/yr. to about 950-1,400 TWh/yr. in 2050. We show that this growth will be highly unequal both within and across countries, regions, and income groups. We estimate 2.5-3.3 billion heat-exposed people will not be able to afford AC in 2050. Our gridded estimates provide the missing input for modelling the impacts of residential AC on decarbonization pathways and health outcomes. </p></details>
-   - <font size = "1"> Presented at: 15th IAMC Annual Meeting </font>
+   - <font size = "1"> Presented at: 15th IAMC Annual Meeting (2022) </font>
 
 - **No Country for Old Men: Temperature, Mortality and Adaptation in Italy**. (with G. Valenti)
 
