@@ -27,5 +27,6 @@ redirect_from:
 
 
 **Past Positions**  
-- 2020: Research Intern \[Organisation for Economic Co-operation and Development - OECD\]
+- 2023: Visiting Student \[Boston University\]
+- 2021-2022: Research Intern \[Organisation for Economic Co-operation and Development - OECD\]
 - 2019: Research Assistant \[Ca' Foscari University of Venice\]
