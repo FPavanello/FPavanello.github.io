@@ -12,7 +12,7 @@ redirect_from:
 [**Full CV**](https://fpavanello.github.io/files/CV.pdf)
 
 **Current Position**  
-- 2019-2024: PhD Candidate in Economics \[University of Bologna\]
+- 2019-2024: PhD Candidate in Economics \(University of Bologna\)
 
 
 **Affilations**  
@@ -22,11 +22,11 @@ redirect_from:
 
 
 **Education**  
-- 2018: Msc in Economics \[Ca' Foscari University of Venice\]
-- 2016: BA in Economics and Trade \[Ca' Foscari University of Venice\]
+- 2018: Msc in Economics \(Ca' Foscari University of Venice\)
+- 2016: BA in Economics and Trade \(Ca' Foscari University of Venice\)
 
 
 **Past Positions**  
-- 2023: Visiting Student \[Boston University\]
-- 2021-2022: Research Intern \[Organisation for Economic Co-operation and Development - OECD\]
-- 2019: Research Assistant \[Ca' Foscari University of Venice\]
+- 2023: Visiting Student \(Boston University\)
+- 2021-2022: Research Intern \(Organisation for Economic Co-operation and Development - OECD\)
+- 2019: Research Assistant \(Ca' Foscari University of Venice\)
