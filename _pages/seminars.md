@@ -9,11 +9,13 @@ author_profile: true
 
 **2023**
 
+- 11th Annual Conference of Italian Society for Climate Sciences (scheduled)
+- Internal Seminar - University of Bologna (scheduled)
 - LSE Environment Week
 - Center for Climate and Health Seminar Series - Boston University
-- Internal Seminar (Mar) - CMCC and Ca’ Foscari University of Venice
+- March Internal Seminar - CMCC and Ca’ Foscari University of Venice
 - 11th Annual Conference of the Italian Association of Environmental and Resource Economists
-- Internal Seminar (Feb) - CMCC and Ca’ Foscari University of Venice
+- February Internal Seminar (Feb) - CMCC and Ca’ Foscari University of Venice
 
 **2022**
 
