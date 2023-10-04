@@ -22,7 +22,7 @@ redirect_from:
 
 
 **Education**  
-- 2018: Msc in Economics \(Ca' Foscari University of Venice\)
+- 2018: MSc in Economics \(Ca' Foscari University of Venice\)
 - 2016: BA in Economics and Trade \(Ca' Foscari University of Venice\)
 
 
