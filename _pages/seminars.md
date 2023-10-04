@@ -15,7 +15,7 @@ author_profile: true
 - Center for Climate and Health Seminar Series - Boston University
 - March Internal Seminar - CMCC and Ca’ Foscari University of Venice
 - 11th Annual Conference of the Italian Association of Environmental and Resource Economists
-- February Internal Seminar (Feb) - CMCC and Ca’ Foscari University of Venice
+- February Internal Seminar - CMCC and Ca’ Foscari University of Venice
 
 **2022**
 

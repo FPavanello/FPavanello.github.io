@@ -13,7 +13,7 @@ author_profile: true
 
 **Teaching**:
 
-- **Fall 2023**: TA in Econometrics, Msc in Economics \(University of Bologna\)
-- **Fall 2022**: TA in Econometrics, Msc in Economics \(University of Bologna\)
+- **Fall 2023**: TA in Econometrics, MSc in Economics \(University of Bologna\)
+- **Fall 2022**: TA in Econometrics, MSc in Economics \(University of Bologna\)
 - **Spring 2018**: TA in Industrial Economics, BA in Economics and Trade \(Ca' Foscari University of Venice\)
 - **Spring 2017**: TA in Industrial Economics, BA in Economics and Trade \(Ca' Foscari University of Venice\)
