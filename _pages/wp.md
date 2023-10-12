@@ -39,3 +39,5 @@ author_profile: true
 - **No Country for Old Men: Temperature, Mortality and Adaptation in Italy**. (with G. Valenti)
 
 - **The (Relative) Prices of Climate Change**. (with D. Difino)
+
+- **Policies for Cooling: Increasing the Access to Heat Adaptation**
