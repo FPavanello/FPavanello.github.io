@@ -10,7 +10,7 @@ redirect_from:
 
 **Welcome to my personal website!** 
 
-- I am an **applied environmental economist** with main focuses on the economics of adaptation to climate change. 
+- I am an **applied environmental economist** with main focuses on the **economics of adaptation to climate change**. 
 
 - I am a **4th year PhD Candidate in Economics** at the [**University of Bologna**](https://www.unibo.it/it). **I will be on the 2023/2024 job market**. 
 
