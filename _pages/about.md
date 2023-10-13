@@ -22,4 +22,4 @@ redirect_from:
 
 <ins>Upcoming talk</ins>: 11th SISC Annual conference (Milan, 22-24 November)
 
-<ins>Personal News</ins>: We have just published the EESC report: ["The cost of climate change on households and families in the EU"](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu)
+<ins>News</ins>: We have just published the EESC report: ["The cost of climate change on households and families in the EU"](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu)
