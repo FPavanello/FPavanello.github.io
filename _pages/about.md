@@ -14,7 +14,7 @@ redirect_from:
 
 - I am a **4th year PhD Candidate in Economics** at the [**University of Bologna**](https://www.unibo.it/it), and **I will be on the 2023/2024 job market**. 
 
-- My **current research** relates to the **relationship between climate change impacts and household adaptation strategies**, particularly in developing economies. Applying micro-econometric methods, I study: 1) the **social costs of climate change**, especially for health outcomes; 2) the **adaptation response** of households; 3) the **uneven distribution** of both exposure to extreme heat and access to adaptation.
+- <p align="justify">My **current research** relates to the **relationship between climate change impacts and household adaptation strategies**, particularly in developing economies. Applying micro-econometric methods, I study: 1) the **social costs of climate change**, especially for health outcomes; 2) the **adaptation response** of households; 3) the **uneven distribution** of both exposure to extreme heat and access to adaptation.</p>
 
 - I am also a **research affiliate** at the [**Euro-Mediterranean Centre on Climate Change**](https://www.cmcc.it/) and at [**Ca' Foscari University of Venice**](https://www.unive.it/).
 
