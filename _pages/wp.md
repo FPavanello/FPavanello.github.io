@@ -27,21 +27,21 @@ author_profile: true
   - <font size = "1"> Presented at: 25th GEA Annual Conference, 15th IAMC Annual Meeting (2022) </font>
 
 - **The Impact of Air-conditioning on Residential Electricity Demand across World Countries**. <br/> 
-(with E. De Cian, G. Falchetta, Y. Romitti, I. Sue Wing) [ [Draft](https://fpavanello.github.io/files/acglobal_wp.pdf) &#124; [Slides](https://fpavanello.github.io/files/acglobal_slides.pdf) ]
+(with E. De Cian, G. Falchetta, Y. Romitti, I. Sue Wing) [ [Draft](https://fpavanello.github.io/files/acglobal_wp.pdf) &#124; [Slides](https://fpavanello.github.io/files/acglobal_slides.pdf) ] 
   - <details> 
       <summary>Abstract</summary><p align="justify"> This paper provides the first global assessment of the energy implications of households' climate change adaptation through air-conditioning. We pool household survey data from 25 countries and employ a discrete-continuous choice econometric framework to simultaneously estimate the adoption and utilisation of air-conditioning. After identifying how individual drivers determine households' adaptation behaviours, we combine the estimated responses with socioeconomic, demographic, and, climate change scenarios available at a high spatial resolution to project future air-conditioning adoption and electricity demand, as well as the contribution of individual determinants. On average, we find that air-conditioning ownership increases households' electricity consumption by 37%, but the effect is highly heterogeneous, and it varies with weather conditions, income levels and across countries, revealing the importance of behaviors, practices, climate, and technologies. Compared to other socioeconomic, demographic, and climatic drivers of electricity demand, air-conditioning has the leading marginal effect, and it can account for a significant share of households' budget. We then show that, especially in developing and emerging countries, age, education, and urbanisation reinforce the positive, long-term effect of income and high temperatures on air-conditioning adoption and electricity demand for space cooling. The overall effect of socio-demographic, economic, and climatic drivers is a net increase in regional and global air-conditioning electricity by 2050. Electricity expenditure for air-conditioning is an important benchmark for tracking a new dimension of energy poverty related to the need of space cooling and our projections points at a new, emerging risk associated with this form of households' adaptation. </p></details>
    - <font size = "1"> Presented at: 11th Annual IAERE Conference, CMCC@CaFoscari Internal Seminar, 28th Annual EAERE Conference, LSE Environment Week (2023) </font>
 
 - **Inequalities in global residential cooling energy use to 2050**. <br/> 
-(with E. De Cian, G. Falchetta, I. Sue Wing) [ _Submitted_ &#124; [Slides](https://fpavanello.github.io/files/acglobalgrid_slides.pdf) ]
+(with E. De Cian, G. Falchetta, I. Sue Wing) [ [Slides](https://fpavanello.github.io/files/acglobalgrid_slides.pdf) ] [ Status: _Submitted_ ]
   - <details> 
       <summary>Abstract</summary><p align="justify"> The interplay of a warming climate and socio-demographic transformations will increase global heat exposure. Assessing future use and impacts of energy-intensive appliances for indoor thermal adaptation is therefore a crucial policy goal. Here we train statistical models on multi-country household survey data (n = 480,555) to generate global gridded projections of residential air-conditioning (AC) uptake and use. Our results indicate that the share of households owning AC could grow from 26% to a scenario median of 38% by 2050, implying a doubling of residential AC electricity consumption, to 925 TWh/yr. This growth will be highly unequal both within and across countries and income groups, with significant regressive impacts. Up to 4.5 billion heat-exposed people may lack AC access in 2050. Outcomes will largely depend on socio-economic development and climate change pathways. Our gridded projections can support the modelling of the impacts of residential AC on decarbonization pathways and health outcomes. </p></details>
    - <font size = "1"> Presented at: EIEE Monthly Meeting (2023), 15th IAMC Annual Meeting (2022) </font>
       
 ## Working in Progress
 
-- **No Country for Old Men: Temperature, Mortality and Adaptation in Italy**. (with G. Valenti)
+- **No Country for Old Men: Temperature, Mortality and Adaptation in Italy**. (with G. Valenti) [ Status: _Analysis Stage_ ]
 
-- **The (Relative) Prices of Climate Change**. (with D. Difino)
+- **The (Relative) Prices of Climate Change**. (with D. Difino) [ Status: _Analysis Stage_ ]
 
-- **Policies for Cooling: Increasing the Access to Heat Adaptation**
+- **Policies for Cooling: Increasing the Access to Heat Adaptation** [ Status: _Analysis Stage_ ]
