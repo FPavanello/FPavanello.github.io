@@ -12,7 +12,7 @@ redirect_from:
 
 - I am an **applied environmental economist** with main focus on the **economics of adaptation to climate change**. 
 
-- I am a **4th year PhD Candidate in Economics** at the [**University of Bologna**](https://www.unibo.it/it), and <span style="color:red">**I will be on the 2023/2024 job market**</span>. 
+- I am a **4th year PhD Candidate in Economics** at the [**University of Bologna**](https://www.unibo.it/it), and <span style="color:#990000">**I will be on the 2023/2024 job market**</span>. 
 
 - <p align="justify">My <strong>current research</strong> relates to the <strong>relationship between climate change impacts and household adaptation strategies</strong>, particularly in developing economies. Applying micro-econometric methods, I study: 1) the <strong>social costs of climate change</strong>, especially for health outcomes; 2) the <strong>adaptation response</strong> of households; 3) the <strong>uneven distribution</strong> of both exposure to extreme heat and access to adaptation.</p>
 
