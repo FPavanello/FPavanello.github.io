@@ -9,8 +9,9 @@ author_profile: true
 
 **2023**
 
-- 11th Annual Conference of Italian Society for Climate Sciences (scheduled)
-- Internal Seminar - University of Bologna (scheduled)
+- Inequality and the Environment Symposium: Sciences Po (scheduled)
+- 11th Annual Conference of Italian Society for Climate Sciences
+- Internal Seminar - University of Bologna
 - LSE Environment Week
 - Center for Climate and Health Seminar Series - Boston University
 - March Internal Seminar - CMCC and Ca’ Foscari University of Venice
