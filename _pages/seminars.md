@@ -7,9 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-**2023**
+**2024**
 
 - Inequality and the Environment Symposium: Sciences Po (scheduled)
+
+**2023**
+
 - 11th Annual Conference of Italian Society for Climate Sciences
 - Internal Seminar - University of Bologna
 - LSE Environment Week
