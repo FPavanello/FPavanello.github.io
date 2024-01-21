@@ -9,7 +9,8 @@ author_profile: true
 
 **2024**
 
-- Inequality and the Environment Symposium: Sciences Po (scheduled)
+- 12th Annual Conference of the Italian Association of Environmental and Resource Economists (scheduled)
+- Inequality and the Environment Symposium: Sciences Po
 
 **2023**
 
