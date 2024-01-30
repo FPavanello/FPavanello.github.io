@@ -40,7 +40,7 @@ author_profile: true
       
 ## Working in Progress
 
-- **Cooling the Heat: Co-benefits of Opioid-reformulation on Temperature and Intimate Partner Violence**. (with [G. Zappalà](https://guglielmozappala.github.io/)) [ Status: _Analysis Stage_ ]
+- **Cooling the Heat: Co-benefits of Opioid-reformulation on Temperature and Intimate Partner Violence**. (with [G. Zappalà](https://guglielmozappala.github.io/)) [ Status: _Draft Available Soon_ ]
 
 - **No Country for Old Men: Temperature, Mortality and Adaptation in Italy**. (with G. Valenti) [ Status: _Analysis Stage_ ]
 
