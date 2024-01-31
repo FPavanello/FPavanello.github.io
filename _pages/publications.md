@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## Peer-reviewed Articles
+## Peer-reviewed Publications
 
 - Randazzo, T., **Pavanello, F.**, De Cian, E. [**Adaptation to climate change: Air-conditioning and the role of remittances**](https://www.sciencedirect.com/science/article/pii/S0095069623000360). _Journal of Environmental Economics and Management_ (2023)
   - <details> 
@@ -15,7 +15,7 @@ author_profile: true
       
   - Previous Version: [Working Paper](https://fpavanello.github.io/files/Randazzo_et_al_WP.pdf)
 
-- **Pavanello, F.**, De Cian, E., Davide, M., Mistry, M., Cruz, T., Bezerra, P., Jagu, D., Renner, S., Schaeffer R. & Lucena, A. F. [**Air-conditioning and the adaptation cooling deficit in emerging economies**](https://www.nature.com/articles/s41467-021-26592-2). _Nature Communications_ (2021)
+- **Pavanello, F.**, De Cian, E., Davide, M., Mistry, M., Cruz, T., Bezerra, P., Jagu, D., Renner, S., Schaeffer R. & Lucena, A.F. [**Air-conditioning and the adaptation cooling deficit in emerging economies**](https://www.nature.com/articles/s41467-021-26592-2). _Nature Communications_ (2021)
   - <details> 
       <summary>Abstract</summary><p align="justify"> Increasing temperatures will make space cooling a necessity for maintain comfort and protecting human health, and rising income levels will allow more people to purchase and run air conditioners. Here we show that, in Brazil, India, Indonesia, and Mexico income and humidity-adjusted temperature are common determinants for adopting air-conditioning, but their relative contribution varies in relation to household characteristics. Adoption rates are higher among households living in higher quality dwellings in urban areas, and among those with higher levels of education. Air-conditioning is unevenly distributed across income levels, making evident the existence of a disparity in access to cooling devices. Although the adoption of air-conditioning could increase between twofold and sixteen-fold by 2040, from 64 to 100 million families with access to electricity will not be able to adequately satisfy their demand for thermal comfort. The need to sustain electricity expenditure in response to higher temperatures can also create unequal opportunities to adapt. </p></details>
   
@@ -32,11 +32,11 @@ author_profile: true
 
 ## Policy Works
 
-- [The cost of climate change on households and families in the EU](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu). _European Economic and Social Committee_ (2023)
+- Campagnolo, L., De Cian, E., **Pavanello, F.**, Falchetta, G., Colelli, F.P., Mansi, G.A., Bigano, A., Parrado, R., Frassetto, E. [The cost of climate change on households and families in the EU](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu). _European Economic and Social Committee_ (2023)
 
 ## Book Chapters
 
-- De Cian, E., Squarci, G., Crimi, J., Mazzone, A., Cruz, T., Bezerra, P., Campagnolo, L. Colelli, F.P., Davide, M., Falchetta, G., Jagu, D., Lucena, A. F., Mistry, M., **Pavanello, F.**, Randazzo, T., Renner, S., Schaefer, R. & Sue Wing, I. [The Cooling Solution. The future of air-conditioning and its impact on society](https://www.thecoolingsolution.com/index.php) (2023)
+- De Cian, E., Squarci, G., Crimi, J., Mazzone, A., Cruz, T., Bezerra, P., Campagnolo, L., Colelli, F.P., Davide, M., Falchetta, G., Jagu, D., Lucena, A. F., Mistry, M., **Pavanello, F.**, Randazzo, T., Renner, S., Schaefer, R. & Sue Wing, I. [The Cooling Solution. The future of air-conditioning and its impact on society](https://www.thecoolingsolution.com/index.php) (2023)
 
 
 
