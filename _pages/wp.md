@@ -41,8 +41,12 @@ author_profile: true
 ## Working in Progress
 
 - **Cooling the Heat: Co-benefits of Opioid-reformulation on Temperature and Intimate Partner Violence**. (with [G. Zappalà](https://guglielmozappala.github.io/)) [ Status: _Draft Available Soon_ ]
+  - <details> 
+      <summary>Abstract</summary><p align="justify"> Intimate Partner Violence (IPV) is a major public health issue often associated with substance abuse. Building on burgeoning prior work showing that higher temperatures increase crime and violent behavior, we document a strong positive effect of temperatures on IPV cases on female victims in the United States using administrative daily data over thirty years at the jurisdiction level. Combining an exogenous abuse-deterrent reformulation of opioids with random short-run variation in daily temperature, we examine whether reducing prescription opioid misuse exacerbates or mitigates the effect of temperature on IPV. Using a within-county triple difference and an event study design, we document that the reformulation significantly mitigates the temperature-IPV gradient in the short-run in counties with greater initial rates of prescription opioid usage. The effect of the policy is more pronounced in urban and richer counties, explaining disparities in IPV outcomes across racial and ethnic groups. </p></details>
 
 - **No Country for Old Men: Temperature, Mortality and Adaptation in Italy**. (with G. Valenti) [ Status: _Analysis Stage_ ]
+
+- **The effect of temperature shocks on households' budget shares** (with E. De Cian and T. Randazzo)
 
 - **The (Relative) Prices of Climate Change**. (with D. Difino) [ Status: _Analysis Stage_ ]
 

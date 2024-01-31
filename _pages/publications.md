@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+## Peer-reviewed Articles
+
 - Randazzo, T., **Pavanello, F.**, De Cian, E. [**Adaptation to climate change: Air-conditioning and the role of remittances**](https://www.sciencedirect.com/science/article/pii/S0095069623000360). _Journal of Environmental Economics and Management_ (2023)
   - <details> 
       <summary>Abstract</summary><p align="justify"> Do remittances improve the ability of households to adapt to global warming? We try to answer this question by studying the behaviours of households in Mexico, a country that experiences a large and stable flow of remittances. Using an instrumental variable approach, we find an important role of remittances in the climate adaptation process. Remittances are used for adopting air-conditioning, which is an important cooling device for responding to high temperatures and to maintain thermal comfort at home. We exploit climate and income heterogeneity by showing that large differences exist in the use of remittances for climate adaptation between coastal and inland regions, as well as among different income groups. We conclude by quantifying the overall increase in welfare that households attain by adopting air-conditioning. </p> </details> 
@@ -27,3 +29,14 @@ author_profile: true
   - Media Coverage: [la Repubblica](https://www.repubblica.it/ambiente/2019/07/15/news/cambiamenti_climatici_la_grande_corsa_ai_climatizzatori_e_gia_iniziata-231253051/)
   - Interview: [SBS.au](https://www.sbs.com.au/language/italian/audio/l-impatto-dei-condizionatori-sul-cambiamento-climatico)
   - Previous Version: [Working Paper](https://fpavanello.github.io/files/De_Cian_et_al_WP.pdf)
+
+## Policy Works
+
+- [The cost of climate change on households and families in the EU](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu). _European Economic and Social Committee_ (2023)
+
+## Book Chapters
+
+- De Cian, E., Squarci, G., Crimi, J., Mazzone, A., Cruz, T., Bezerra, P., Campagnolo, L. Colelli, F.P., Davide, M., Falchetta, G., Jagu, D., Lucena, A. F., Mistry, M., **Pavanello, F.**, Randazzo, T., Renner, S., Schaefer, R. & Sue Wing, I. [The Cooling Solution. The future of air-conditioning and its impact on society](https://www.thecoolingsolution.com/index.php) (2023)
+
+
+
