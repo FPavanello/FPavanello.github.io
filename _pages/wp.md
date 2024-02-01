@@ -7,10 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.wp reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
 ## Working Papers
 
 - **Adapting to Heat Extremes with Unequal Access to Cooling: Evidence from India**. <br/> 
@@ -37,17 +33,19 @@ author_profile: true
   - <details> 
       <summary>Abstract</summary><p align="justify"> The interplay of a warming climate and socio-demographic transformations will increase global heat exposure. Assessing future use and impacts of energy-intensive appliances for indoor thermal adaptation is therefore a crucial policy goal. Here we train statistical models on multi-country household survey data (n = 480,555) to generate global gridded projections of residential air-conditioning (AC) uptake and use. Our results indicate that the share of households owning AC could grow from 26% to a scenario median of 38% by 2050, implying a doubling of residential AC electricity consumption, to 925 TWh/yr. This growth will be highly unequal both within and across countries and income groups, with significant regressive impacts. Up to 4.5 billion heat-exposed people may lack AC access in 2050. Outcomes will largely depend on socio-economic development and climate change pathways. Our gridded projections can support the modelling of the impacts of residential AC on decarbonization pathways and health outcomes. </p></details>
    - <font size = "1"> Presented at: EIEE Monthly Meeting (2023), 15th IAMC Annual Meeting (2022) </font>
-      
-## Working in Progress
 
 - **Cooling the Heat: Co-benefits of Opioid-reformulation on Temperature and Intimate Partner Violence**. (with [G. Zappalà](https://guglielmozappala.github.io/)) [ Status: _Draft Available Soon_ ]
   - <details> 
       <summary>Abstract</summary><p align="justify"> Intimate Partner Violence (IPV) is a major public health issue often associated with substance abuse. Building on burgeoning prior work showing that higher temperatures increase crime and violent behavior, we document a strong positive effect of temperatures on IPV cases on female victims in the United States using administrative daily data over thirty years at the jurisdiction level. Combining an exogenous abuse-deterrent reformulation of opioids with random short-run variation in daily temperature, we examine whether reducing prescription opioid misuse exacerbates or mitigates the effect of temperature on IPV. Using a within-county triple difference and an event study design, we document that the reformulation significantly mitigates the temperature-IPV gradient in the short-run in counties with greater initial rates of prescription opioid usage. The effect of the policy is more pronounced in urban and richer counties, explaining disparities in IPV outcomes across racial and ethnic groups. </p></details>
+      
+## Working in Progress
 
-- **No Country for Old Men: Temperature, Mortality and Adaptation in Italy**. (with G. Valenti) [ Status: _Analysis Stage_ ]
+- **No Country for Old Men: Temperature, Mortality and Adaptation in Italy** (with G. Valenti) [ Status: _Analysis Stage_ ]
 
-- **The effect of temperature shocks on households' budget shares** (with E. De Cian and T. Randazzo)
+- **Climate Change and Households' Budget Shares** (with E. De Cian and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ ]
 
-- **The (Relative) Prices of Climate Change**. (with D. Difino) [ Status: _Analysis Stage_ ]
+- **Assessing climate change costs for EU households** (with L. Campagnolo, E. De Cian, et al.) [ Status: _Draft Available Soon_ ]
+
+- **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
 
 - **Policies for Cooling: Increasing the Access to Heat Adaptation** [ Status: _Analysis Stage_ ]
