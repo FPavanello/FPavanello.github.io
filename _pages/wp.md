@@ -10,10 +10,10 @@ author_profile: true
 ## Working Papers
 
 - **Adapting to Heat Extremes with Unequal Access to Cooling: Evidence from India**. <br/> 
-(with I. Sue Wing) [ [<span style="color:#990000; text-decoration:underline">**Job Market Paper**</span>](https://fpavanello.github.io/files/fp_jmp.pdf) &#124; [Slides](https://fpavanello.github.io/files/india_slides.pdf) ] 
+(with I. Sue Wing) [ [<span style="color:#990000; text-decoration:underline">**Job Market Paper**</span>](https://fpavanello.github.io/files/fp_jmp.pdf) ] 
    - <details> 
       <summary>Abstract</summary><p align="justify"> As global temperatures rise, the unequal access to residential cooling technologies, especially air conditioning, poses a critical challenge for heat adaptation in developing countries. To mitigate this disparity, affordable alternatives like evaporative coolers have been proposed. However, the extent to which they provide protection against extreme heat is uncertain. This paper investigates the inequality in heat adaptation, examining the effectiveness of alternative cooling technologies in mitigating mortality impacts from extreme heat in India for the period 2014-2019. Our empirical results highlight a critical trade-off in heat adaptation. While we find that the expensive air-conditioning proves to be highly effective in reducing temperature-related mortality, its ownership and use remains low, predominantly limited to high-income cities. In contrast, many Indian households, including low-income ones, purchase and use cheaper evaporative coolers, which we estimate offer reduced protection against heat stress. Our analysis then reveals that heat adaptation technologies have collectively reduced heat-related deaths by 21%, generating an annual gross welfare gain of $32 billion. Notably, the wide prevalence of evaporative coolers contributes to two-thirds of these benefits. Yet, our counterfactual scenario demonstrates that air conditioners, if as widespread as evaporative coolers, could have prevented 47% of the heat-related deaths. We conclude showing that subsidising air-conditioning is a cost-effective way to reduce heat-related mortality in India. </p></details> 
-   - <font size = "1"> Presented at: 11th SISC Annual conference, University of Bologna Internal Seminar, CMCC@CaFoscari Internal Seminar, Boston University Center for Climate and Health, 4th University of Bologna PhD Workshop (2023), Unibo Third-year PhD Internal Seminar, 2nd ERC-ENERGYA Scientific Workshop, 1st Padova Environmental Economics Worskhop (2022) </font>
+   - <font size = "1"> Presented at: 12th Annual IAERE Conference (scheduled) , Sciences Po Inequality and the Environment Symposium (2024), 11th SISC Annual conference, University of Bologna Internal Seminar, CMCC@CaFoscari Internal Seminar, Boston University Center for Climate and Health, 4th University of Bologna PhD Workshop (2023), Unibo Third-year PhD Internal Seminar, 2nd ERC-ENERGYA Scientific Workshop, 1st Padova Environmental Economics Worskhop (2022) </font>
 
 - **Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions** <br/> 
 (with J. Fouré, R. Dellink, E. Lanzi) [ [OECD Working Paper](https://www.oecd-ilibrary.org/environment/public-finance-resilience-in-the-transition-towards-carbon-neutrality_7f3275e0-en) ]
@@ -34,7 +34,7 @@ author_profile: true
       <summary>Abstract</summary><p align="justify"> The interplay of a warming climate and socio-demographic transformations will increase global heat exposure. Assessing future use and impacts of energy-intensive appliances for indoor thermal adaptation is therefore a crucial policy goal. Here we train statistical models on multi-country household survey data (n = 480,555) to generate global gridded projections of residential air-conditioning (AC) uptake and use. Our results indicate that the share of households owning AC could grow from 26% to a scenario median of 38% by 2050, implying a doubling of residential AC electricity consumption, to 925 TWh/yr. This growth will be highly unequal both within and across countries and income groups, with significant regressive impacts. Up to 4.5 billion heat-exposed people may lack AC access in 2050. Outcomes will largely depend on socio-economic development and climate change pathways. Our gridded projections can support the modelling of the impacts of residential AC on decarbonization pathways and health outcomes. </p></details>
    - <font size = "1"> Presented at: EIEE Monthly Meeting (2023), 15th IAMC Annual Meeting (2022) </font>
 
-- **Cooling the Heat: Co-benefits of Opioid-reformulation on Temperature and Intimate Partner Violence**. (with [G. Zappalà](https://guglielmozappala.github.io/)) [ Status: _Draft Available Soon_ ]
+- **Cooling the Heat: Co-benefits of Opioid-reformulation on Temperature and Intimate Partner Violence**. (with [G. Zappalà](https://guglielmozappala.github.io/)) [ Status: _Draft Available Upon Request_ ]
   - <details> 
       <summary>Abstract</summary><p align="justify"> Intimate Partner Violence (IPV) is a major public health issue often associated with substance abuse. Building on burgeoning prior work showing that higher temperatures increase crime and violent behavior, we document a strong positive effect of temperatures on IPV cases on female victims in the United States using administrative daily data over thirty years at the jurisdiction level. Combining an exogenous abuse-deterrent reformulation of opioids with random short-run variation in daily temperature, we examine whether reducing prescription opioid misuse exacerbates or mitigates the effect of temperature on IPV. Using a within-county triple difference and an event study design, we document that the reformulation significantly mitigates the temperature-IPV gradient in the short-run in counties with greater initial rates of prescription opioid usage. The effect of the policy is more pronounced in urban and richer counties, explaining disparities in IPV outcomes across racial and ethnic groups. </p></details>
       
@@ -42,10 +42,10 @@ author_profile: true
 
 - **No Country for Old Men: Temperature, Mortality and Adaptation in Italy** (with G. Valenti) [ Status: _Analysis Stage_ ]
 
-- **Climate Change and Households' Budget Shares** (with E. De Cian and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ ]
-
-- **Assessing climate change costs for EU households** (with L. Campagnolo, E. De Cian, et al.) [ Status: _Draft Available Soon_ ]
-
 - **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
+
+- **Climate Change and Households' Budget Shares** (with E. De Cian and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
+
+- **Assessing climate change costs for EU households** (with L. Campagnolo, E. De Cian, et al.) [ Status: _Draft Available Soon_ &#124; Project: _EESC Tender 2023_ ]
 
 - **Policies for Cooling: Increasing the Access to Heat Adaptation** [ Status: _Analysis Stage_ ]
