@@ -22,6 +22,6 @@ redirect_from:
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
-<ins>Upcoming talk</ins>: Twelfth IAERE Annual Conference (Pescara, 22nd-23rd February 2024)
+<ins>Upcoming talk</ins>: Twelfth IAERE Annual Conference (Pescara, 22-23 February 2024), EGU General Assembly (Vienna, 14–19 April 2024)
 
 <ins>News</ins>: We have just published the EESC report: ["The cost of climate change on households and families in the EU"](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu)
