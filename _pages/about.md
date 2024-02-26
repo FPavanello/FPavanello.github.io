@@ -12,13 +12,13 @@ redirect_from:
 
 - I am an **applied environmental economist** with main focus on the **economics of adaptation to climate change**. 
 
-- I am a **4th year PhD Candidate in Economics** at the [**University of Bologna**](https://www.unibo.it/it), and <span style="color:#990000">**I will be on the 2023/2024 job market**</span>. 
+- I am a <span style="color:#990000">**4th year PhD Candidate in Economics**</span> at the [**University of Bologna**](https://www.unibo.it/it), and a **research fellow** at the [**Parthenope University of Naples**](https://www.uniparthenope.it/).
 
-- In my [<span style="color:#990000; text-decoration:underline">**Job Market Paper**</span>](https://fpavanello.github.io/files/fp_jmp.pdf), I investigate the inequality in heat adaptation, examining the effectiveness of alternative cooling technologies in mitigating mortality impacts from extreme heat.
+- In September I will join as <span style="color:#990000">**postdoctoral researcher**</span> the [**Center for Energy, Climate, and Resources**](https://www.ifo.de/en/research/ifo-center-for-energy-climate-and-resources) at the [**ifo Institute**](https://www.ifo.de/en).
 
 - <p align="justify">My <strong>current research</strong> relates to the <strong>relationship between climate change impacts and household adaptation strategies</strong>, particularly in developing economies. Applying micro-econometric methods, I study: 1) the <strong>social costs of climate change</strong>, especially for health outcomes; 2) the <strong>adaptation response</strong> of households; 3) the <strong>uneven distribution</strong> of both exposure to extreme heat and access to adaptation.</p>
 
-- I am also a **research affiliate** at the [**Euro-Mediterranean Centre on Climate Change**](https://www.cmcc.it/) and at [**Ca' Foscari University of Venice**](https://www.unive.it/).
+- I am also a <span style="color:#990000">**research affiliate**</span> at the [**Euro-Mediterranean Centre on Climate Change**](https://www.cmcc.it/) and at [**Ca' Foscari University of Venice**](https://www.unive.it/).
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
