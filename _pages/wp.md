@@ -44,7 +44,7 @@ author_profile: true
 
 - **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
 
-- **Climate Change and Households' Budget Shares** (with E. De Cian and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
+- **Climate Change and Vulnerability** (with E. De Cian and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
 
 - **Assessing climate change costs for EU households** (with L. Campagnolo, E. De Cian, et al.) [ Status: _Draft Available Soon_ &#124; Project: _EESC Tender 2023_ ]
 
