@@ -9,13 +9,20 @@ author_profile: true
 
 **2024**
 
-- 12th Annual Conference of the Italian Association of Environmental and Resource Economists (scheduled)
+- 29th Annual Conference of the European Association of Environmental and Resource Economists (scheduled, 1-4 July)
+- Summer Conference of the Association of Environmental and Resource Economists (scheduled, 29-31 May)
+- 3rd Junior Economists Meeting - University of Milan (scheduled, 16-17 May)
+- 1st Verona Early Career Workshop in Economics (18-19 April)
+- Internal Seminar - University of Bologna
+- 12th Annual Conference of the Italian Association of Environmental and Resource Economists
 - Inequality and the Environment Symposium: Sciences Po
 
 **2023**
 
 - 11th Annual Conference of Italian Society for Climate Sciences
 - Internal Seminar - University of Bologna
+- Bologna Environmental Economics Reading Group Seminar
+- EIEE Monthly Meeting (online)
 - LSE Environment Week
 - Center for Climate and Health Seminar Series - Boston University
 - March Internal Seminar - CMCC and Ca’ Foscari University of Venice
@@ -34,10 +41,11 @@ author_profile: true
 
 **2021**
 
-- 26th Annual Conference of the European Association of Environmental and Resource Economists
-- 9th Annual Conference of the Italian Association of Environmental and Resource Economists
-- Second-year PhD Internal Seminar - University of Bologna
-- European Geosciences Union General Assembly
+- 1st ERC-ENERGYA Scientific Workshop (online)
+- 26th Annual Conference of the European Association of Environmental and Resource Economists (online)
+- 9th Annual Conference of the Italian Association of Environmental and Resource Economists (online)
+- Second-year PhD Internal Seminar - University of Bologna (online)
+- European Geosciences Union General Assembly (online)
 
 **2020**
 
