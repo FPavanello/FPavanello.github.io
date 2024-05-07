@@ -22,6 +22,6 @@ redirect_from:
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
-<ins>Upcoming talk</ins>: 1st Verona Early Career Workshop in Economics (Verona, 18-19 April), 3rd Junior Economists Meeting - University Of Milan (Milan, 16-17 May), Summer AERE Conference (Washington, 29-31 May 2024), 29th Annual EAERE Conference (Leuven, 1-4 July)
+<ins>Upcoming talk</ins>: 3rd Junior Economists Meeting - University Of Milan (Milan, 16-17 May), Summer AERE Conference (Washington, 29-31 May 2024), 29th Annual EAERE Conference (Leuven, 1-4 July)
 
 <ins>News</ins>: We have just published the EESC report: ["The cost of climate change on households and families in the EU"](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu)
