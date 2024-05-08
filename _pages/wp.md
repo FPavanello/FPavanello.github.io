@@ -49,4 +49,11 @@ author_profile: true
 
 - **Assessing climate change costs for EU households** (with L. Campagnolo, E. De Cian, et al.) [ Status: _Draft Available Soon_ &#124; Project: _EESC Tender 2023_ ]
 
-- **Temperature, Health, Income Shocks and Adaptation** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Analysis Stage_ ]
+- **Temperature, Mortality and Income Shocks** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Analysis Stage_ ]
+  - <details>
+      <summary>Abstract</summary><p align="justify"> Income is a key driver of adaptation to extreme temperatures. However, little is known about how positive income shocks may translate into better protection for households. This paper examines how a tax and minimum wage reform in border municipalities of Mexico has reduced the impact of temperature on health outcomes. Combining administrative daily data with a difference-in-temperature (DiT) design, we show that the policy has reduced deaths from extreme cold and hot temperatures in affected areas. To explore potential mechanism, we then design a synthetic difference-in-difference (SDID) to explore whether the policy has increased the ownership of key adaptation appliances. In our best specification we find that the ownership of heaters has increased by 4 percentage points (66\% compared to the mean), but no effect for air conditioners. Our analysis reveals the unintended private adaptation benefits of labor and fiscal policies permanently increasing of households' income. </p></details>
+
+- **Emergency Room Visits and Temperature: Evidence from Mexico** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Analysis Stage_ ]
+
+
+
