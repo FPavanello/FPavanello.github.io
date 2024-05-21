@@ -11,8 +11,8 @@ author_profile: true
 
 - 29th Annual Conference of the European Association of Environmental and Resource Economists (scheduled, 1-4 July)
 - Summer Conference of the Association of Environmental and Resource Economists (scheduled, 29-31 May)
-- 3rd Junior Economists Meeting - University of Milan (scheduled, 16-17 May)
-- 1st Verona Early Career Workshop in Economics (18-19 April)
+- 3rd Junior Economists Meeting - University of Milan
+- 1st Verona Early Career Workshop in Economics
 - Internal Seminar - University of Bologna
 - 12th Annual Conference of the Italian Association of Environmental and Resource Economists
 - Inequality and the Environment Symposium: Sciences Po
