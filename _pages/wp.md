@@ -45,15 +45,11 @@ author_profile: true
 
 - **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
 
-- **Social identity and heat adaptation** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
-
-- **Gendered-crime, temperature, and policy: Evidence from India** (with I. Barco, [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
+- **Hot temperatures and vulnerability** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
 
 - **Assessing climate change costs for EU households** (with L. Campagnolo, [E. De Cian](https://www.unive.it/data/persone/5591358), et al.) [ Status: _Draft Available Soon_ &#124; Project: _EESC Tender 2023_ ]
 
 - **Temperature, Mortality and Income Shocks** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Analysis Stage_ ]
-  - <details>
-      <summary>Abstract</summary><p align="justify"> Income is a key driver of adaptation to extreme temperatures. However, little is known about how positive income shocks may translate into better protection for households. This paper examines how a tax and minimum wage reform in border municipalities of Mexico has reduced the impact of temperature on health outcomes. Combining administrative daily data with a difference-in-temperature (DiT) design, we show that the policy has reduced deaths from extreme cold and hot temperatures in affected areas. To explore potential mechanism, we design a synthetic difference-in-difference (SDID) to test whether the policy has increased residential electricity consumption (intensive margin) and the ownership of key adaptation appliances (extensive margin). We find that the ownership of heaters has increased by 4 percentage points (66% compared to the mean), but no effect for air conditioners. Our analysis reveals the unintended potential private adaptation benefits of labor and fiscal policies permanently increasing households' income. </p></details>
 
 - **Emergency Room Visits and Temperature: Evidence from Mexico** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Analysis Stage_ ]
 
