@@ -22,6 +22,6 @@ redirect_from:
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
-<ins>Upcoming talk</ins>: Summer AERE Conference (Washington, 29-31 May 2024), 29th Annual EAERE Conference (Leuven, 1-4 July)
+<ins>Upcoming talk</ins>: EIEE/CMCC Internal Seminar (Venice, 18 June 2024), 29th Annual EAERE Conference (Leuven, 1-4 July)
 
 <ins>News</ins>: We have just published the EESC report: ["The cost of climate change on households and families in the EU"](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu)
