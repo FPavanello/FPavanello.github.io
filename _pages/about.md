@@ -16,7 +16,7 @@ redirect_from:
 
 - In September I will join as <span style="color:#990000">**postdoctoral researcher**</span> the [**Center for Energy, Climate, and Resources**](https://www.ifo.de/en/research/ifo-center-for-energy-climate-and-resources) at the [**ifo Institute**](https://www.ifo.de/en).
 
-- <p align="justify">My <strong>current research</strong> relates to the <strong>relationship between climate change impacts and household adaptation strategies</strong>, particularly in developing economies. Applying micro-econometric methods, I study: 1) the <strong>social costs of climate change</strong>, especially for health outcomes; 2) the <strong>adaptation response</strong> of households; 3) the <strong>uneven distribution</strong> of both exposure to extreme heat and access to adaptation.</p>
+- <p align="justify">My <strong>current research</strong> relates to <strong>the impacts of climate change and households' adaptation</strong>, particularly in developing economies. Applying micro-econometric methods, I study: (1) the <strong>social costs of warmer temperatures</strong>, especially for health; (2) the <strong>adaptation response</strong> of households; (3) the <strong>uneven distribution</strong> of both exposure to extreme heat and access to adaptation. I am also studying <strong>the unintended effects of public policies</strong> on the relationship between socio-economic outcomes and temperature exposure. </p>
 
 - I am also a <span style="color:#990000">**research affiliate**</span> at the [**Euro-Mediterranean Centre on Climate Change**](https://www.cmcc.it/) and at [**Ca' Foscari University of Venice**](https://www.unive.it/).
 
