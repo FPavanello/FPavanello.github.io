@@ -10,7 +10,7 @@ author_profile: true
 **2024**
 
 - 29th Annual Conference of the European Association of Environmental and Resource Economists (scheduled, 1-4 July)
-- CMCC/EIEE Internal Seminar (scheduled, 18 June)
+- CMCC/EIEE Internal Seminar
 - 2024 Summer Conference of the Association of Environmental and Resource Economists
 - 3rd Junior Economists Meeting - University of Milan
 - 1st Verona Early Career Workshop in Economics
