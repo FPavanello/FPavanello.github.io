@@ -17,7 +17,7 @@ redirect_from:
 - I completed my PhD in Economics at the [**University of Bologna**](https://www.unibo.it/it) in July 2024.
 
 - <p align="justify">My <strong>current research</strong> relates to <strong>the impacts of climate change and households' adaptation</strong>, particularly in developing economies. Applying micro-econometric methods, I study: </p>
- <ul style="margin-top: 0; padding-top: 0;">
+ <ul style="margin-top: 0; margin-bottom: 0;">
     <li>the <strong>social costs of warmer temperatures</strong>, especially for health</li>
     <li>the <strong>adaptation response</strong> of households</li>
     <li>the <strong>uneven distribution</strong> of both exposure to extreme heat and access to adaptation</li>
