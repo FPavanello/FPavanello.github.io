@@ -26,6 +26,6 @@ redirect_from:
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
-<ins>Upcoming talk</ins>: ifo Lunch Seminar (Munich, 12th October)
+<ins>Upcoming talk</ins>: ifo Lunch Seminar (Munich, 14th October)
 
-<ins>News</ins>: We have published the EESC report: ["The cost of climate change on households and families in the EU"](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu)
+<ins>News</ins>: New publication [**Inequalities in global residential cooling energy use to 2050**](https://www.nature.com/articles/s41467-024-52028-8) (joint with Giacomo Falchetta, Enrica De Cian, and Ian Sue Wing) on _Nature Communications_!
