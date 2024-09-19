@@ -37,17 +37,17 @@ author_profile: true
 
 - **The long-term consequences of austerity policy on mortality and temperature relationship: Evidence from Italy** (with G. Valenti) [ Status: _Analysis Stage_ ]
 
-- **Mortality, temperature, and public adaptation policy** (with G. Valenti) [ Status: _Analysis Stage_ ]
+- **Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy** (with G. Valenti) [ Status: _Draft Available upon Request_ ]
 
 - **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
 
 - **Hot temperatures and vulnerability** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
 
-- **Assessing climate change costs for EU households** (with L. Campagnolo, [E. De Cian](https://www.unive.it/data/persone/5591358), et al.) [ Status: _Draft Available Soon_ &#124; Project: _EESC Tender 2023_ ]
+- **Assessing climate change costs for EU households** (with L. Campagnolo, [E. De Cian](https://www.unive.it/data/persone/5591358), et al.) [ Status: _Draft Available upon Request_ &#124; Project: _EESC Tender 2023_ ]
 
 - **Temperature, Mortality and Policy-induced Income Shocks** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Analysis Stage_ ]
 
-- **Emergency Room Visits and Temperature: Evidence from Mexico** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Analysis Stage_ ]
+- **Emergency Room Visits and Temperature: Evidence from Mexico** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Draft Available Soon_ ]
 
 
 
