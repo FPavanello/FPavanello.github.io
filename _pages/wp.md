@@ -32,18 +32,20 @@ author_profile: true
       <summary>Abstract</summary><p align="justify"> This paper presents a detailed economic modelling analysis of public finance in the transition towards carbon neutrality. It outlines results from a Net-Zero Emission Ambition scenario, which reflects the ambition to achieve net-zero carbon dioxide emissions globally by mid-century, using a broad and regionspecific policy package that combines various policy instruments: carbon pricing, removal of fossil fuel support, regulations in the power sector, and other policies that stimulate investments by firms and households to reduce and decarbonise energy use. The analysis relies on the OECD global computable general equilibrium ENV-Linkages model. Results show that transitioning towards carbon neutrality is feasible when considering economic and fiscal consequences. The scenario achieves carbon neutrality while maintaining continued economic growth, despite a limited negative impact on global GDP and on public revenues. The fiscal effects reflect a tradeoff between instruments that increase public revenues (carbon pricing) or reduce public expenditures (fossil fuel subsidies removal), on the one hand, and more costly instruments (subsidies) and indirect effects (tax base erosion and changes in fiscal and economic structure) on the other hand. </p></details>
   - Media Coverage: [Financial Times](https://t.co/aip0DwlWXv) 
   - <font size = "1"> Presented at: Climate Economics Chair Annual Conference (2023), 25th GEA Annual Conference, 15th IAMC Annual Meeting (2022) </font>
+
+- **Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy** (with G. Valenti) [ Status: _Preliminary Draft Available upon Request_ ]
+    - <details>
+      <summary>Abstract</summary><p align="justify"> In 2004, Italy introduced a national program to prevent and tackle heat-related health risks. This initiative includes public awareness campaigns, the establishment of heatwave warning systems, and the implementation of hospital protocols, among other measures. By leveraging administrative mortality data and a Difference-in-Differences-in-Temperature (DiDiT) approach, this paper shows that, on average, the policy has mitigated the effect of hot temperatures (days above 30 °C) by more than 57%. A key contribution to the policy's success pertains to the behavioural responses triggered by the implementation of the Heat Health Watch Warning Systems (HHWWS). By employing a staggered Difference-in-Differences-in-Temperature (DiDiT) approach, we find that the HHWWS led to a significant reduction in excess mortality (-22%) due to daily average temperatures exceeding 30 °C among treated provinces, compared to both not-yet and never-treated provinces. The effectiveness of the warning system becomes particularly pronounced after the third year of its implementation. Importantly, this mitigating effect remains robust even when considering the penetration of air conditioning. Our findings underscore the crucial role of public adaptation policies in coping with the increasing risk of heat stress. </p></details>
+
+- **Assessing climate change costs for EU households** (with L. Campagnolo, [E. De Cian](https://www.unive.it/data/persone/5591358), et al.) [ Status: _Preliminary Draft Available upon Request_ &#124; Project: _EESC Tender 2023_ ]
       
 ## Working in Progress
 
 - **The long-term consequences of austerity policy on mortality and temperature relationship: Evidence from Italy** (with G. Valenti) [ Status: _Analysis Stage_ ]
 
-- **Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy** (with G. Valenti) [ Status: _Draft Available upon Request_ ]
-
 - **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
 
 - **Hot temperatures and vulnerability** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
-
-- **Assessing climate change costs for EU households** (with L. Campagnolo, [E. De Cian](https://www.unive.it/data/persone/5591358), et al.) [ Status: _Draft Available upon Request_ &#124; Project: _EESC Tender 2023_ ]
 
 - **Temperature, Mortality and Policy-induced Income Shocks** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Analysis Stage_ ]
 
