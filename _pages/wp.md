@@ -41,7 +41,7 @@ author_profile: true
       
 ## Working in Progress
 
-- **The long-term consequences of austerity policy on mortality and temperature relationship: Evidence from Italy** (with G. Valenti) [ Status: _Analysis Stage_ ]
+- **The (long-term) consequences of austerity policy on mortality and temperature relationship: Evidence from Italy** (with G. Valenti) [ Status: _Draft Available Soon_ ]
 
 - **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
 
