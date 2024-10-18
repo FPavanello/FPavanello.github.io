@@ -47,7 +47,7 @@ author_profile: true
 
 - **Hot temperatures and vulnerability** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
 
-- **Income shocks, adaptation, and temperature mortality: Evidence from the Mexican labor market** (with [L. Sarmiento](https://www.luissarmiento.com/), Martino Gilli, Soheil Shayegh) [ Status: _Draft Available Soon_ ]
+- **Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market** (with [L. Sarmiento](https://www.luissarmiento.com/), Martino Gilli, Soheil Shayegh) [ Status: _Draft Available Soon_ ]
 
 - **Emergency Room Visits and Temperature: Evidence from Mexico** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Draft Available Soon_ ]
 
