@@ -38,6 +38,8 @@ author_profile: true
       <summary>Abstract</summary><p align="justify"> In 2004, Italy introduced a national program to prevent and tackle heat-related health risks. This initiative includes public awareness campaigns, the establishment of heatwave warning systems, and the implementation of hospital protocols, among other measures. By leveraging administrative mortality data and a Difference-in-Differences-in-Temperature (DiDiT) approach, this paper shows that, on average, the policy has mitigated the effect of hot temperatures (days above 30 °C) by more than 57%. A key contribution to the policy's success pertains to the behavioural responses triggered by the implementation of the Heat Health Watch Warning Systems (HHWWS). By employing a staggered Difference-in-Differences-in-Temperature (DiDiT) approach, we find that the HHWWS led to a significant reduction in excess mortality (-22%) due to daily average temperatures exceeding 30 °C among treated provinces, compared to both not-yet and never-treated provinces. The effectiveness of the warning system becomes particularly pronounced after the third year of its implementation. Importantly, this mitigating effect remains robust even when considering the penetration of air conditioning. Our findings underscore the crucial role of public adaptation policies in coping with the increasing risk of heat stress. </p></details>
 
 - **Assessing climate change costs for EU households** (with L. Campagnolo, [E. De Cian](https://www.unive.it/data/persone/5591358), et al.) [ Status: _Preliminary Draft Available upon Request_ &#124; Project: _EESC Tender 2023_ ]
+
+- **Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market** (with [L. Sarmiento](https://www.luissarmiento.com/), Martino Gilli, Soheil Shayegh) [ Status: _Draft Available Soon_ ]
       
 ## Working in Progress
 
@@ -46,8 +48,6 @@ author_profile: true
 - **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
 
 - **Hot temperatures and vulnerability** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Analysis Stage_ &#124; Project: _PRICE - PRIN2022_ ]
-
-- **Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market** (with [L. Sarmiento](https://www.luissarmiento.com/), Martino Gilli, Soheil Shayegh) [ Status: _Draft Available Soon_ ]
 
 - **Emergency Room Visits and Temperature: Evidence from Mexico** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Draft Available Soon_ ]
 

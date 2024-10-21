@@ -26,6 +26,6 @@ redirect_from:
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
-<ins>Upcoming talk</ins>: ifo Big Data Seminar series (Munich, 4th November)
+<ins>Upcoming talk</ins>: ifo Big Data Seminar series (Munich, 4th November), OECD Brown Bag Lunch Meeting (Paris, 11th December), Gender and and Climate Change - CY Cergy Paris University (Paris, 12th December)
 
 <ins>News</ins>: New publication [**Inequalities in global residential cooling energy use to 2050**](https://www.nature.com/articles/s41467-024-52028-8) (joint with Giacomo Falchetta, Enrica De Cian, and Ian Sue Wing) on _Nature Communications_!
