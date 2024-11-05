@@ -12,7 +12,7 @@ redirect_from:
 
 - I am an **applied environmental economist** with main focus on the **economics of adaptation to climate change**. 
 
-- I am a <span style="color:#990000">**postdoctoral researcher**</span> in the [**Center for Energy, Climate, and Resources**](https://www.ifo.de/en/research/ifo-center-for-energy-climate-and-resources) at the [**ifo Institute**](https://www.ifo.de/en), and a <span style="color:#990000">**member**</span> of the Junior Faculty at [**LMU Munich**](https://www.lmu.de/en/) and the [**CESifo Resarch network**](https://www.cesifo.org/en).
+- I am a <span style="color:#990000">**postdoctoral researcher**</span> at the [**ifo Institute**](https://www.ifo.de/en), and a <span style="color:#990000">**member**</span> of the **Junior Faculty** at [**LMU Munich**](https://www.lmu.de/en/) and the [**CESifo Resarch network**](https://www.cesifo.org/en).
 
 - I completed my PhD in Economics at the [**University of Bologna**](https://www.unibo.it/it) in July 2024.
 
