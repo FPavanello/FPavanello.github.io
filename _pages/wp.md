@@ -39,7 +39,7 @@ author_profile: true
 
 - **Assessing climate change costs for EU households** (with L. Campagnolo, [E. De Cian](https://www.unive.it/data/persone/5591358), et al.) [ Status: _Preliminary Draft Available upon Request_ &#124; Project: _EESC Tender 2023_ ]
 
-- **Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market** (with [L. Sarmiento](https://www.luissarmiento.com/), Martino Gilli, Soheil Shayegh) [ [Draft](https://fpavanello.github.io/files/mto.pdf) ][ Status: _Submitted_ ]
+- **Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market** (with [L. Sarmiento](https://www.luissarmiento.com/), Martino Gilli, Soheil Shayegh) [ [Draft](https://fpavanello.github.io/files/mto.pdf) ] [ Status: _Submitted_ ]
     - <details>
       <summary>Abstract</summary><p align="justify"> This paper examines the role of positive income shocks in helping workers adapt to extreme temperatures. We use daily temperature variations alongside the exogenous implementation of a wage and fiscal policy in Mexican municipalities along the US border to show that increased disposable income significantly reduces temperature-related mortality in treated areas. Exploring the mechanisms, we find that income gains increase households’ adaptive capacity, particularly through higher electricity expenditures and the purchase of electric heaters. Our findings provide causal estimates of how income influences the marginal effect of temperature on mortality and contribute to the debate on the effectiveness of climate-related redistribution policies. </p></details>
       
