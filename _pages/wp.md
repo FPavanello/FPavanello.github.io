@@ -33,7 +33,7 @@ author_profile: true
   - Media Coverage: [Financial Times](https://t.co/aip0DwlWXv) 
   - <font size = "1"> Presented at: Climate Economics Chair Annual Conference (2023), 25th GEA Annual Conference, 15th IAMC Annual Meeting (2022) </font>
 
-- **Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy** (with G. Valenti) [ Status: _Preliminary Draft Available upon Request_ ]
+- **Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy** (with G. Valenti) [ [Preliminary Draft](https://fpavanello.github.io/files/fp_gv_hhws.pdf) ]
     - <details>
       <summary>Abstract</summary><p align="justify"> In 2004, Italy introduced a national program to address heat-related health risks through public awareness campaigns, heatwave warning systems, and hospital protocols. Leveraging administrative mortality data, temperature variations, and the plausibly exogenous timing of the policy's rollout, this paper shows that the program mitigated the mortality impact of extreme heat. Exploring the mechanisms, we find that the staggered implementation of the heat wave warning systems helped reduce excess mortality on days exceeding 30 °C in treated provinces. We further show that enhancing access to information is essential to achieving these mitigating effects. Our findings underscore the critical role of public adaptation policies that leverage information disclosure on the health risks associated with heat stress. </p></details>
 
