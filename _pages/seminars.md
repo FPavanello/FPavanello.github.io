@@ -9,8 +9,9 @@ author_profile: true
 
 **2024**
 
-- Gender, Environment, and Social Dynamics - CY Cergy Paris University (scheduled, invited)
-- OECD Brown Bag Lunch Meeting (scheduled, invited)
+- Gender, Environment, and Social Dynamics - CY Cergy Paris University (invited)
+- OECD Brown Bag Lunch Meeting (invited)
+- ifo Christmas Conference
 - ifo Big Data Seminar series 
 - 29th Annual Conference of the European Association of Environmental and Resource Economists
 - CMCC/EIEE Internal Seminar

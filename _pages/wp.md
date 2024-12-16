@@ -45,7 +45,7 @@ author_profile: true
 - **Assessing climate change costs for EU households** (with L. Campagnolo, [E. De Cian](https://www.unive.it/data/persone/5591358), et al.) [ Status: _Preliminary Draft Available upon Request_ &#124; Project: _EESC Tender 2023_ ]
 
       
-## Working in Progress
+## (Selected) Working in Progress
 
 - **The (long-term) consequences of austerity policy on mortality and temperature relationship: Evidence from Italy** (with G. Valenti) [ Status: _Draft Available Soon_ ]
 
