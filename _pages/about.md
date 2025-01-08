@@ -26,6 +26,6 @@ redirect_from:
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
-<ins>Upcoming talk</ins>: OECD Brown Bag Lunch Meeting (Paris, 12th December); Gender, Environment, and Social Dynamics - CY Cergy Paris University (Paris, 13th December)
+<ins>Upcoming talk</ins>: EIEE Annual Meeting (13-15 January), 13th IAERE Annual Conference (Rome, 20-21 February)
 
 <ins>News</ins>: New publication [**Inequalities in global residential cooling energy use to 2050**](https://www.nature.com/articles/s41467-024-52028-8) (joint with Giacomo Falchetta, Enrica De Cian, and Ian Sue Wing) on _Nature Communications_!
