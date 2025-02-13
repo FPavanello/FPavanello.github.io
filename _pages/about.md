@@ -12,7 +12,7 @@ redirect_from:
 
 - I am an **applied environmental economist** with main focus on the **economics of adaptation to climate change**. 
 
-- I am an <span style="color:#990000">**Assistant Professor (non-tenure track)**</span> at the [**ifo Institute**](https://www.ifo.de/en), and a <span style="color:#990000">**member**</span> of the **Junior Faculty** at [**LMU Munich**](https://www.lmu.de/en/) and the [**CESifo Resarch network**](https://www.cesifo.org/en).
+- I am an <span style="color:#990000">**Assistant Professor (non-tenure track)**</span> at the [**ifo Institute**](https://www.ifo.de/en) and [**LMU Munich**](https://www.lmu.de/en/), and a <span style="color:#990000">**member**</span> of the [**CESifo Resarch network**](https://www.cesifo.org/en).
 
 - I completed my PhD in Economics at the [**University of Bologna**](https://www.unibo.it/it) in July 2024.
 
@@ -26,6 +26,6 @@ redirect_from:
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
-<ins>Upcoming talk</ins>: EIEE Annual Meeting (13-15 January), 13th IAERE Annual Conference (Rome, 20-21 February)
+<ins>Upcoming talk</ins>: 13th IAERE Annual Conference (Rome, 20-21 February), Workshop on Pro-Environmental Behavior: Drivers and Consequences - Max Planck Society (Berlin, 6-7 March), CESifo / ifo Junior Workshop on Energy and Climate Economics 2025 (Munich, 13 March)
 
 <ins>News</ins>: New publication [**Inequalities in global residential cooling energy use to 2050**](https://www.nature.com/articles/s41467-024-52028-8) (joint with Giacomo Falchetta, Enrica De Cian, and Ian Sue Wing) on _Nature Communications_!
