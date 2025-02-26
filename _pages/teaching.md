@@ -13,7 +13,7 @@ author_profile: true
 
 **Teaching**:
 
-- **Spring 2025**: Lecture in Topics in Climate Economics, BA in Economics \(LMU Munich\)
+- **Spring 2025**: Lecturer in Topics in Climate Economics, BA in Economics \(LMU Munich\)
 - **Spring 2024**: TA in Econometrics, BA in Economics, Politics, and Social Sciences \(University of Bologna\)
 - **Fall 2023**: TA in Econometrics, MSc in Economics \(University of Bologna\)
 - **Fall 2022**: TA in Econometrics, MSc in Economics \(University of Bologna\)
