@@ -26,6 +26,6 @@ redirect_from:
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
-<ins>Upcoming talk</ins>: Workshop on Pro-Environmental Behavior: Drivers and Consequences - Max Planck Society (Berlin, 6-7 March), CESifo / ifo Junior Workshop on Energy and Climate Economics 2025 (Munich, 13 March)
+<ins>Upcoming talk</ins>: AERE Summer Conference (Santa Ana Pueblo, 28-30 May)
 
 <ins>News</ins>: New publication [**Inequalities in global residential cooling energy use to 2050**](https://www.nature.com/articles/s41467-024-52028-8) (joint with Giacomo Falchetta, Enrica De Cian, and Ian Sue Wing) on _Nature Communications_!

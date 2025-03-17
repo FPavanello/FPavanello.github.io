@@ -9,8 +9,9 @@ author_profile: true
 
 **2025**
 
-- CESifo / ifo Junior Workshop on Energy and Climate Economics 2025 (scheduled)
-- Workshop on Pro-Environmental Behavior: Drivers and Consequences - Max Planck Society (invited, scheduled)
+- AERE Summer Conference (scheduled)
+- CESifo / ifo Junior Workshop on Energy and Climate Economics 2025
+- Workshop on Pro-Environmental Behavior: Drivers and Consequences - Max Planck Society (invited)
 - 13th Annual Conference of the Italian Association of Environmental and Resource Economists
 - EIEE Annual Meeting
 
