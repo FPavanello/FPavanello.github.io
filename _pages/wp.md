@@ -26,7 +26,7 @@ author_profile: true
 (with [L. Sarmiento](https://www.luissarmiento.com/), [Martino Gilli](https://martinogilli.netlify.app/), [Soheil Shayegh](https://www.soheilsh.com/)) [ [Draft](https://fpavanello.github.io/files/mto.pdf) &#124; [CESifo Working Paper](https://www.cesifo.org/en/publications/2024/working-paper/income-shocks-adaptation-and-temperature-related-mortality-evidence) ] [ Status: _Under Review_ ]
     - <details>
       <summary>Abstract</summary><p align="justify"> This paper examines the role of positive income shocks in helping workers adapt to extreme temperatures. We use daily temperature variations alongside the exogenous implementation of a wage and fiscal policy in Mexican municipalities along the US border to show that increased disposable income significantly reduces temperature-related mortality in treated areas. Exploring the mechanisms, we find that income gains increase households’ adaptive capacity, particularly through higher electricity expenditures and the purchase of electric heaters. Our findings provide causal estimates of how income influences the marginal effect of temperature on mortality and contribute to the debate on the effectiveness of climate-related redistribution policies. </p></details>
-    - <font size = ""> Presented at: 2025 AERE Summer Conference \(_scheduled_\) </font>  
+    - <font size = ""> Presented at: 2025 AERE Summer Conference (scheduled) </font>  
 
 - **Emergency department visits and temperature: Evidence from Mexico**. <br/> 
 (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ [Draft](https://fpavanello.github.io/files/lsfcfp_tmpmorbidity.pdf) ] [ Status: _Under Review_ ]
