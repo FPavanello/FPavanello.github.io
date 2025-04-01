@@ -9,7 +9,9 @@ author_profile: true
 
 **2025**
 
+- 30th Annual Conference of the European Association of Environmental and Resource Economists (scheduled)
 - AERE Summer Conference (scheduled)
+- 13th Mannheim Conference on Energy and the Environment - ZEW (scheduled)
 - CESifo / ifo Junior Workshop on Energy and Climate Economics 2025
 - Workshop on Pro-Environmental Behavior: Drivers and Consequences - Max Planck Society (invited)
 - 13th Annual Conference of the Italian Association of Environmental and Resource Economists

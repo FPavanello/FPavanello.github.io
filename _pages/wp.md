@@ -38,14 +38,14 @@ author_profile: true
 (with [G. Zappalà](https://guglielmozappala.github.io/)) [ [Draft](https://fpavanello.github.io/files/fp_gz_wp.pdf) ]
   - <details> 
       <summary>Abstract</summary><p align="justify"> Intimate Partner Violence (IPV) is a critical public health concern often linked to substance abuse. Environmental factors can exacerbate substance addiction and use, potentially leading to increased violence. Building on prior work showing that higher temperatures increase violent behavior, we investigate whether substance abuse regulations affect the relationship between temperature and IPV. Leveraging administrative data combined with random fluctuations in daily temperature the jurisdiction level in the United States, we document that an exogenous abuse-deterrent reformulation of opioids in 2010 significantly attenuates the temperature-IPV relationship in counties with higher initial rates of prescription opioid usage. Our main mechanism suggests an indirect reduction in the complementary use of other substances, particularly alcohol, during hot days. Our findings indicate that policies targeting substance abuse may have co-benefits in mitigating the adverse effects of temperature increases. </p></details>
-  - <font size = ""> Presented at: CESifo / ifo Junior Workshop on Energy and Climate Economics 2025, 13th Annual IAERE Conference, EIEE Annual Meeting, "Gender, Environment, and Social Dynamics" - CY Cergy Paris University, ifo Big Data Seminar Series, AXA Research Lab on Gender Equality Workshop*, CMCC/EIEE Internal Seminar, IEB Public Policy Workshop*, Grantham Research Institute on Climate Change and the Environment*, 2nd Diversity and Human Capital Workshop: Well-being, 3rd Junior Economists Meeting - University Of Mlan, 1st Verona Early Career Workshop in Economics, University of Bologna Internal Seminar, University of Padova Internal Seminar* [* by co-authors] </font>	
+  - <font size = ""> Presented at: 2025 AERE Summer Conference* (scheduled), CESifo / ifo Junior Workshop on Energy and Climate Economics 2025, 13th Annual IAERE Conference, EIEE Annual Meeting, "Gender, Environment, and Social Dynamics" - CY Cergy Paris University, ifo Big Data Seminar Series, AXA Research Lab on Gender Equality Workshop*, CMCC/EIEE Internal Seminar, IEB Public Policy Workshop*, Grantham Research Institute on Climate Change and the Environment*, 2nd Diversity and Human Capital Workshop: Well-being, 3rd Junior Economists Meeting - University Of Mlan, 1st Verona Early Career Workshop in Economics, University of Bologna Internal Seminar, University of Padova Internal Seminar* [* by co-author] </font>	
   - _Award_: Best Paper Award at CESifo/ifo Junior Workshop on Energy and Climate Economics 2025 	  
 	  
 - **Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy**. <br/> 
 (with [G. Valenti](https://givalenti.github.io/)) [ [Draft](https://fpavanello.github.io/files/fp_gv_hhws.pdf) ]
   - <details>
       <summary>Abstract</summary><p align="justify"> In 2004, Italy introduced a national program to address heat-related health risks through public awareness campaigns, heatwave warning systems, and hospital protocols. Leveraging administrative mortality data, temperature variations, and the plausibly exogenous timing of the policy's rollout, this paper shows that the program mitigated the mortality impact of extreme heat (days at or above 30 °C) by more than 57%. Exploring the mechanisms, we find that the staggered implementation of the heat wave warning systems contributed to reducing excess mortality on days exceeding 30 °C in treated provinces. We further show that enhancing access to information is essential to achieving these mitigating effects. Our findings underscore the critical role of public adaptation policies that leverage information disclosure on the health risks associated with heat stress. </p></details>
-  - <font size = ""> Presented at: 1st IdEP PhDs and Postdocs Workshop in Sustainable Economics*, OECD Brown Bag Lunch Meeting, ifo Christmas Conference [* by co-author] </font>
+  - <font size = ""> Presented at: 30th Annual EAERE Conference (scheduled), 13th Mannheim Conference on Energy and the Environment, 1st IdEP PhDs and Postdocs Workshop in Sustainable Economics*, OECD Brown Bag Lunch Meeting, ifo Christmas Conference [* by co-author] </font>
       
 ## (Selected) Working in Progress
 
@@ -55,11 +55,11 @@ author_profile: true
 
 - **The Impact of Temperature Extremes on Local Power Distribution** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Draft Available Soon_ ]
 
+- **Harsh parenting and temperature** (with [E. De Cao](http://elisabettadecao.com/) and P. A. Naß) [ Status: _Draft Available Soon_ ]
+
 - **Does social identity influence adaptation to hot temperatures?** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Draft Available Soon_ &#124; Project: _PRICE - PRIN2022_ ]
 
 - **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
-
-- **Harsh parenting and temperature** (with [E. De Cao](http://elisabettadecao.com/) and P. A. Naß) [ Status: _Analysis Stage_ ]
 
 
 
