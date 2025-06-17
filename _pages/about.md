@@ -14,7 +14,7 @@ redirect_from:
 
 - I am an <span style="color:#990000">**Assistant Professor (non-tenure track)**</span> at the [**ifo Institute**](https://www.ifo.de/en) and [**LMU Munich**](https://www.lmu.de/en/), and a <span style="color:#990000">**member**</span> of the [**CESifo Resarch network**](https://www.cesifo.org/en).
 
-- I completed my PhD in Economics at the [**University of Bologna**](https://www.unibo.it/it) in July 2024.
+- I completed my PhD in Economics at the [**University of Bologna**](https://www.unibo.it/it) in July 2024. My dissertation was awarded the [Best Doctoral Dissertation Award](https://www.eaere.org/best-european-doctoral-dissertation-award/) from the European Association of Environmental and Resource Economists.
 
 - My <strong>current research</strong> relates to <strong>the impacts of climate change and households' adaptation</strong>, particularly in developing economies. Applying micro-econometric methods, I study:
     - the <strong>social costs of warmer temperatures</strong>, especially for health
