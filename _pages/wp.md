@@ -48,7 +48,8 @@ author_profile: true
   - <font size = ""> Presented at: Workshop on Applied Environmental and Health Economics*, 30th Annual EAERE Conference, 2025 AERE Summer Conference*, 13th Mannheim Conference on Energy and the Environment, IZA Workshop on Climate and Environmental Economics: Applied and Behavioral Perspectives*, 1st IdEP PhDs and Postdocs Workshop in Sustainable Economics*, OECD Brown Bag Lunch Meeting, ifo Christmas Conference [* by co-author] </font>
 
 - **Temperature Extremes and Local Power Distribution: From Mechanisms to Health Impacts** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Draft Available Soon_ ]
-
+  - <details>
+      <summary>Abstract</summary><p align="justify">   This paper establishes a causal link between temperature, power distribution reliability, and mortality. Using daily municipal-level data from Mexico, we show that a single overload outage raises daily mortality rates by 0.04-0.24 deaths per 100,000 people in the following week. We estimate that 30 percent of overload outages result from heat shocks, increasing to nearly 80 percent during summer. Additionally, the temperature-outage relationship is significantly stronger in areas with higher adoption of energy-intensive appliances, such as air conditioning. These findings highlight the health risks associated with climate-driven grid stress, especially in developing regions with growing cooling demands. </p></details>
   - <font size = ""> Presented at: 30th Annual EAERE Conference, AERE Summer Conference*, 13th Mannheim Conference on Energy and the Environment* [* by co-author] </font>
       
 ## (Selected) Working in Progress
