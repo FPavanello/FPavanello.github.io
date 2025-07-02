@@ -31,4 +31,4 @@ author_profile: true
 
 - **Bachelor (Main advisor\*)**
   - BA in Economics @ LMU Munich
-    - Johannes Kranz* (2025) $\rightarrow$ _now_: MSc in Economics @ LSE
+    - Johannes Kranz* (2025)
