@@ -26,6 +26,6 @@ redirect_from:
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
-<ins>Upcoming talk</ins>: 13th Mannheim Conference on Energy and the Environment (Mannheim, 15-16 May), AERE Summer Conference (Santa Ana Pueblo, 28-30 May), 30th Annual EAERE Conference (Bergen, 16-19 June)
+<ins>Upcoming talk</ins>: 2nd Early Career Workshop on Applied Environmental & Climate Change Economics (Milan, 23-24 Oct)
 
 <ins>News</ins>: New publication [**Inequalities in global residential cooling energy use to 2050**](https://www.nature.com/articles/s41467-024-52028-8) (joint with Giacomo Falchetta, Enrica De Cian, and Ian Sue Wing) on _Nature Communications_!

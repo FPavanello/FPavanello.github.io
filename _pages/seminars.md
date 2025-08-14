@@ -9,6 +9,7 @@ author_profile: true
 
 **2025**
 
+- 2nd Early Career Workshop on Applied Environmental & Climate Change Economics (_scheduled_)
 - 30th Annual Conference of the European Association of Environmental and Resource Economists
 - AERE Summer Conference
 - 13th Mannheim Conference on Energy and the Environment - ZEW
