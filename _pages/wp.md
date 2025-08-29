@@ -45,12 +45,12 @@ author_profile: true
 (with [G. Valenti](https://givalenti.github.io/)) [ [Draft](https://fpavanello.github.io/files/fp_gv_hhws.pdf) ]
   - <details>
       <summary>Abstract</summary><p align="justify"> In 2004, Italy introduced a national program to address heat-related health risks through public awareness campaigns, heatwave warning systems, and hospital protocols. Leveraging administrative mortality data, temperature variations, and the plausibly exogenous timing of the policy's rollout, this paper shows that the program mitigated the mortality impact of extreme heat (days at or above 30 °C) by more than 57%. Exploring the mechanisms, we find that the staggered implementation of the heat wave warning systems contributed to reducing excess mortality on days exceeding 30 °C in treated provinces. We further show that enhancing access to information is essential to achieving these mitigating effects. Our findings underscore the critical role of public adaptation policies that leverage information disclosure on the health risks associated with heat stress. </p></details>
-  - <font size = ""> Presented at: Workshop on Applied Environmental and Health Economics*, 30th Annual EAERE Conference, 2025 AERE Summer Conference*, 13th Mannheim Conference on Energy and the Environment, IZA Workshop on Climate and Environmental Economics: Applied and Behavioral Perspectives*, 1st IdEP PhDs and Postdocs Workshop in Sustainable Economics*, OECD Brown Bag Lunch Meeting, ifo Christmas Conference [* by co-author] </font>
+  - <font size = ""> Presented at: 2nd Early Career Workshop on Applied Environmental & Climate Change Economics (_scheduled_), Workshop on Applied Environmental and Health Economics*, 30th Annual EAERE Conference, 2025 AERE Summer Conference*, 13th Mannheim Conference on Energy and the Environment, IZA Workshop on Climate and Environmental Economics: Applied and Behavioral Perspectives*, 1st IdEP PhDs and Postdocs Workshop in Sustainable Economics*, OECD Brown Bag Lunch Meeting, ifo Christmas Conference [* by co-author] </font>
 
 - **Temperature Extremes and Local Power Distribution: From Mechanisms to Health Impacts** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Draft Available Soon_ ]
   - <details>
       <summary>Abstract</summary><p align="justify">   This paper establishes a causal link between temperature, power distribution reliability, and mortality. Using daily municipal-level data from Mexico, we show that a single overload outage raises daily mortality rates by 0.04-0.24 deaths per 100,000 people in the following week. We estimate that 30 percent of overload outages result from heat shocks, increasing to nearly 80 percent during summer. Additionally, the temperature-outage relationship is significantly stronger in areas with higher adoption of energy-intensive appliances, such as air conditioning. These findings highlight the health risks associated with climate-driven grid stress, especially in developing regions with growing cooling demands. </p></details>
-  - <font size = ""> Presented at: 30th Annual EAERE Conference, AERE Summer Conference*, 13th Mannheim Conference on Energy and the Environment* [* by co-author] </font>
+  - <font size = ""> Presented at: 30th Annual EAERE Conference*, 13th Mannheim Conference on Energy and the Environment* [* by co-author] </font>
       
 ## (Selected) Working in Progress
 
@@ -58,8 +58,8 @@ author_profile: true
 
 - **High temperatures and harsh parenting** (with [E. De Cao](http://elisabettadecao.com/) and P. A. Naß) [ Status: _Draft Available Soon_ ]  
 
-- **The (long-term) consequences of austerity policy on mortality and temperature relationship: Evidence from Italy** (with [G. Valenti](https://givalenti.github.io/)) [ Status: _Draft Available Soon_ ]
+- **The (long-term) consequences of austerity policy on mortality and temperature relationship: Evidence from Italy** (with [G. Valenti](https://givalenti.github.io/)) [ Status: _Analysis Stage_ ]
 
 - **Does social identity influence adaptation to hot temperatures?** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Draft Available Soon_ &#124; Project: _PRICE - PRIN2022_ ]
 
-- **The (Relative) Prices of Climate Change** (with D. Difino) [ Status: _Analysis Stage_ ]
+- **Firms’ climate expectations and adaptation** (with [N. Garbarino](https://www.ifo.de/en/garbarino-n), [M.T. von Schickfus](https://sites.google.com/view/marietheres-vonschickfus/home)) [ Status: _Submitted Pre-analysis Plan_ ]
