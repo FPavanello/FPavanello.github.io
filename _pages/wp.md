@@ -62,4 +62,4 @@ author_profile: true
 
 - **Does social identity influence adaptation to hot temperatures?** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Draft Available Soon_ &#124; Project: _PRICE - PRIN2022_ ]
 
-- **Firms’ climate expectations and adaptation** (with [N. Garbarino](https://www.ifo.de/en/garbarino-n), [M.T. von Schickfus](https://sites.google.com/view/marietheres-vonschickfus/home)) [ Status: _Submitted Pre-analysis Plan_ ]
+- **Firms’ climate expectations and adaptation** (with [N. Garbarino](https://www.ifo.de/en/garbarino-n), [M.T. von Schickfus](https://sites.google.com/view/marietheres-vonschickfus/home)) [ Status: _PAP submitted_ &#124;  Pre-analysis Plan: [AEA RCT Registry: 0016562](https://www.socialscienceregistry.org/trials/16562) ]
