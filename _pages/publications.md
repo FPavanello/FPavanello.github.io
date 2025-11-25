@@ -44,6 +44,7 @@ author_profile: true
 ## Policy Works
 
 - Campagnolo, L., De Cian, E., **Pavanello, F.**, Falchetta, G., Colelli, F.P., Mansi, G.A., Bigano, A., Parrado, R., Frassetto, E. [The cost of climate change on households and families in the EU](https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu). _European Economic and Social Committee_ (2023)
+- C40 Cities. [Projected increase in cooling demand to 2050 in C40 cities](https://www.c40knowledgehub.org/s/article/Projected-increase-in-cooling-demand-to-2050-in-C40-cities?language=en_US)
 
 ## Book Chapters
 
