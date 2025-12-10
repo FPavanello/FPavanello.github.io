@@ -22,7 +22,7 @@ redirect_from:
     - the <strong>uneven distribution</strong> of both exposure to extreme heat and access to adaptation
     - the <strong>(unintended) effects of public policies</strong> on the relationship between socio-economic outcomes and temperature exposure
 
-- I am also a <span style="color:#990000">**research affiliate**</span> at the [**Euro-Mediterranean Centre on Climate Change**](https://www.cmcc.it/), [**Ca' Foscari University of Venice**](https://www.unive.it/), and the [**RFF-CMCC European Institute on Economics and the Environment**](https://www.eiee.org/).
+- I am also a research affiliate at the [**CMCC**](https://www.cmcc.it/), [**EIEE**](https://www.eiee.org/), and [**Ca' Foscari University of Venice**](https://www.unive.it/).
 
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
