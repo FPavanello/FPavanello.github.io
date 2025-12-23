@@ -23,12 +23,12 @@ author_profile: true
 <br>
 
 **Supervisions**
-- **Master (Main advisor\*)**
+- **Master**
   - MSc in Economics @ LMU Munich
-    - Amrei Schmidt* (exp. Sep 2025)
-    - Giovanni Remonti* (exp. Aug 2025)
-    - Lucia Nafziger (exp. 2025, co-advisor: Marie-Theres von Schickfus)
+    - 2025: Amrei Schmidt*, Giovanni Remonti*, Lucia Nafziger
 
-- **Bachelor (Main advisor\*)**
+- **Bachelor**
   - BA in Economics @ LMU Munich
-    - Johannes Kranz* (2025)
+    - 2025: Johannes Kranz*, Juliane Marie Zwing*
+
+  (* indicates main advisor)

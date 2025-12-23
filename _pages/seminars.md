@@ -7,12 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
+**2026**
+- Workshop on Climate impacts and adaptation (invited, _scheduled_)
+- 14th IAERE Annual Conference (_scheduled_)
+- Guest Lecture: "_Causal inference of climate change impacts_" - University of Padua (invited, _scheduled_)
+
 **2025**
 
 - 2nd Early Career Workshop on Applied Environmental & Climate Change Economics
 - AERNA-CE3 Durham Online seminar in Environmental and Resource Economics (invited)
 - 30th Annual Conference of the European Association of Environmental and Resource Economists
 - AERE Summer Conference
+- Workshop ”_Il tempo sta cambiando_” - Associazione Alumni del Collegio Superiore at University of Bologna
 - 13th Mannheim Conference on Energy and the Environment - ZEW
 - CESifo / ifo Junior Workshop on Energy and Climate Economics 2025
 - Workshop on Pro-Environmental Behavior: Drivers and Consequences - Max Planck Society (invited)
@@ -24,6 +30,7 @@ author_profile: true
 - Gender, Environment, and Social Dynamics - CY Cergy Paris University (invited)
 - OECD Brown Bag Lunch Meeting (invited)
 - ifo Christmas Conference
+- Guest Lecture: "_Co-benefits of Substance Abuse Regulation on Temperature and IPV_" - University of Bolgona (invited)
 - ifo Big Data Seminar series 
 - 29th Annual Conference of the European Association of Environmental and Resource Economists
 - CMCC/EIEE Internal Seminar
