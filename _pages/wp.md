@@ -20,7 +20,7 @@ author_profile: true
     - <details>
       <summary>Abstract</summary><p align="justify"> This paper examines the role of positive income shocks in helping workers adapt to extreme temperatures. We use daily temperature variations alongside the exogenous implementation of a wage and fiscal policy in Mexican municipalities along the US border to show that increased disposable income significantly reduces temperature-related mortality in treated areas. Exploring the mechanisms, we find that income gains increase households’ adaptive capacity, particularly through higher electricity expenditures and the purchase of electric heaters. Our findings provide causal estimates of how income influences the marginal effect of temperature on mortality and contribute to the debate on the effectiveness of climate-related redistribution policies. </p></details>
     - <font size = ""> Presented at: LMU Junior Faculty Fall Workshop, 2025 AERE Summer Conference </font> 
-    - <font size = ""> Featured at: [UChicago Adaptation Inventory](https://impactlab.org/adaptation-inventory/), [Stanford Adaptation Atlas](https://adaptationatlas.org/) </font> 
+    - Featured at: [Adaptation Inventory (Climate Impact Lab, UChicago)](https://impactlab.org/adaptation-inventory/), [Adaptation Atlas (Stanford)](https://adaptationatlas.org/)
 
 - **Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions**. <br/> 
 (with J. Fouré, R. Dellink, E. Lanzi) [ [OECD Working Paper](https://www.oecd-ilibrary.org/environment/public-finance-resilience-in-the-transition-towards-carbon-neutrality_7f3275e0-en) ] [ Status: _under Review_ ]
