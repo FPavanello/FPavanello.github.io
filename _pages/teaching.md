@@ -25,10 +25,11 @@ author_profile: true
 **Supervisions**
 - **Master**
   - MSc in Economics @ LMU Munich
-    - 2025: Amrei Schmidt*, Giovanni Remonti*, Lucia Nafziger
+    - 2025: Amrei Schmidt\*, Giovanni Remonti\*, Lucia Nafziger
 
 - **Bachelor**
   - BA in Economics @ LMU Munich
-    - 2025: Johannes Kranz*, Juliane Marie Zwing*
+	- 2026: Florian Huber\*
+    - 2025: Johannes Kranz\*, Juliane Marie Zwing\*
 
   (* indicates main advisor)
