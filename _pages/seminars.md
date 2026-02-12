@@ -8,8 +8,8 @@ author_profile: true
 {% include base_path %}
 
 **2026**
-- Workshop on Climate impacts and adaptation (invited, _scheduled_)
 - 14th IAERE Annual Conference (_scheduled_)
+- Guest Lecture: "_Causal inference of climate change impacts: a case study_" - University of Trieste
 - Guest Lecture: "_Causal inference of climate change impacts_" - University of Padua (invited, _scheduled_)
 
 **2025**
