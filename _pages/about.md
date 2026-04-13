@@ -27,9 +27,12 @@ redirect_from:
 - You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
 
 <ins>Upcoming talks</ins>: 
-- <span style="color: #9e9e9e;"><s>Guest Lecture @ UniPD: "_Causal inference of climate change impacts_" (Padua, 7 Jan)</s></span>
-- <span style="color: #9e9e9e;"><s>Guest Lecture @ UniTS: "_Causal inference of climate change impacts: a case study_" (Trieste, 9 Feb)</s></span>
-- 14th IAERE Annual Conference (Trent, 12-13 Feb)
+- <span style="color: #9e9e9e;"><s>Guest Lecture @ UniPD: "Causal inference of climate change impacts" (Padua, 7 Jan)</s></span>
+- <span style="color: #9e9e9e;"><s>Guest Lecture @ UniTS: "Causal inference of climate change impacts: a case study" (Trieste, 9 Feb)</s></span>
+- <span style="color: #9e9e9e;"><s>14th IAERE Annual Conference (Trent, 12-13 Feb)</s></span>
+- 14th Mannheim Conference on Energy and the Environment (Mannheim, 19-20 May)
+- World Congress of Environmental and Resource Economists (WCERE) (Carcavelos, 29 Jun-3 Jul)
+- "Reducing Climate Mortality Risks", Cambridge University (Cambridge, 27-31 Jul)
 
 <ins>News</ins>: 
 - New publication [**Inequalities in global residential cooling energy use to 2050**](https://www.nature.com/articles/s41467-024-52028-8) (joint with Giacomo Falchetta, Enrica De Cian, and Ian Sue Wing) on _Nature Communications_!

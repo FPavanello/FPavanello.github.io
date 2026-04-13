@@ -7,10 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-**2026**
-- 14th IAERE Annual Conference (_scheduled_)
-- Guest Lecture: "_Causal inference of climate change impacts: a case study_" - University of Trieste
-- Guest Lecture: "_Causal inference of climate change impacts_" - University of Padua (invited, _scheduled_)
+**2026** **(\* scheduled)**
+- "Reducing Climate Mortality Risks" - Cambridge University (invited)*
+- 14th Mannheim Conference on Energy and the Environment*
+- World Congress of Environmental and Resource Economists (WCERE)*
+- 14th IAERE Annual Conference
+- Guest Lecture: "_Causal inference of climate change impacts: a case study_" - University of Trieste (invited)
+- Guest Lecture: "_Causal inference of climate change impacts_" - University of Padua (invited)
 
 **2025**
 
