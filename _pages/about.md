@@ -16,7 +16,7 @@ redirect_from:
 
 - I completed my PhD in Economics at the [**University of Bologna**](https://www.unibo.it/it) in July 2024. My dissertation was awarded the [Best Doctoral Dissertation Award](https://www.eaere.org/best-european-doctoral-dissertation-award/) from the European Association of Environmental and Resource Economists.
 
-- My <strong>current research</strong> relates to <strong>the impacts of climate change and households' adaptation</strong>, particularly in developing economies. Applying micro-econometric methods, I study:
+- My <strong>current research</strong> relates to:
     - the <strong>social costs of warmer temperatures</strong>, especially for health
     - the <strong>adaptation response</strong> of households
     - the <strong>uneven distribution</strong> of both exposure to extreme heat and access to adaptation
