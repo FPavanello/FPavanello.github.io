@@ -35,4 +35,4 @@ redirect_from:
 - "Reducing Climate Mortality Risks", Cambridge University (Cambridge, 27-31 Jul)
 
 <ins>News</ins>: 
-- New publication [**Inequalities in global residential cooling energy use to 2050**](https://www.nature.com/articles/s41467-024-52028-8) (joint with Giacomo Falchetta, Enrica De Cian, and Ian Sue Wing) on _Nature Communications_!
+- Just released a new EconPol article: [Under Strain: International Insights into Electricity Grid Outages](https://www.ifo.de/en/econpol/publications/2026/article-journal/under-strain-international-insights-electricity-grid-outages)!
