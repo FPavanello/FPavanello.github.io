@@ -36,7 +36,7 @@ MSc in Economics, LMU Munich — Spring 2026
 - 2025: Amrei Schmidt\*, Giovanni Remonti\*, Lucia Nafziger
 
 **Bachelor theses**
-- 2026: Florian Huber\*
+- 2026: Selin Özdemir\*
 - 2025: Johannes Kranz\*, Juliane Marie Zwing\*
 
 \* Main advisor

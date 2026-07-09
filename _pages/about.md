@@ -12,7 +12,7 @@ redirect_from:
 
 - I am an **applied environmental economist** with main focus on the **economics of adaptation to climate change**. 
 
-- I am an <span style="color:#990000">**Assistant Professor (non-tenure track)**</span> at the [**ifo Institute**](https://www.ifo.de/en) and [**LMU Munich**](https://www.lmu.de/en/), and a <span style="color:#990000">**member**</span> of the [**CESifo Research network**](https://www.cesifo.org/en).
+- I am an <span style="color:#990000">**Assistant Professor (non-tenured)**</span> at the [**ifo Institute**](https://www.ifo.de/en) and [**LMU Munich**](https://www.lmu.de/en/), and a <span style="color:#990000">**member**</span> of the [**CESifo Research network**](https://www.cesifo.org/en).
 
 - I completed my PhD in Economics at the [**University of Bologna**](https://www.unibo.it/it) in July 2024. My dissertation was awarded the [Best Doctoral Dissertation Award](https://www.eaere.org/best-european-doctoral-dissertation-award/) from the European Association of Environmental and Resource Economists.
 
@@ -30,8 +30,8 @@ redirect_from:
 - <span style="color: #9e9e9e;"><s>Guest Lecture @ UniPD: "Causal inference of climate change impacts" (Padua, 7 Jan)</s></span>
 - <span style="color: #9e9e9e;"><s>Guest Lecture @ UniTS: "Causal inference of climate change impacts: a case study" (Trieste, 9 Feb)</s></span>
 - <span style="color: #9e9e9e;"><s>14th IAERE Annual Conference (Trent, 12-13 Feb)</s></span>
-- 14th Mannheim Conference on Energy and the Environment (Mannheim, 19-20 May)
-- World Congress of Environmental and Resource Economists (WCERE) (Carcavelos, 29 Jun-3 Jul)
+- <span style="color: #9e9e9e;"><s>14th Mannheim Conference on Energy and the Environment (Mannheim, 19-20 May)</s></span>
+- <span style="color: #9e9e9e;"><s>World Congress of Environmental and Resource Economists (WCERE) (Carcavelos, 29 Jun-3 Jul)</s></span>
 - "Reducing Climate Mortality Risks", Cambridge University (Cambridge, 27-31 Jul)
 
 <ins>News</ins>: 
