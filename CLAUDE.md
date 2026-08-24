@@ -58,14 +58,57 @@ removed: `_pages/markdown.md`, `_pages/terms.md`, `_pages/archive-layout-with-co
 
 ## Build notes
 
-- **Ruby, Bundler, Jekyll, and Node are not installed on this machine.** The
-  site cannot be built or served locally. Do not suggest `bundle exec jekyll
-  serve` as a way to preview.
-- To show Filippo how a change will look, build a self-contained static HTML
-  prototype in the scratchpad and publish it as an Artifact.
+- **Ruby, Bundler and Jekyll are not installed on this machine.** The site
+  cannot be built or served locally. Do not suggest `bundle exec jekyll serve`
+  as a way to preview unless Filippo installs Ruby first.
+- **Node is available**, but only via the copy bundled with VS Code:
+  ```
+  ELECTRON_RUN_AS_NODE=1 "C:\Users\Standard\AppData\Local\Programs\Microsoft VS Code\Code.exe" script.js
+  ```
+  Useful for syntax-checking JavaScript. There is no `npm`, so packages
+  cannot be installed. `python` on PATH is a Microsoft Store stub, not a real
+  interpreter.
+- **Claude cannot `git push` from this environment.** The credential helper is
+  Git Credential Manager, which needs a GUI prompt that never appears in a
+  non-interactive shell, so the push hangs and then times out. Commit locally,
+  then ask Filippo to push (he uses GitHub Desktop).
+- Verification runs in CI instead: `.github/workflows/build.yml` builds the
+  site on every branch, checks each expected page exists and is non-empty, and
+  fails if unrendered Liquid reaches the output. Check its result with:
+  ```
+  https://api.github.com/repos/FPavanello/FPavanello.github.io/actions/runs?branch=claude-branch
+  ```
+- To show Filippo how a change will look before it is pushed, build a
+  self-contained static HTML prototype in the scratchpad and publish it as an
+  Artifact.
 - GitHub Pages builds from `master` in safe mode, so only the plugins in the
   `whitelist:` block of `_config.yml` are available. Do not add plugins that
   GitHub Pages does not support.
+- **The theme fights back.** Upstream lays the page out with Susy floats, its
+  nav is `display: table`/`table-cell` (plus "greedy nav" JavaScript that hides
+  links it thinks overflow), and several colours are hardcoded white in
+  `_reset.scss` and `_variables.scss`. `_sass/_ledger.scss` is imported last and
+  overrides all of this. When adding overrides, check the theme's actual
+  `display` value first rather than assuming flexbox.
+
+## Content architecture
+
+Papers and CV entries live in `_data/*.yml`, not in the page bodies:
+
+| File | Feeds |
+|---|---|
+| `_data/publications.yml` | `/publications/` peer-reviewed list |
+| `_data/working_papers.yml` | `/wp/` — `papers:` and `progress:` |
+| `_data/other_work.yml` | policy work and book chapters |
+| `_data/cv.yml` | `/cv/` |
+| `_data/teaching.yml` | `/teaching/` |
+| `_data/talks.yml` | `/seminars/` and homepage upcoming talks |
+| `_data/news.yml` | homepage news |
+
+`_includes/paper.html` renders one paper entry. Figures go in
+`images/papers/` — see the README there. A paper with no `figure:` shows a
+"Figure to come" placeholder of the same size, so adding the image later does
+not shift the layout.
 
 ## Conventions
 
