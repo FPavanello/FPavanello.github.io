@@ -3,7 +3,7 @@ layout: archive
 title: "Curriculum Vitae"
 lede: "A short overview. The full CV is available as a PDF."
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---

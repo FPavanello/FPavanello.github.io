@@ -3,7 +3,7 @@ layout: archive
 title: "Talks & Presentations"
 lede: "Conferences, workshops, seminars and invited lectures."
 permalink: /seminars/
-author_profile: true
+author_profile: false
 redirect_from:
   - /talks/
 ---

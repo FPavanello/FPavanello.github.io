@@ -3,7 +3,7 @@ layout: archive
 title: "Working Papers"
 lede: "Papers under review or in revision, and projects at an earlier stage."
 permalink: /wp/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}

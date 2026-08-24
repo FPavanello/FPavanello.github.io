@@ -146,6 +146,19 @@ strong, b, .em {
   margin-bottom: 0;
 }
 
+/* The profile only appears on About. On every other page the sidebar column
+   is kept but left empty, so the content sits in exactly the same place and
+   does not jump horizontally as you move between pages. */
+#main > .archive:only-child,
+#main > .page:only-child,
+#main > article.page:only-child {
+  grid-column: 2;
+
+  @media (max-width: 880px) {
+    grid-column: 1;
+  }
+}
+
 /* --------------------------------------------------------------------------
    Masthead
    -------------------------------------------------------------------------- */
@@ -207,6 +220,67 @@ strong, b, .em {
       }
     }
   }
+
+  /* Hidden until the links stop fitting on one row. */
+  &__toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    margin-right: -.4rem;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+
+    svg {
+      width: 21px;
+      height: 21px;
+    }
+
+    &:hover {
+      background: var(--surface);
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .lg-mast__toggle {
+    display: inline-flex;
+  }
+
+  .lg-mast__nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding-bottom: .4rem;
+  }
+
+  .lg-mast__inner[data-nav-open="true"] .lg-mast__nav {
+    display: flex;
+  }
+
+  .lg-mast__nav a {
+    padding: .62rem 0;
+    border-bottom: 1px solid var(--hair);
+    font-size: .95rem;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    /* The underline marker does not read as "current" once the links are
+       stacked, so the accent moves to the text itself. */
+    &[aria-current="page"] {
+      color: var(--accent);
+      border-bottom-color: var(--hair);
+    }
+  }
 }
 
 /* --------------------------------------------------------------------------
@@ -261,14 +335,18 @@ strong, b, .em {
 
 .author__urls-wrapper {
   position: static;
-
-  button {
-    display: none;
-  }
 }
 
+/* Only a phone affordance; the list is always open on wider screens. */
+.author__follow {
+  display: none;
+}
+
+/* Shown from this rule onwards; the theme hides the list below its own
+   breakpoint and reveals it above, which is not the behaviour wanted here.
+   Being imported last, this wins without !important. */
 .author__urls {
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   gap: .22rem;
   position: static;
@@ -362,16 +440,58 @@ strong, b, .em {
   .author__urls-wrapper {
     grid-column: 1 / -1;
     margin-top: .9rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .6rem .7rem;
+  }
+
+  /* Collapsed behind the button on a phone: seven stacked links is most of
+     what is above the fold otherwise. */
+  .author__follow {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    font: inherit;
+    font-size: .78rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: .34rem .8rem;
+    border: 1px solid var(--rule);
+    border-radius: 99px;
+    background: transparent;
+    color: var(--ink);
+
+    &::after {
+      content: "\25BE";
+      font-size: .8em;
+      color: var(--faint);
+    }
+
+    &:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+  }
+
+  .author__urls-wrapper[data-links-open="true"] .author__follow::after {
+    content: "\25B4";
   }
 
   .author__urls {
+    display: none;
     flex-direction: row;
     flex-wrap: wrap;
     gap: .2rem .85rem;
+    width: 100%;
+  }
+
+  .author__urls-wrapper[data-links-open="true"] .author__urls {
+    display: flex;
   }
 
   .author__cv {
-    margin-top: .9rem;
+    margin-top: 0;
   }
 }
 

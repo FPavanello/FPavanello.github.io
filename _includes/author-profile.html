@@ -25,7 +25,15 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <ul class="author__urls social-icons">
+
+    {% comment %}
+      On a phone the seven links are collapsed behind this button; it is
+      hidden on wider screens, where the list is always shown.
+    {% endcomment %}
+    <button class="author__follow" type="button"
+            aria-expanded="false" aria-controls="author-links">Contact &amp; links</button>
+
+    <ul class="author__urls social-icons" id="author-links">
 
       {% if author.location %}
         <li>

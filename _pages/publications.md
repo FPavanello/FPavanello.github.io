@@ -3,7 +3,7 @@ layout: archive
 title: "Publications"
 lede: "Peer-reviewed articles, policy reports and book chapters."
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}

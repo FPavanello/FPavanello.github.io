@@ -3,7 +3,7 @@ layout: archive
 title: "Teaching & Supervision"
 lede: "Courses at LMU Munich and Ca' Foscari University of Venice, and supervised theses."
 permalink: /teaching/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
