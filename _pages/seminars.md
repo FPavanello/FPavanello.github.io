@@ -24,9 +24,8 @@ redirect_from:
   <ul class="lg-talks">
     {% for t in year.items %}
       <li>
-        {{ t.title }}{% if t.venue %} <span class="where">— {{ t.venue }}</span>{% endif %}
-        {% if t.invited %}<span class="tag tag--warm">invited</span>{% endif %}
-        {% if t.scheduled %}<span class="tag">scheduled</span>{% endif %}
+        {{ t.title }}{% if t.invited %} <span class="tag tag--warm">invited</span>{% endif %}{% if t.scheduled %} <span class="tag">scheduled</span>{% endif %}
+        {% if t.venue %}<span class="where-line">{{ t.venue }}</span>{% endif %}
       </li>
     {% endfor %}
   </ul>

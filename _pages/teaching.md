@@ -30,7 +30,7 @@ author_profile: true
       <div class="yr">{{ c.term }}</div>
       <div class="what">
         <strong>{{ c.title }}</strong>{% if c.role %} <span class="tag">{{ c.role }}</span>{% endif %}
-        {% if c.where %} <span class="where">— {{ c.where }}</span>{% endif %}
+        {% if c.where %}<span class="where-line">{{ c.where }}</span>{% endif %}
       </div>
     </div>
   {% endfor %}
@@ -45,8 +45,7 @@ author_profile: true
       <div class="yr">{{ s.year }}</div>
       <div class="what">
         <strong>{{ s.student }}</strong>
-        <span class="where">— {{ s.thesis }}</span>
-        <span class="tag{% if s.role == 'main advisor' %} tag--warm{% endif %}">{{ s.role }}</span>
+        <span class="where-line">{{ s.thesis }} <span class="tag{% if s.role == 'main advisor' %} tag--warm{% endif %}">{{ s.role }}</span></span>
       </div>
     </div>
   {% endfor %}

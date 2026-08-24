@@ -71,7 +71,7 @@ redirect_from:
   {% for t in upcoming %}
     <div class="lg-row">
       <div class="yr">{{ t.when }}</div>
-      <div class="what">{{ t.title }}{% if t.venue %} <span class="where">— {{ t.venue }}</span>{% endif %}</div>
+      <div class="what">{{ t.title }}{% if t.venue %}<span class="where-line">{{ t.venue }}</span>{% endif %}</div>
     </div>
   {% endfor %}
 </section>

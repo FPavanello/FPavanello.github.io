@@ -25,20 +25,10 @@
   --shadow:     rgba(0, 0, 0, .45);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper:      #16181b;
-    --surface:    #1c1f23;
-    --ink:        #e6e8ea;
-    --muted:      #99a1a9;
-    --faint:      #79818a;
-    --rule:       #2b2f34;
-    --hair:       #23272b;
-    --accent:     #e58080;
-    --accent-hov: #f09a9a;
-    --shadow:     rgba(0, 0, 0, .7);
-  }
-}
+/* Light is the default for everyone, regardless of the operating system
+   setting: this is a document-like site and it should open on paper.
+   Dark is opt-in through the footer toggle, which stores the choice.
+   (There is deliberately no prefers-color-scheme block here.) */
 
 :root[data-theme="dark"] {
   --paper:      #16181b;
@@ -356,7 +346,16 @@ strong, b, .em {
   font-size: 1.03rem;
   color: var(--muted);
   margin: 0 0 .4rem;
-  max-width: 60ch;
+}
+
+/* A secondary line -- venue, institution, thesis type -- set on its own row
+   under the thing it belongs to, rather than trailing after an em dash.
+   Long institution names wrap badly inline. */
+.where-line {
+  display: block;
+  color: var(--muted);
+  font-size: .9rem;
+  margin-top: .1rem;
 }
 
 .page__content,
@@ -368,7 +367,7 @@ strong, b, .em {
   }
 
   p, li {
-    max-width: 74ch;
+    max-width: none;
   }
 }
 
@@ -400,7 +399,7 @@ strong, b, .em {
 
 .lg-intro p {
   margin: 0 0 .8rem;
-  max-width: 64ch;
+  max-width: none;
 
   &:last-child {
     margin-bottom: 0;
@@ -409,7 +408,7 @@ strong, b, .em {
 
 .lg-leadin {
   margin: 0 0 .85rem;
-  max-width: 64ch;
+  max-width: none;
 }
 
 .lg-themes {
@@ -422,7 +421,7 @@ strong, b, .em {
   li {
     padding-left: 1rem;
     position: relative;
-    max-width: 62ch;
+    max-width: none;
 
     &::before {
       content: "";
