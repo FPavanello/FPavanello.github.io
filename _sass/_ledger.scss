@@ -60,6 +60,10 @@
 html {
   font-size: 16px;
 
+  /* The theme hardcodes a white background here, which shows through as a
+     white band below short pages in dark mode. */
+  background: var(--paper);
+
   @media (min-width: 768px) {
     font-size: 16.5px;
   }
@@ -156,102 +160,62 @@ strong, b, .em {
    Masthead
    -------------------------------------------------------------------------- */
 
-.masthead {
-  border-bottom: 1px solid var(--rule);
-  background: var(--paper);
+.lg-mast {
   position: sticky;
   top: 0;
   z-index: 20;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
 
-  &__inner-wrap {
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .6rem 1.3rem;
     max-width: 1080px;
     margin: 0 auto;
-    padding: 0 clamp(1.1rem, 4vw, 2.6rem);
-    border-bottom: 0;
-    font-family: "Source Sans 3", sans-serif;
+    min-height: 60px;
+    padding: .5rem clamp(1.1rem, 4vw, 2.6rem);
   }
 
-  &__menu {
-    float: none;
-    width: auto;
-  }
-
-  &__menu-item {
-    padding: 0;
-  }
-}
-
-.greedy-nav {
-  background: transparent;
-  min-height: 60px;
-  align-items: center;
-
-  a {
-    color: var(--muted);
-    font-size: .87rem;
-    font-weight: 500;
-    padding: .15rem 0;
-    border-bottom: 2px solid transparent;
+  &__brand {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--ink);
+    text-decoration: none;
+    margin-right: auto;
 
     &:hover {
       color: var(--ink);
+      text-decoration: none;
     }
   }
 
-  .visible-links {
+  &__nav {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 1.3rem;
-
-    li {
-      flex: 0 0 auto;
-
-      &::before {
-        content: none;
-      }
-    }
-
-    /* the site title sits first and reads as the wordmark */
-    .masthead__menu-item--lg {
-      margin-right: auto;
-
-      a {
-        font-family: "Source Serif 4", Georgia, serif;
-        font-weight: 600;
-        font-size: 1.05rem;
-        color: var(--ink);
-        border-bottom: 0;
-      }
-    }
-
-    a.active,
-    a[aria-current="page"] {
-      color: var(--ink);
-      border-bottom-color: var(--accent);
-    }
-  }
-
-  .hidden-links {
-    background: var(--paper);
-    border: 1px solid var(--rule);
-    box-shadow: 0 6px 20px -12px var(--shadow);
+    gap: .4rem 1.3rem;
 
     a {
       color: var(--muted);
-      border-bottom: 0;
-    }
+      font-size: .87rem;
+      font-weight: 500;
+      text-decoration: none;
+      padding: .15rem 0;
+      border-bottom: 2px solid transparent;
 
-    &::before {
-      border-bottom-color: var(--rule);
-    }
+      &:hover {
+        color: var(--ink);
+        text-decoration: none;
+      }
 
-    &::after {
-      border-bottom-color: var(--paper);
+      &[aria-current="page"] {
+        color: var(--ink);
+        border-bottom-color: var(--accent);
+      }
     }
-  }
-
-  button {
-    background: transparent;
-    color: var(--muted);
   }
 }
 
