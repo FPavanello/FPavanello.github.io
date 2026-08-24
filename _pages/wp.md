@@ -21,7 +21,7 @@ author_profile: true
   {% for w in site.data.working_papers.progress %}
     <div class="lg-course">
       <h3>{{ w.title }}</h3>
-      <p>{{ w.authors }}</p>
+      <p>{% include author-list.html authors=w.authors urls=w.coauthor_urls %}</p>
       <p class="term">
         <span class="tag">{{ w.status }}</span>
         {% if w.project %}<span class="tag">{{ w.project }}</span>{% endif %}

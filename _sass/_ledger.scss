@@ -313,6 +313,64 @@ strong, b, .em {
   }
 }
 
+/* On a phone the sidebar stacks above the content, so the full-height
+   profile -- 118px portrait, then seven stacked links, then the CV button --
+   pushed the actual page most of a screen down. Below the breakpoint it
+   becomes a compact header: small portrait beside the name, links on one
+   wrapped row. */
+@media (max-width: 880px) {
+  .sidebar {
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .author__profile {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: .25rem .9rem;
+  }
+
+  .author__avatar {
+    width: 62px;
+    margin: 0;
+    grid-row: span 2;
+
+    img {
+      width: 62px;
+      height: 62px;
+      max-width: 62px;
+    }
+  }
+
+  .author__content {
+    grid-column: 2;
+  }
+
+  .author__name {
+    font-size: 1.08rem;
+  }
+
+  .author__bio {
+    margin: .1rem 0 0;
+  }
+
+  .author__urls-wrapper {
+    grid-column: 1 / -1;
+    margin-top: .9rem;
+  }
+
+  .author__urls {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .35rem 1rem;
+  }
+
+  .author__cv {
+    margin-top: .9rem;
+  }
+}
+
 .author__cv {
   display: inline-block;
   margin-top: 1.15rem;

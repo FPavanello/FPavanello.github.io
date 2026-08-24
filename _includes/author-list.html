@@ -1,0 +1,38 @@
+{%- comment -%}
+  Renders one author string: bolds Filippo's name and turns any co-author with
+  a known homepage into a link.
+
+  Parameters
+    authors — the raw author string from _data
+    urls    — optional per-entry name->URL map, applied before the shared one
+
+  Names come from _data/coauthors.yml so a homepage is recorded once and picked
+  up by publications, working papers and work in progress alike.
+{%- endcomment -%}
+
+{%- assign out = include.authors | replace: site.author_key, site.author_key_bold -%}
+
+{%- if include.urls -%}
+  {%- for c in include.urls -%}
+    {%- if out contains c[0] -%}
+      {%- capture linked %}<a href="{{ c[1] }}">{{ c[0] }}</a>{% endcapture -%}
+      {%- assign out = out | replace: c[0], linked -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- for c in site.data.coauthors -%}
+  {%- comment -%}
+    Skip names already linked above; replacing inside an existing <a> would
+    nest anchors.
+  {%- endcomment -%}
+  {%- capture already %}>{{ c[0] }}</a>{% endcapture -%}
+  {%- unless out contains already -%}
+    {%- if out contains c[0] -%}
+      {%- capture linked %}<a href="{{ c[1] }}">{{ c[0] }}</a>{% endcapture -%}
+      {%- assign out = out | replace: c[0], linked -%}
+    {%- endif -%}
+  {%- endunless -%}
+{%- endfor -%}
+
+{{- out -}}
