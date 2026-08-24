@@ -1,0 +1,864 @@
+/* ==========================================================================
+   LEDGER
+   --------------------------------------------------------------------------
+   The site's own layer, imported last so it wins over the theme.
+
+   The upstream theme (Minimal Mistakes via academicpages) lays the page out
+   with Susy floats. Rather than fight that per-component, this file replaces
+   the two-column shell with CSS Grid and then restyles the pieces on top.
+
+   Colours are CSS custom properties so light and dark share one rule set.
+   The accent (#990000) is reserved for links, the active nav underline and
+   the research bullets. Emphasis elsewhere is ink, not colour.
+   ========================================================================== */
+
+:root {
+  --paper:      #ffffff;
+  --surface:    #f7f8f9;
+  --ink:        #1a1d21;
+  --muted:      #5c646d;
+  --faint:      #878f97;
+  --rule:       #e4e7ea;
+  --hair:       #eef0f2;
+  --accent:     #990000;
+  --accent-hov: #750000;
+  --shadow:     rgba(0, 0, 0, .45);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper:      #16181b;
+    --surface:    #1c1f23;
+    --ink:        #e6e8ea;
+    --muted:      #99a1a9;
+    --faint:      #79818a;
+    --rule:       #2b2f34;
+    --hair:       #23272b;
+    --accent:     #e58080;
+    --accent-hov: #f09a9a;
+    --shadow:     rgba(0, 0, 0, .7);
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper:      #16181b;
+  --surface:    #1c1f23;
+  --ink:        #e6e8ea;
+  --muted:      #99a1a9;
+  --faint:      #79818a;
+  --rule:       #2b2f34;
+  --hair:       #23272b;
+  --accent:     #e58080;
+  --accent-hov: #f09a9a;
+  --shadow:     rgba(0, 0, 0, .7);
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+
+html {
+  font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 16.5px;
+  }
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  line-height: 1.24;
+  text-wrap: balance;
+  color: var(--ink);
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 2px;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-hov);
+  }
+
+  &:visited {
+    color: var(--accent);
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* One emphasis treatment site-wide: ink, semibold. */
+strong, b, .em {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
+   Shell — replace the Susy float grid with CSS Grid
+   -------------------------------------------------------------------------- */
+
+#main {
+  display: grid;
+  grid-template-columns: 224px minmax(0, 1fr);
+  gap: 3.2rem;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.6rem clamp(1.1rem, 4vw, 2.6rem) 4rem;
+  animation: none;
+
+  @media (max-width: 880px) {
+    grid-template-columns: 1fr;
+    gap: 2.2rem;
+  }
+
+  &::before,
+  &::after {
+    content: none;
+  }
+}
+
+/* Neutralise the theme's float/width/margin on the two children. */
+#main > .sidebar,
+#main > .archive,
+#main > .page,
+#main > article.page {
+  float: none;
+  clear: none;
+  width: auto;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#main > .archive,
+#main > .page {
+  margin-bottom: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Masthead
+   -------------------------------------------------------------------------- */
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+
+  &__inner-wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 clamp(1.1rem, 4vw, 2.6rem);
+    border-bottom: 0;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  &__menu {
+    float: none;
+    width: auto;
+  }
+
+  &__menu-item {
+    padding: 0;
+  }
+}
+
+.greedy-nav {
+  background: transparent;
+  min-height: 60px;
+  align-items: center;
+
+  a {
+    color: var(--muted);
+    font-size: .87rem;
+    font-weight: 500;
+    padding: .15rem 0;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      color: var(--ink);
+    }
+  }
+
+  .visible-links {
+    align-items: center;
+    gap: 1.3rem;
+
+    li {
+      flex: 0 0 auto;
+
+      &::before {
+        content: none;
+      }
+    }
+
+    /* the site title sits first and reads as the wordmark */
+    .masthead__menu-item--lg {
+      margin-right: auto;
+
+      a {
+        font-family: "Source Serif 4", Georgia, serif;
+        font-weight: 600;
+        font-size: 1.05rem;
+        color: var(--ink);
+        border-bottom: 0;
+      }
+    }
+
+    a.active,
+    a[aria-current="page"] {
+      color: var(--ink);
+      border-bottom-color: var(--accent);
+    }
+  }
+
+  .hidden-links {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    box-shadow: 0 6px 20px -12px var(--shadow);
+
+    a {
+      color: var(--muted);
+      border-bottom: 0;
+    }
+
+    &::before {
+      border-bottom-color: var(--rule);
+    }
+
+    &::after {
+      border-bottom-color: var(--paper);
+    }
+  }
+
+  button {
+    background: transparent;
+    color: var(--muted);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar / author profile
+   -------------------------------------------------------------------------- */
+
+.sidebar {
+  opacity: 1;
+  font-size: 1rem;
+
+  @media (min-width: 881px) {
+    position: sticky;
+    top: 82px;
+    align-self: start;
+    max-height: none;
+    overflow: visible;
+  }
+
+  p, li {
+    font-family: inherit;
+    font-size: .83rem;
+  }
+}
+
+.author__avatar {
+  display: block;
+  width: 118px;
+  margin-bottom: .9rem;
+
+  img {
+    width: 118px;
+    height: 118px;
+    max-width: 118px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0;
+    padding: 0;
+  }
+}
+
+.author__name {
+  font-size: 1.02rem;
+  margin: 0 0 .2rem;
+}
+
+.author__bio {
+  color: var(--muted);
+  font-size: .82rem;
+  line-height: 1.5;
+  margin: .2rem 0 1.1rem;
+}
+
+.author__urls-wrapper {
+  position: static;
+
+  button {
+    display: none;
+  }
+}
+
+.author__urls {
+  display: flex !important;
+  flex-direction: column;
+  gap: .44rem;
+  position: static;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  font-family: inherit;
+
+  &::before,
+  &::after {
+    content: none;
+  }
+
+  li {
+    padding: 0;
+    white-space: normal;
+  }
+
+  a {
+    color: var(--muted);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: .83rem;
+
+    &:hover {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  }
+
+  .svg-icon {
+    width: 13px;
+    height: 13px;
+    flex: none;
+    opacity: .75;
+    fill: currentColor;
+  }
+}
+
+.author__cv {
+  display: inline-block;
+  margin-top: 1.15rem;
+  font-size: .81rem;
+  font-weight: 600;
+  padding: .42rem .88rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  color: var(--ink);
+  text-decoration: none;
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Page content
+   -------------------------------------------------------------------------- */
+
+.page__title,
+.archive .page__title {
+  font-size: 1.78rem;
+  margin: 0 0 .45rem;
+  border-bottom: 0;
+}
+
+.page__lede {
+  font-size: 1.03rem;
+  color: var(--muted);
+  margin: 0 0 .4rem;
+  max-width: 60ch;
+}
+
+.page__content,
+.archive {
+  font-size: 1rem;
+
+  a {
+    text-decoration: underline;
+  }
+
+  p, li {
+    max-width: 74ch;
+  }
+}
+
+/* Section heading: quiet uppercase label over a hairline. */
+.lg-sec {
+  margin-top: 2.7rem;
+
+  > h2 {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: .73rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--faint);
+    padding-bottom: .4rem;
+    border-bottom: 1px solid var(--rule);
+    margin: 0 0 1.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
+
+  .count {
+    font-weight: 500;
+    letter-spacing: .04em;
+  }
+}
+
+.lg-intro p {
+  margin: 0 0 .8rem;
+  max-width: 64ch;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.lg-leadin {
+  margin: 0 0 .85rem;
+  max-width: 64ch;
+}
+
+.lg-themes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: .5rem;
+
+  li {
+    padding-left: 1rem;
+    position: relative;
+    max-width: 62ch;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: .66em;
+      width: 4px;
+      height: 4px;
+      background: var(--accent);
+      border-radius: 50%;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Year-gutter row — CV, teaching, talks, news all use this
+   -------------------------------------------------------------------------- */
+
+.lg-row {
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  gap: 1.3rem;
+  padding: .62rem 0;
+  border-top: 1px solid var(--hair);
+  align-items: baseline;
+
+  &:first-of-type {
+    border-top: 0;
+  }
+
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+    gap: .15rem;
+  }
+
+  .yr {
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .what {
+    font-size: .96rem;
+    max-width: none;
+  }
+
+  .where {
+    color: var(--muted);
+    font-size: .9rem;
+  }
+
+  p {
+    margin: 0;
+    max-width: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Paper entry — text left, figure right
+   -------------------------------------------------------------------------- */
+
+.lg-paper {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 1.8rem;
+  padding: 1.6rem 0;
+  border-top: 1px solid var(--hair);
+  align-items: start;
+
+  &:first-of-type {
+    border-top: 0;
+  }
+
+  @media (max-width: 720px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  &--nofig {
+    grid-template-columns: 1fr;
+  }
+
+  h3 {
+    font-size: 1.06rem;
+    margin: 0 0 .28rem;
+
+    a {
+      color: var(--ink);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--accent);
+        text-decoration: none;
+      }
+    }
+  }
+
+  p {
+    max-width: none;
+  }
+}
+
+.lg-authors {
+  font-size: .88rem;
+  color: var(--muted);
+  margin: 0 0 .3rem;
+}
+
+.lg-venue {
+  font-size: .85rem;
+  margin: 0;
+
+  em {
+    font-style: italic;
+    color: var(--ink);
+  }
+
+  span.yr {
+    color: var(--muted);
+  }
+}
+
+.lg-note {
+  font-size: .82rem;
+  color: var(--faint);
+  margin: .35rem 0 0;
+}
+
+.lg-links {
+  display: flex;
+  gap: .9rem;
+  flex-wrap: wrap;
+  font-size: .81rem;
+  font-weight: 600;
+  margin-top: .75rem;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.lg-meta {
+  font-size: .78rem;
+  color: var(--faint);
+  margin: .55rem 0 0;
+
+  a {
+    color: var(--faint);
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+/* Figure column. */
+.lg-fig {
+  border-top: 1px solid var(--rule);
+  padding-top: .6rem;
+
+  @media (max-width: 720px) {
+    max-width: 340px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+}
+
+.lg-figcap {
+  font-size: .72rem;
+  line-height: 1.45;
+  color: var(--faint);
+  margin: .45rem 0 0;
+  max-width: none;
+}
+
+/* Shown until a real figure is added. */
+.lg-fig-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 10;
+  background: var(--surface);
+  border: 1px dashed var(--rule);
+  border-radius: 2px;
+  color: var(--faint);
+  font-size: .7rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .5rem;
+}
+
+/* --------------------------------------------------------------------------
+   Courses
+   -------------------------------------------------------------------------- */
+
+.lg-course {
+  padding: .95rem 0;
+  border-top: 1px solid var(--hair);
+
+  &:first-of-type {
+    border-top: 0;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin: 0 0 .2rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: .89rem;
+    color: var(--muted);
+    max-width: none;
+  }
+
+  .term {
+    font-size: .78rem;
+    color: var(--faint);
+    font-weight: 600;
+    letter-spacing: .03em;
+    margin-top: .3rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Markers
+   -------------------------------------------------------------------------- */
+
+.tag {
+  display: inline-block;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+  color: var(--faint);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: .04rem .38rem;
+  vertical-align: .08em;
+  font-family: "Source Sans 3", sans-serif;
+
+  &--warm {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+}
+
+.lg-award {
+  font-size: .83rem;
+  color: var(--accent);
+  margin: .5rem 0 0;
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
+   Abstract disclosure
+   -------------------------------------------------------------------------- */
+
+.lg-abs {
+  margin: .7rem 0 0;
+
+  summary {
+    cursor: pointer;
+    font-size: .79rem;
+    font-weight: 600;
+    color: var(--faint);
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .2rem 0;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "\25B8";
+      font-size: .75em;
+      transition: transform .18s;
+      display: inline-block;
+    }
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  p {
+    font-size: .86rem;
+    line-height: 1.6;
+    color: var(--muted);
+    margin: .45rem 0 0;
+    padding-left: .85rem;
+    border-left: 2px solid var(--rule);
+    max-width: 74ch;
+    text-align: justify;
+    hyphens: auto;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+.page__footer {
+  background: var(--surface);
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  margin-top: 0;
+
+  footer {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 1.5rem clamp(1.1rem, 4vw, 2.6rem);
+  }
+
+  a {
+    color: var(--muted);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+.page__footer-follow {
+  ul {
+    margin: 0 0 .5rem;
+  }
+
+  li {
+    font-size: .78rem;
+    text-transform: none;
+  }
+
+  .social-icons a {
+    color: var(--muted);
+  }
+}
+
+.page__footer-copyright {
+  font-size: .76rem;
+  color: var(--faint);
+  font-family: inherit;
+}
+
+/* Theme switch, injected by assets/js/theme-toggle.js */
+.theme-toggle {
+  font: inherit;
+  font-size: .73rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--muted);
+  padding: .28rem .68rem;
+  border-radius: 99px;
+  margin-top: .6rem;
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Housekeeping
+   -------------------------------------------------------------------------- */
+
+.page__meta,
+.page__share,
+.page__taxonomy {
+  display: none;
+}
+
+/* The theme animates #main in; disable so sticky positioning behaves. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+}

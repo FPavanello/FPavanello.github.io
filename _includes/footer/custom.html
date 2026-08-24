@@ -1,3 +1,37 @@
-<!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
-<!-- end custom footer snippets -->
+{% comment %}
+  Light/dark switch. The preference is stored in localStorage and applied in
+  head.html before first paint, so there is no flash on reload. With no stored
+  preference the page follows the operating system setting.
+{% endcomment %}
+
+<button class="theme-toggle" type="button" data-theme-toggle aria-live="polite">
+  Switch theme
+</button>
+
+<script>
+  (function () {
+    var btn = document.querySelector("[data-theme-toggle]");
+    if (!btn) return;
+
+    var root = document.documentElement;
+
+    function current() {
+      var set = root.getAttribute("data-theme");
+      if (set) return set;
+      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    function label() {
+      btn.textContent = current() === "dark" ? "Light theme" : "Dark theme";
+    }
+
+    btn.addEventListener("click", function () {
+      var next = current() === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+      label();
+    });
+
+    label();
+  })();
+</script>

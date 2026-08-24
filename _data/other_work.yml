@@ -1,0 +1,32 @@
+# Policy work and book chapters, shown below the peer-reviewed list at /publications/.
+
+policy:
+  - title: "Under Strain: International Insights into Electricity Grid Outages"
+    authors: "Adelowo, J., Colelli, F.P., Lang, N., Pavanello, F."
+    year: 2026
+    venue: "EconPol Forum 27 (2)"
+    url: "https://www.ifo.de/en/econpol/publications/2026/article-journal/under-strain-international-insights-electricity-grid-outages"
+
+  - title: "The cost of climate change on households and families in the EU"
+    authors: "Campagnolo, L., De Cian, E., Pavanello, F., Falchetta, G., Colelli, F.P., Mansi, G.A., Bigano, A., Parrado, R., Frassetto, E."
+    year: 2023
+    venue: "European Economic and Social Committee"
+    url: "https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu"
+
+  - title: "Analisi preliminare propedeutica alla \"Strategia regionale di adattamento al cambiamento climatico\": gli impatti socio-economici dei cambiamenti climatici in Veneto"
+    authors: "ARPAV"
+    year: 2023
+    venue: "ARPAV — in Italian"
+
+  - title: "Projected increase in cooling demand to 2050 in C40 cities"
+    authors: "C40 Cities"
+    year: 2023
+    venue: "C40 Knowledge Hub"
+    url: "https://www.c40knowledgehub.org/s/article/Projected-increase-in-cooling-demand-to-2050-in-C40-cities?language=en_US"
+
+chapters:
+  - title: "The Cooling Solution: The future of air-conditioning and its impact on society"
+    authors: "De Cian, E., Squarci, G., Crimi, J., Mazzone, A., Cruz, T., Bezerra, P., Campagnolo, L., Colelli, F.P., Davide, M., Falchetta, G., Jagu, D., Lucena, A.F., Mistry, M., Pavanello, F., Randazzo, T., Renner, S., Schaefer, R. & Sue Wing, I."
+    year: 2023
+    venue: "Book"
+    url: "https://www.thecoolingsolution.com/index.php"

@@ -1,6 +1,7 @@
 ---
 layout: archive
-title: ""
+title: "Curriculum Vitae"
+lede: "A short overview. The full CV is available as a PDF."
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,30 +9,53 @@ redirect_from:
 ---
 
 {% include base_path %}
+{% assign cv = site.data.cv %}
 
-[**Full CV**](https://fpavanello.github.io/files/CV.pdf)
+<p><a class="author__cv" href="{{ site.cv_pdf | prepend: base_path }}">Download full CV (PDF)</a></p>
 
-**Current Position**  
-- 2024-: Assistant Professor (non-tenure track) \(ifo Institute and LMU Munich\)
+<section class="lg-sec">
+  <h2>Current position</h2>
+  {% for r in cv.position %}
+    <div class="lg-row">
+      <div class="yr">{{ r.years }}</div>
+      <div class="what"><strong>{{ r.what }}</strong>{% if r.where %} <span class="where">— {{ r.where }}</span>{% endif %}</div>
+    </div>
+  {% endfor %}
+</section>
 
+<section class="lg-sec">
+  <h2>Education</h2>
+  {% for r in cv.education %}
+    <div class="lg-row">
+      <div class="yr">{{ r.years }}</div>
+      <div class="what">
+        <strong>{{ r.what }}</strong>{% if r.where %} <span class="where">— {{ r.where }}</span>{% endif %}
+        {% if r.note %}<p class="lg-note">{{ r.note }}</p>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</section>
 
-**Affilations**  
-- ifo Institute
-- LMU Munich
-- CESifo Research Network
-- Euro-mediterranean Centre for Climate Change (CMCC)
-- Ca' Foscari University of Venice
-- RFF-CMCC European Institute on Economics and the Environment
+<section class="lg-sec">
+  <h2>Previous positions</h2>
+  {% for r in cv.past %}
+    <div class="lg-row">
+      <div class="yr">{{ r.years }}</div>
+      <div class="what"><strong>{{ r.what }}</strong>{% if r.where %} <span class="where">— {{ r.where }}</span>{% endif %}</div>
+    </div>
+  {% endfor %}
+</section>
 
-
-**Education**  
-- 2019: PhD in Economics \(University of Bologna\)
-- 2018: MSc in Economics \(Ca' Foscari University of Venice\)
-- 2016: BA in Economics and Trade \(Ca' Foscari University of Venice\)
-
-
-**Past Positions**  
-- 2024: Postdoctoral researcher \(Parthenope University of Naples\)
-- 2023: Visiting student \(Boston University\)
-- 2021-2022: Research intern \(Organisation for Economic Co-operation and Development - OECD\)
-- 2019: Research assistant \(Ca' Foscari University of Venice\)
+<section class="lg-sec">
+  <h2>Grants &amp; research projects</h2>
+  {% for r in cv.funding %}
+    <div class="lg-row">
+      <div class="yr">{{ r.years }}</div>
+      <div class="what">
+        <strong>{{ r.what }}</strong>{% if r.amount %} — {{ r.amount }}{% endif %}
+        {% if r.role %}<span class="tag{% if r.role contains 'PI' %} tag--warm{% endif %}">{{ r.role }}</span>{% endif %}
+        {% if r.where %} <span class="where">— {{ r.where }}</span>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</section>

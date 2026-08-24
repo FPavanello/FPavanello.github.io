@@ -1,0 +1,66 @@
+name: Build site
+
+# Verifies that the site still builds. GitHub Pages only reports build
+# failures for the branch it publishes, so this runs on every branch and
+# catches Liquid/YAML mistakes before they reach master.
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build with Jekyll
+        # --strict_front_matter fails on malformed front matter rather than
+        # silently skipping the page. JEKYLL_ENV=production so the output
+        # matches what GitHub Pages publishes.
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --strict_front_matter --trace
+
+      - name: Check the pages that should exist actually do
+        run: |
+          set -e
+          for page in \
+            "_site/index.html" \
+            "_site/publications/index.html" \
+            "_site/wp/index.html" \
+            "_site/cv/index.html" \
+            "_site/teaching/index.html" \
+            "_site/seminars/index.html" \
+            "_site/assets/css/main.css"
+          do
+            if [ ! -s "$page" ]; then
+              echo "::error::missing or empty: $page"
+              exit 1
+            fi
+            echo "ok: $page"
+          done
+
+      - name: Check no Liquid tags leaked into the output
+        run: |
+          if grep -rlE '\{\{|\{%' _site --include="*.html"; then
+            echo "::error::unrendered Liquid found in the build output"
+            exit 1
+          fi
+          echo "ok: no unrendered Liquid"
+
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
+          retention-days: 14

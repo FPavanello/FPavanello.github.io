@@ -1,40 +1,78 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Filippo Pavanello"
+lede: "I am an applied environmental economist with a main focus on the economics of adaptation to climate change."
+layout: archive
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-**Welcome to my personal website!** 
+{% include base_path %}
 
-- I am an **applied environmental economist** with main focus on the **economics of adaptation to climate change**. 
+<section class="lg-sec">
+  <h2>Introduction</h2>
+  <div class="lg-intro">
+    <p>
+      I am an <strong>Assistant Professor (non-tenured)</strong> at the
+      <a href="https://www.ifo.de/en">ifo Institute</a> and
+      <a href="https://www.lmu.de/en/">LMU Munich</a>, and a <strong>member</strong> of the
+      <a href="https://www.cesifo.org/en">CESifo Research Network</a>.
+    </p>
+    <p>
+      I completed my PhD in Economics at the
+      <a href="https://www.unibo.it/it">University of Bologna</a> in July 2024. My dissertation
+      was awarded the
+      <a href="https://www.eaere.org/best-european-doctoral-dissertation-award/">Best Doctoral Dissertation Award</a>
+      from the European Association of Environmental and Resource Economists.
+    </p>
+    <p>
+      I am also a research affiliate at the <a href="https://www.cmcc.it/">CMCC</a>,
+      <a href="https://www.eiee.org/">EIEE</a>, and
+      <a href="https://www.unive.it/">Ca' Foscari University of Venice</a>.
+    </p>
+  </div>
+</section>
 
-- I am an <span style="color:#990000">**Assistant Professor (non-tenured)**</span> at the [**ifo Institute**](https://www.ifo.de/en) and [**LMU Munich**](https://www.lmu.de/en/), and a <span style="color:#990000">**member**</span> of the [**CESifo Research network**](https://www.cesifo.org/en).
+<section class="lg-sec">
+  <h2>Research</h2>
+  <p class="lg-leadin">My current research relates to:</p>
+  <ul class="lg-themes">
+    <li>the <strong>social costs of warmer temperatures</strong>, especially for health</li>
+    <li>the <strong>adaptation response</strong> of households</li>
+    <li>the <strong>uneven distribution</strong> of exposure to extreme heat and of access to adaptation</li>
+    <li>the <strong>(unintended) effects of public policies</strong> on how socio-economic outcomes respond to temperature</li>
+  </ul>
+</section>
 
-- I completed my PhD in Economics at the [**University of Bologna**](https://www.unibo.it/it) in July 2024. My dissertation was awarded the [Best Doctoral Dissertation Award](https://www.eaere.org/best-european-doctoral-dissertation-award/) from the European Association of Environmental and Resource Economists.
+{% if site.data.news and site.data.news.size > 0 %}
+<section class="lg-sec">
+  <h2>News</h2>
+  {% for item in site.data.news %}
+    <div class="lg-row">
+      <div class="yr">{{ item.date }}</div>
+      <div class="what">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}</div>
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
 
-- My <strong>current research</strong> relates to:
-    - the <strong>social costs of warmer temperatures</strong>, especially for health
-    - the <strong>adaptation response</strong> of households
-    - the <strong>uneven distribution</strong> of both exposure to extreme heat and access to adaptation
-    - the <strong>(unintended) effects of public policies</strong> on the relationship between socio-economic outcomes and temperature exposure
+{% comment %} Upcoming talks are pulled from _data/talks.yml — anything flagged `scheduled`. {% endcomment %}
+{% assign upcoming = "" | split: "" %}
+{% for year in site.data.talks %}
+  {% assign scheduled = year.items | where: "scheduled", true %}
+  {% assign upcoming = upcoming | concat: scheduled %}
+{% endfor %}
 
-- I am also a research affiliate at the [**CMCC**](https://www.cmcc.it/), [**EIEE**](https://www.eiee.org/), and [**Ca' Foscari University of Venice**](https://www.unive.it/).
-
-- You can find my **full CV** [here](https://fpavanello.github.io/files/CV.pdf). <br/><br/>
-
-<ins>Upcoming talks</ins>: 
-- <span style="color: #9e9e9e;"><s>Guest Lecture @ UniPD: "Causal inference of climate change impacts" (Padua, 7 Jan)</s></span>
-- <span style="color: #9e9e9e;"><s>Guest Lecture @ UniTS: "Causal inference of climate change impacts: a case study" (Trieste, 9 Feb)</s></span>
-- <span style="color: #9e9e9e;"><s>14th IAERE Annual Conference (Trent, 12-13 Feb)</s></span>
-- <span style="color: #9e9e9e;"><s>14th Mannheim Conference on Energy and the Environment (Mannheim, 19-20 May)</s></span>
-- <span style="color: #9e9e9e;"><s>World Congress of Environmental and Resource Economists (WCERE) (Carcavelos, 29 Jun-3 Jul)</s></span>
-- <span style="color: #9e9e9e;"><s>"Reducing Climate Mortality Risks", Cambridge University (Cambridge, 27-31 Jul)</s></span>
-
-<ins>News</ins>: 
-- April '26: Just released a new EconPol article: [Under Strain: International Insights into Electricity Grid Outages](https://www.ifo.de/en/econpol/publications/2026/article-journal/under-strain-international-insights-electricity-grid-outages)
-- August '26: Just accepted "_Emergency Departments Visits and Temperature: Evidence from Mexico_" (with Luis Sarmiento and Francesco Colleli) at Journal of Economic Behaviour and Organization!
-- August '26: New funding "_Adapting to Climate Change: The Role of Local Public Finances_" (119,000 EUR), with Jacqueline Adelowo, Nicola Garbarino, Jasmin Vietz
+{% if upcoming.size > 0 %}
+<section class="lg-sec">
+  <h2>Upcoming talks</h2>
+  {% for t in upcoming %}
+    <div class="lg-row">
+      <div class="yr">{{ t.when }}</div>
+      <div class="what">{{ t.title }}{% if t.venue %} <span class="where">— {{ t.venue }}</span>{% endif %}</div>
+    </div>
+  {% endfor %}
+</section>
+{% endif %}

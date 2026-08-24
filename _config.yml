@@ -10,10 +10,16 @@ locale                   : "en-US"
 title                    : "Filippo Pavanello"
 title_separator          : "-"
 name                     : &name "Filippo Pavanello"
-description              : &description "Postdoctoral researcher at the ifo Institute"
+description              : &description "Assistant Professor at the ifo Institute and LMU Munich"
 url                      : https://fpavanello.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "FPavanello/FPavanello.github.io"
+
+# Used by _includes/author-profile.html and _pages/cv.md
+cv_pdf                   : "/files/CV.pdf"
+# author_key is bolded wherever it appears in an author list
+author_key               : "Pavanello, F."
+author_key_bold          : "<strong>Pavanello, F.</strong>"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +63,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "filpavanello"
 facebook:
   username               :
   app_id                 :
@@ -73,7 +79,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -82,8 +88,8 @@ analytics:
 author:
   name             : "Filippo Pavanello"
   avatar           : "profile_new.jpg"
-  bio              : "AP (non-tenured) @ ifo Institute and LMU Munich"
-  location         : "Munich"
+  bio              : "Assistant Professor (non-tenured), ifo Institute & LMU Munich"
+  location         : "Munich, Germany"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.it/citations?user=d-3MRWsAAAAJ&hl=it&oi=ao"
@@ -255,7 +261,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
