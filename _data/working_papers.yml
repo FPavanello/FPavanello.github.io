@@ -33,11 +33,35 @@ papers:
       - label: "RFF working paper"
         url: "https://www.rff.org/publications/working-papers/emergency-department-visits-and-temperature-evidence-from-mexico/"
 
+  - title: "Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions scenario"
+    authors: "with J. Fouré, R. Dellink, E. Lanzi"
+    status: "R&R, Energy Policy (resubmitted)"
+    figure:
+    figure_alt: "Net-zero emissions pathway and public revenue effects from the ENV-Linkages model"
+    figure_caption: "ENV-Linkages: the net-zero pathway and its public revenue consequences."
+    abstract: >-
+      This paper presents a detailed economic modelling analysis of public finance in the transition
+      towards carbon neutrality. It outlines results from a Net-Zero Emission Ambition scenario, which
+      reflects the ambition to achieve net-zero carbon dioxide emissions globally by mid-century, using
+      a broad and region-specific policy package that combines various policy instruments: carbon
+      pricing, removal of fossil fuel support, regulations in the power sector, and other policies that
+      stimulate investments by firms and households to reduce and decarbonise energy use. The analysis
+      relies on the OECD global computable general equilibrium ENV-Linkages model. Results show that
+      transitioning towards carbon neutrality is feasible when considering economic and fiscal
+      consequences. The scenario achieves carbon neutrality while maintaining continued economic
+      growth, despite a limited negative impact on global GDP and on public revenues.
+    links:
+      - label: "OECD working paper"
+        url: "https://www.oecd-ilibrary.org/environment/public-finance-resilience-in-the-transition-towards-carbon-neutrality_7f3275e0-en"
+    media:
+      - label: "Financial Times"
+        url: "https://t.co/aip0DwlWXv"
+
   - title: "Adaptation technology choice and implications for heat-related health risk"
     authors: "with I. Sue Wing"
     coauthor_urls:
       "I. Sue Wing": "https://people.bu.edu/isw/"
-    status: "R&R, JAERE"
+    status: "R&R, Journal of the Association of Environmental and Resource Economists"
     note: "An earlier version circulated as \"Adapting to Heat Extremes with Unequal Access to Cooling: Evidence from India\"."
     figure:
     figure_alt: "Heat-mortality response in India by cooling technology"
@@ -62,6 +86,37 @@ papers:
         url: "/files/fp_jmp.pdf"
       - label: "Code"
         url: "https://github.com/FPavanello/india_cooling"
+
+  - title: "Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market"
+    authors: "with L. Sarmiento, M. Gilli, S. Shayegh"
+    coauthor_urls:
+      "L. Sarmiento": "https://www.luissarmiento.com/"
+      "M. Gilli": "https://martinogilli.netlify.app/"
+      "S. Shayegh": "https://www.soheilsh.com/"
+    status: "Reject & resubmit, Journal of the Association of Environmental and Resource Economists"
+    figure:
+    figure_alt: "Effect of a minimum wage shock on temperature-related mortality in Mexico"
+    figure_caption: "A minimum-wage shock along the US border reduces temperature-related mortality."
+    abstract: >-
+      This paper examines the role of positive income shocks in helping workers adapt to extreme
+      temperatures. We use daily temperature variations alongside the exogenous implementation of a
+      wage and fiscal policy in Mexican municipalities along the US border to show that increased
+      disposable income significantly reduces temperature-related mortality in treated areas.
+      Exploring the mechanisms, we find that income gains increase households' adaptive capacity,
+      particularly through higher electricity expenditures and the purchase of electric heaters. Our
+      findings provide causal estimates of how income influences the marginal effect of temperature
+      on mortality and contribute to the debate on the effectiveness of climate-related
+      redistribution policies.
+    links:
+      - label: "Draft"
+        url: "/files/mto.pdf"
+      - label: "CESifo working paper"
+        url: "https://www.cesifo.org/en/publications/2024/working-paper/income-shocks-adaptation-and-temperature-related-mortality-evidence"
+    featured:
+      - label: "Adaptation Inventory (Climate Impact Lab — UChicago)"
+        url: "https://impactlab.org/adaptation-inventory/"
+      - label: "Adaptation Atlas (Stanford)"
+        url: "https://adaptationatlas.org/"
 
   - title: "Co-benefits of Substance Abuse Regulation on Temperature and Violent Crime"
     authors: "with G. Zappalà"
@@ -125,61 +180,6 @@ papers:
       - label: "Adaptation Atlas (Stanford)"
         url: "https://adaptationatlas.org/"
 
-  - title: "Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market"
-    authors: "with L. Sarmiento, M. Gilli, S. Shayegh"
-    coauthor_urls:
-      "L. Sarmiento": "https://www.luissarmiento.com/"
-      "M. Gilli": "https://martinogilli.netlify.app/"
-      "S. Shayegh": "https://www.soheilsh.com/"
-    status: "Reject & resubmit, JAERE"
-    figure:
-    figure_alt: "Effect of a minimum wage shock on temperature-related mortality in Mexico"
-    figure_caption: "A minimum-wage shock along the US border reduces temperature-related mortality."
-    abstract: >-
-      This paper examines the role of positive income shocks in helping workers adapt to extreme
-      temperatures. We use daily temperature variations alongside the exogenous implementation of a
-      wage and fiscal policy in Mexican municipalities along the US border to show that increased
-      disposable income significantly reduces temperature-related mortality in treated areas.
-      Exploring the mechanisms, we find that income gains increase households' adaptive capacity,
-      particularly through higher electricity expenditures and the purchase of electric heaters. Our
-      findings provide causal estimates of how income influences the marginal effect of temperature
-      on mortality and contribute to the debate on the effectiveness of climate-related
-      redistribution policies.
-    links:
-      - label: "Draft"
-        url: "/files/mto.pdf"
-      - label: "CESifo working paper"
-        url: "https://www.cesifo.org/en/publications/2024/working-paper/income-shocks-adaptation-and-temperature-related-mortality-evidence"
-    featured:
-      - label: "Adaptation Inventory (Climate Impact Lab — UChicago)"
-        url: "https://impactlab.org/adaptation-inventory/"
-      - label: "Adaptation Atlas (Stanford)"
-        url: "https://adaptationatlas.org/"
-
-  - title: "Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions scenario"
-    authors: "with J. Fouré, R. Dellink, E. Lanzi"
-    status: "R&R, Energy Policy"
-    figure:
-    figure_alt: "Net-zero emissions pathway and public revenue effects from the ENV-Linkages model"
-    figure_caption: "ENV-Linkages: the net-zero pathway and its public revenue consequences."
-    abstract: >-
-      This paper presents a detailed economic modelling analysis of public finance in the transition
-      towards carbon neutrality. It outlines results from a Net-Zero Emission Ambition scenario, which
-      reflects the ambition to achieve net-zero carbon dioxide emissions globally by mid-century, using
-      a broad and region-specific policy package that combines various policy instruments: carbon
-      pricing, removal of fossil fuel support, regulations in the power sector, and other policies that
-      stimulate investments by firms and households to reduce and decarbonise energy use. The analysis
-      relies on the OECD global computable general equilibrium ENV-Linkages model. Results show that
-      transitioning towards carbon neutrality is feasible when considering economic and fiscal
-      consequences. The scenario achieves carbon neutrality while maintaining continued economic
-      growth, despite a limited negative impact on global GDP and on public revenues.
-    links:
-      - label: "OECD working paper"
-        url: "https://www.oecd-ilibrary.org/environment/public-finance-resilience-in-the-transition-towards-carbon-neutrality_7f3275e0-en"
-    media:
-      - label: "Financial Times"
-        url: "https://t.co/aip0DwlWXv"
-
   - title: "Temperature Extremes and Local Power Distribution: From Mechanisms to Health Impacts"
     authors: "with F.P. Colelli, L. Sarmiento"
     coauthor_urls:
@@ -215,7 +215,7 @@ progress:
 
   - title: "The (long-term) consequences of austerity policy on the mortality and temperature relationship: Evidence from Italy"
     authors: "with G. Valenti, G. Zappalà"
-    status: "Draft available soon"
+    status: "Analysis stage"
 
   - title: "Temperature and global electricity load response"
     authors: "with F.P. Colelli, F. Zaramella"
@@ -223,7 +223,7 @@ progress:
 
   - title: "Does social identity influence adaptation to hot temperatures?"
     authors: "with E. De Cian, T. Randazzo"
-    status: "Draft available soon"
+    status: "Analysis stage"
     project: "PRICE — PRIN 2022"
 
   - title: "Firms' climate expectations and adaptation"

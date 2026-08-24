@@ -40,7 +40,7 @@ past:
 
 # role: "main advisor" or "co-supervisor"
 supervision:
-  - year: "exp. 2026"
+  - year: "2026"
     student: "Selin Özdemir"
     thesis: "Bachelor thesis"
     role: "main advisor"
