@@ -81,6 +81,37 @@ jobs:
           fi
           echo "ok: no unrendered Liquid"
 
+      - name: Every referenced figure must exist
+        # A `figure:` naming a file that was never added renders a broken
+        # image rather than the "Figure to come" placeholder. Leave the field
+        # empty until the PNG is in images/papers/.
+        run: |
+          status=0
+          figures=$(grep -h '^[[:space:]]*figure:[[:space:]]*[^[:space:]]' _data/*.yml \
+                    | sed 's/.*figure:[[:space:]]*//' | tr -d '"' || true)
+          for f in $figures; do
+            if [ ! -f "images/papers/$f" ]; then
+              echo "::error::_data references images/papers/$f, which does not exist"
+              status=1
+            else
+              echo "ok: images/papers/$f"
+            fi
+          done
+          [ -z "$figures" ] && echo "no figures referenced yet"
+          exit $status
+
+      - name: Assets must not be hardcoded to the production host
+        # base_path is root-relative so the site works on preview deploys and
+        # locally. An absolute https://fpavanello.github.io/assets/... URL
+        # means a branch preview would silently load the live site's CSS.
+        run: |
+          if grep -rlE '(href|src)="https://fpavanello\.github\.io/(assets|images)/' \
+               _site --include="*.html"; then
+            echo "::error::internal asset uses an absolute production URL; use base_path"
+            exit 1
+          fi
+          echo "ok: assets are host-relative"
+
       - name: Upload built site
         uses: actions/upload-artifact@v4
         with:

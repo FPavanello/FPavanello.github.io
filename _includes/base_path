@@ -1,5 +1,18 @@
-{% if site.url %}
-  {% assign base_path = site.url | append: site.baseurl %}
-{% else %}
-  {% assign base_path = site.github.url %}
-{% endif %}
+{% comment %}
+  Root-relative, deliberately.
+
+  This used to be `site.url | append: site.baseurl`, i.e. an absolute
+  https://fpavanello.github.io/... prefix on every internal link, stylesheet
+  and image. That breaks any deployment served from another hostname: a
+  Cloudflare Pages preview would render the new HTML while pulling the *live*
+  site's CSS and images, so the branch looked broken no matter what it
+  contained. It also made local `jekyll serve` load production assets.
+
+  site.baseurl is "" for a user site, so this yields paths like
+  /assets/css/main.css, which resolve correctly on production, on preview
+  deployments, and locally.
+
+  Absolute URLs are still correct for canonical/Open Graph tags -- those are
+  built separately from site.url in _includes/seo.html and are unaffected.
+{% endcomment %}
+{% assign base_path = site.baseurl %}

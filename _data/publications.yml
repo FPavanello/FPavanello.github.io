@@ -15,7 +15,7 @@
   year: 2025
   venue: "Journal of Environmental Economics and Management"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S0095069625000063"
-  figure: "acglobal.png"
+  figure:
   figure_alt: "Projected global residential cooling electricity demand to 2050"
   figure_caption: "Projected global residential cooling electricity reaches 976–1393 TWh by 2050."
   abstract: >-
@@ -59,7 +59,7 @@
   year: 2024
   venue: "Nature Communications"
   url: "https://www.nature.com/articles/s41467-024-52028-8"
-  figure: "ggacene.png"
+  figure:
   figure_alt: "Gridded projections of air conditioning adoption worldwide to 2050"
   figure_caption: "Gridded AC adoption to 2050; up to 4 billion people may still lack cooling."
   abstract: >-
