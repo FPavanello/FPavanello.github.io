@@ -270,7 +270,7 @@ strong, b, .em {
 .author__urls {
   display: flex !important;
   flex-direction: column;
-  gap: .44rem;
+  gap: .22rem;
   position: static;
   width: auto;
   margin: 0;
@@ -290,23 +290,27 @@ strong, b, .em {
     white-space: normal;
   }
 
-  a {
+  /* The links are a reference list, not body copy: smaller and set tight,
+     so the whole block reads as one unit rather than seven paragraphs. */
+  a,
+  li > span {
     color: var(--muted);
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    gap: .5rem;
-    font-size: .83rem;
+    gap: .45rem;
+    font-size: .76rem;
+    line-height: 1.35;
+  }
 
-    &:hover {
-      color: var(--accent);
-      text-decoration: none;
-    }
+  a:hover {
+    color: var(--accent);
+    text-decoration: none;
   }
 
   .svg-icon {
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
     flex: none;
     opacity: .75;
     fill: currentColor;
@@ -363,7 +367,7 @@ strong, b, .em {
   .author__urls {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: .35rem 1rem;
+    gap: .2rem .85rem;
   }
 
   .author__cv {
