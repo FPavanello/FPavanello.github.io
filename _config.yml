@@ -15,6 +15,14 @@ url                      : https://fpavanello.github.io # the base hostname & pr
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "FPavanello/FPavanello.github.io"
 
+# The github-pages gem defaults `theme` to jekyll-theme-primer when none is
+# set. This site has its own _layouts, _includes and _sass, so primer is never
+# used -- but it still ships an assets/css/style.scss that gets compiled, and
+# its Sass contains non-ASCII characters. Under a C/POSIX locale (Cloudflare
+# Pages' build container) Ruby Sass reads files as US-ASCII and the build dies
+# on a theme we do not use. Setting this to null drops primer entirely.
+theme                    : null
+
 # Used by _includes/author-profile.html and _pages/cv.md
 cv_pdf                   : "/files/CV.pdf"
 # author_key is bolded wherever it appears in an author list
