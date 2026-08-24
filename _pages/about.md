@@ -32,7 +32,9 @@ redirect_from:
 - <span style="color: #9e9e9e;"><s>14th IAERE Annual Conference (Trent, 12-13 Feb)</s></span>
 - <span style="color: #9e9e9e;"><s>14th Mannheim Conference on Energy and the Environment (Mannheim, 19-20 May)</s></span>
 - <span style="color: #9e9e9e;"><s>World Congress of Environmental and Resource Economists (WCERE) (Carcavelos, 29 Jun-3 Jul)</s></span>
-- "Reducing Climate Mortality Risks", Cambridge University (Cambridge, 27-31 Jul)
+- <span style="color: #9e9e9e;"><s>"Reducing Climate Mortality Risks", Cambridge University (Cambridge, 27-31 Jul)</s></span>
 
 <ins>News</ins>: 
-- Just released a new EconPol article: [Under Strain: International Insights into Electricity Grid Outages](https://www.ifo.de/en/econpol/publications/2026/article-journal/under-strain-international-insights-electricity-grid-outages)!
+- April '26: Just released a new EconPol article: [Under Strain: International Insights into Electricity Grid Outages](https://www.ifo.de/en/econpol/publications/2026/article-journal/under-strain-international-insights-electricity-grid-outages)
+- August '26: Just accepted "_Emergency Departments Visits and Temperature: Evidence from Mexico_" (with Luis Sarmiento and Francesco Colleli) at Journal of Economic Behaviour and Organization!
+- August '26: New funding "_Adapting to Climate Change: The Role of Local Public Finances_" (119,000 EUR), with Jacqueline Adelowo, Nicola Garbarino, Jasmin Vietz
