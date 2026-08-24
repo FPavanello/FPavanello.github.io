@@ -15,18 +15,18 @@ papers:
     figure_alt: "Distributed lag estimates of temperature on emergency department visits"
     figure_caption: "Distributed-lag estimates: cold cuts visits by up to 16.3% over 30 days."
     abstract: >-
-      This paper estimates the impact of temperatures on emergency department visits using daily
-      data from the universe of public hospitals in Mexico from 2008 to 2022. We find that cold
-      temperatures decrease visits by up to 8.9% on the same day, while warm temperatures increase
-      visits by as much as 3.6%. Using distributed lag models, we then show that cold temperatures
-      can reduce visits for the next 30 days by up to 16.3%. For warm temperatures, contemporaneous
-      and cumulative effects are similar (limited harvesting). These findings suggest that, unlike
-      mortality, temperatures affect the demand for emergency services linearly. Leveraging the
-      granularity of our dataset, we also document significant heterogeneities (e.g., higher
-      sensitivity for children and teenagers) and relevant mechanisms like ecosystem dynamics and
-      behavioral changes. Finally, we project that temperature-driven annual emergency department
-      visits will increase by 0.24% by mid-century, resulting in an estimated increase of 92 million
-      USD in annual medical expenditures in Mexico.
+      We estimate the impact of temperatures on emergency department visits using daily data 
+      from the universe of public hospitals in Mexico from 2008 to 2021. We find that cold 
+      temperatures decrease visits by up to 9.1 percent on the same day, and warm temperatures 
+      increase visits by as much as 3.7 percent. Using distributed lag models, we then show that 
+      cold temperatures can reduce visits for the next 30 days by up to 16 percent. For warm temperatures, 
+      contemporaneous and cumulative effects are similar (limited harvesting). These findings suggest that, 
+      unlike mortality, temperatures affect the demand for emergency services linearly. Leveraging 
+      the granularity of our dataset, we also document significant heterogeneities (e.g., higher sensitivity 
+      for children and teenagers) and provide suggestive evidence about mechanisms, such as ecosystem dynamics 
+      and behavioral changes. Finally, we project that—absent adaptation—temperature-driven 
+      annual emergency department visits might increase by 0.35 percent by midcentury, resulting in an estimated 
+      increase of 8.5 million USD in annual medical expenditures in Mexico.
     links:
       - label: "Draft"
         url: "/files/lsfcfp_tmpmorbidity.pdf"
