@@ -81,7 +81,7 @@
     - label: "Working paper"
       url: "https://www.researchsquare.com/article/rs-3441530/v1"
     - label: "Slides"
-      url: "https://fpavanello.github.io/files/acglobalgrid_slides.pdf"
+      url: "/files/acglobalgrid_slides.pdf"
     - label: "Code"
       url: "https://github.com/giacfalk/ggACene"
     - label: "Gridded data"
@@ -111,7 +111,7 @@
     air-conditioning.
   links:
     - label: "Working paper"
-      url: "https://fpavanello.github.io/files/Randazzo_et_al_WP.pdf"
+      url: "/files/Randazzo_et_al_WP.pdf"
 
 - title: "Air-conditioning and the adaptation cooling deficit in emerging economies"
   authors: "Pavanello, F., De Cian, E., Davide, M., Mistry, M., Cruz, T., Bezerra, P., Jagu, D., Renner, S., Schaeffer, R. & Lucena, A.F."
@@ -155,7 +155,7 @@
   authors: "De Cian, E., Pavanello, F., Randazzo, T., Mistry, M.N., Davide, M."
   year: 2019
   venue: "Environmental Science & Policy"
-  url: "https://fpavanello.github.io/files/De_Cian_et_al_2019.pdf"
+  url: "/files/De_Cian_et_al_2019.pdf"
   figure:
   figure_alt: "Adoption response to cumulative hot and cold days across eight OECD countries"
   figure_caption: "Adoption response to cumulative hot and cold days across eight OECD countries."
@@ -173,7 +173,7 @@
     building thermal insulation.
   links:
     - label: "Working paper"
-      url: "https://fpavanello.github.io/files/De_Cian_et_al_WP.pdf"
+      url: "/files/De_Cian_et_al_WP.pdf"
     - label: "Interview (SBS.au)"
       url: "https://www.sbs.com.au/language/italian/audio/l-impatto-dei-condizionatori-sul-cambiamento-climatico"
   media:

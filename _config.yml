@@ -137,6 +137,16 @@ include:
   - _pages
   - files
 exclude:
+  # The github-pages gem bundles jekyll-optional-front-matter, which renders
+  # any markdown file without front matter as a page. That published the
+  # repo's own docs at /CLAUDE.html, /README.html and so on, and listed them
+  # in the sitemap. The bare "CHANGELOG"/"README" entries further down predate
+  # that plugin and never matched the real filenames.
+  - CLAUDE.md
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - images/papers/README.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

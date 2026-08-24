@@ -29,7 +29,7 @@ papers:
       USD in annual medical expenditures in Mexico.
     links:
       - label: "Draft"
-        url: "https://fpavanello.github.io/files/lsfcfp_tmpmorbidity.pdf"
+        url: "/files/lsfcfp_tmpmorbidity.pdf"
       - label: "RFF working paper"
         url: "https://www.rff.org/publications/working-papers/emergency-department-visits-and-temperature-evidence-from-mexico/"
 
@@ -55,11 +55,11 @@ papers:
       for much of the year, and the small amount of indoor temperature reduction they provide.
     links:
       - label: "Draft"
-        url: "https://fpavanello.github.io/files/fpisw_india.pdf"
+        url: "/files/fpisw_india.pdf"
       - label: "CESifo working paper"
         url: "https://www.ifo.de/en/cesifo/publications/2025/working-paper/adaptation-technology-choice-and-implications-heat-related-health"
       - label: "Earlier version"
-        url: "https://fpavanello.github.io/files/fp_jmp.pdf"
+        url: "/files/fp_jmp.pdf"
       - label: "Code"
         url: "https://github.com/FPavanello/india_cooling"
 
@@ -84,11 +84,11 @@ papers:
       abuse regulations can be a cost-effective tool for climate adaptation.
     links:
       - label: "Draft"
-        url: "https://fpavanello.github.io/files/fpgz_sub.pdf"
+        url: "/files/fpgz_sub.pdf"
       - label: "CESifo working paper"
         url: "https://www.ifo.de/en/cesifo/publications/2026/working-paper/co-benefits-substance-abuse-regulation-temperature-and-violent"
       - label: "Earlier version"
-        url: "https://fpavanello.github.io/files/fp_gz_wp_old.pdf"
+        url: "/files/fp_gz_wp_old.pdf"
     featured:
       - label: "Adaptation Inventory (Climate Impact Lab — UChicago)"
         url: "https://impactlab.org/adaptation-inventory/"
@@ -116,7 +116,7 @@ papers:
       risks associated with heat stress.
     links:
       - label: "Draft"
-        url: "https://fpavanello.github.io/files/fp_gv_hhws.pdf"
+        url: "/files/fp_gv_hhws.pdf"
       - label: "FEEM working paper"
         url: "https://www.feem.it/publications/mortality-temperature-and-public-adaptation-policy-evidence-from-italy/"
     featured:
@@ -147,7 +147,7 @@ papers:
       redistribution policies.
     links:
       - label: "Draft"
-        url: "https://fpavanello.github.io/files/mto.pdf"
+        url: "/files/mto.pdf"
       - label: "CESifo working paper"
         url: "https://www.cesifo.org/en/publications/2024/working-paper/income-shocks-adaptation-and-temperature-related-mortality-evidence"
     featured:
