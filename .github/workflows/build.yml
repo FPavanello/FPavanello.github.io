@@ -105,15 +105,19 @@ jobs:
         # locally. An absolute https://fpavanello.github.io/assets/... URL
         # means a branch preview would silently load the live site's CSS.
         run: |
-          matches=$(grep -rnE '(href|src)="https://fpavanello\.github\.io/' \
-                      _site --include="*.html" || true)
+          # Only asset paths. Page URLs are deliberately absolute in
+          # rel="canonical" and og:url -- those identify the production page
+          # and must not be made relative, so canonical lines are filtered out.
+          matches=$(grep -rnE '(href|src)="https://fpavanello\.github\.io/(assets|images|files)/' \
+                      _site --include="*.html" \
+                    | grep -v 'rel="canonical"' || true)
           if [ -n "$matches" ]; then
-            echo "Absolute production URLs found in the build output:"
+            echo "Assets referenced by absolute production URL:"
             echo "$matches" | head -40
-            echo "::error::internal link uses an absolute production URL; use base_path"
+            echo "::error::internal asset uses an absolute production URL; use base_path"
             exit 1
           fi
-          echo "ok: internal links are host-relative"
+          echo "ok: assets are host-relative"
 
       - name: Upload built site
         uses: actions/upload-artifact@v4
