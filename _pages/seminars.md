@@ -10,7 +10,19 @@ redirect_from:
 
 {% include base_path %}
 
+{% comment %}
+  Only explain the marker when something actually carries it, otherwise the
+  sentence describes a label that is nowhere on the page.
+{% endcomment %}
+{% assign scheduled_total = 0 %}
+{% for year in site.data.talks %}
+  {% assign scheduled_here = year.items | where: "scheduled", true %}
+  {% assign scheduled_total = scheduled_total | plus: scheduled_here.size %}
+{% endfor %}
+
+{% if scheduled_total > 0 %}
 <p class="lg-leadin">Talks still to come are marked <span class="tag">scheduled</span>.</p>
+{% endif %}
 
 {% comment %}
   A plain list rather than the year-gutter row used elsewhere: the year is

@@ -23,6 +23,25 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
 
+      - name: Data files must be valid YAML
+        # These are hand-edited often, and a stray typo (a missing colon after
+        # a key, say) otherwise surfaces as an opaque Jekyll crash or a failed
+        # deploy. Parsing them first points at the exact file and line.
+        run: |
+          ruby -ryaml -e '
+            failed = false
+            Dir["_data/**/*.yml"].sort.each do |file|
+              begin
+                YAML.load_file(file)
+                puts "ok: #{file}"
+              rescue Psych::SyntaxError => e
+                puts "::error file=#{file},line=#{e.line}::#{e.problem} #{e.context}"
+                failed = true
+              end
+            end
+            exit(failed ? 1 : 0)
+          '
+
       - name: Stylesheets must be pure ASCII
         # Ruby Sass 3.7 (what github-pages pins) reads .scss using Ruby's
         # default external encoding. GitHub Actions runs with a UTF-8 locale,
