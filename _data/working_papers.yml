@@ -32,6 +32,12 @@ papers:
         url: "/files/lsfcfp_tmpmorbidity.pdf"
       - label: "RFF working paper"
         url: "https://www.rff.org/publications/working-papers/emergency-department-visits-and-temperature-evidence-from-mexico/"
+      - label: "Code"
+        url: "https://github.com/FPavanello/tmp_er_admissions"
+      - label: "Data"
+        url: "https://zenodo.org/records/21873500"
+      - label: "Tool"
+        url: "https://www.luissarmiento.com/temperature-and-emergency-visits/"
 
   - title: "Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions scenario"
     authors: "with J. Fouré, R. Dellink, E. Lanzi"
