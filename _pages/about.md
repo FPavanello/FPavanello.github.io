@@ -37,7 +37,13 @@ redirect_from:
       <a href="{{ site.cv_pdf | prepend: base_path }}">here</a>.
     </p>
     <p>
-      You can email me here: pavanello[at]ifo.de
+      You can email me here:
+      {% comment %}
+        The displayed text keeps the [at] convention, but the href needs a
+        real address or the link opens a message that cannot be sent. Taken
+        from _config.yml so it is not written down twice.
+      {% endcomment %}
+      <a href="mailto:{{ site.author.email }}">pavanello[at]ifo.de</a>
     </p>
   </div>
 </section>
