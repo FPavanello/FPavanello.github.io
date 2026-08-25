@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Teaching & Supervision"
-lede: "Courses at LMU Munich and Ca' Foscari University of Venice, and supervised theses."
+title: "Teaching"
+lede: "Courses at LMU Munich and Ca' Foscari University of Venice."
 permalink: /teaching/
 author_profile: false
 ---
@@ -37,17 +37,21 @@ author_profile: false
 </section>
 {% endif %}
 
-{% if t.supervision and t.supervision.size > 0 %}
-<section class="lg-sec">
-  <h2>Thesis supervision <span class="count">{{ t.supervision.size }}</span></h2>
-  {% for s in t.supervision %}
-    <div class="lg-row">
-      <div class="yr">{{ s.year }}</div>
-      <div class="what">
-        <strong>{{ s.student }}</strong>
-        <span class="where-line">{{ s.thesis }} <span class="tag{% if s.role == 'main advisor' %} tag--warm{% endif %}">{{ s.role }}</span></span>
+{% comment %}
+  Thesis supervision is intentionally not shown. The records are still kept
+  under `supervision:` in _data/teaching.yml; restoring the section is a
+  matter of pasting this block back, no data to re-enter.
+
+  <section class="lg-sec">
+    <h2>Thesis supervision <span class="count">{{ t.supervision.size }}</span></h2>
+    {% for s in t.supervision %}
+      <div class="lg-row">
+        <div class="yr">{{ s.year }}</div>
+        <div class="what">
+          <strong>{{ s.student }}</strong>
+          <span class="where-line">{{ s.thesis }} <span class="tag{% if s.role == 'main advisor' %} tag--warm{% endif %}">{{ s.role }}</span></span>
+        </div>
       </div>
-    </div>
-  {% endfor %}
-</section>
-{% endif %}
+    {% endfor %}
+  </section>
+{% endcomment %}

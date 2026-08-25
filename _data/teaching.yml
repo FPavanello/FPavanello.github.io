@@ -38,7 +38,9 @@ past:
     role: "TA"
     where: "BA in Economics and Trade, Ca' Foscari University of Venice"
 
-# role: "main advisor" or "co-supervisor"
+# Not currently shown on /teaching/ -- the section is commented out in
+# _pages/teaching.md. Kept here so it can be restored without re-entering
+# anything. role: "main advisor" or "co-supervisor".
 supervision:
   - year: "2026"
     student: "Selin Özdemir"
