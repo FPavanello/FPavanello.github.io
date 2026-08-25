@@ -32,6 +32,13 @@ redirect_from:
       <a href="https://www.eiee.org/">EIEE</a>, and
       <a href="https://www.unive.it/">Ca' Foscari University of Venice</a>.
     </p>
+    <p>
+      You can find my full CV
+      <a href="{{ site.cv_pdf | prepend: base_path }}">here</a>.
+    </p>
+    <p>
+      You can email me here: pavanello[at]ifo.de
+    </p>
   </div>
 </section>
 
