@@ -13,7 +13,15 @@
 {% include base_path %}
 {% assign p = include.paper %}
 
-<article class="lg-paper">
+{% comment %}
+  Figures are for published work only. Working papers change too often for a
+  figure to stay current, and the status pill already does the signalling
+  there, so kind="wp" renders full width with no figure column.
+{% endcomment %}
+{% assign show_figure = true %}
+{% if include.kind == "wp" %}{% assign show_figure = false %}{% endif %}
+
+<article class="lg-paper{% unless show_figure %} lg-paper--nofig{% endunless %}">
   <div>
     <h3>
       {% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
@@ -56,14 +64,16 @@
     {% endif %}
   </div>
 
-  <div class="lg-fig">
-    {% if p.figure and p.figure != "" %}
-      <img src="{{ '/images/papers/' | append: p.figure | prepend: base_path }}"
-           alt="{{ p.figure_alt | default: p.figure_caption | default: p.title | escape }}"
-           loading="lazy">
-    {% else %}
-      <div class="lg-fig-placeholder" aria-hidden="true">Figure to come</div>
-    {% endif %}
-    {% if p.figure_caption %}<p class="lg-figcap">{{ p.figure_caption }}</p>{% endif %}
-  </div>
+  {% if show_figure %}
+    <div class="lg-fig">
+      {% if p.figure and p.figure != "" %}
+        <img src="{{ '/images/papers/' | append: p.figure | prepend: base_path }}"
+             alt="{{ p.figure_alt | default: p.figure_caption | default: p.title | escape }}"
+             loading="lazy">
+      {% else %}
+        <div class="lg-fig-placeholder" aria-hidden="true">Figure to come</div>
+      {% endif %}
+      {% if p.figure_caption %}<p class="lg-figcap">{{ p.figure_caption }}</p>{% endif %}
+    </div>
+  {% endif %}
 </article>

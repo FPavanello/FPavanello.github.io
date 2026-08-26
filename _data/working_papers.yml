@@ -1,6 +1,7 @@
 # Working papers and work in progress.
 #
-# `papers`   — under review or in revision, shown with figure and abstract
+# `papers`   — under review or in revision, shown with status and abstract
+#              (no figures: those are for published work only)
 # `progress` — earlier-stage projects, shown as a compact list
 #
 # `status` is free text and appears as a small pill next to the title.
@@ -11,9 +12,6 @@ papers:
     coauthor_urls:
       "L. Sarmiento": "https://www.luissarmiento.com/"
     status: "Accepted, Journal of Economic Behavior & Organization"
-    figure:
-    figure_alt: "Distributed lag estimates of temperature on emergency department visits"
-    figure_caption: "Distributed-lag estimates: cold cuts visits by up to 16.3% over 30 days."
     abstract: >-
       We estimate the impact of temperatures on emergency department visits using daily data 
       from the universe of public hospitals in Mexico from 2008 to 2021. We find that cold 
@@ -42,9 +40,6 @@ papers:
   - title: "Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions scenario"
     authors: "with J. Fouré, R. Dellink, E. Lanzi"
     status: "R&R, Energy Policy (resubmitted)"
-    figure:
-    figure_alt: "Net-zero emissions pathway and public revenue effects from the ENV-Linkages model"
-    figure_caption: "ENV-Linkages: the net-zero pathway and its public revenue consequences."
     abstract: >-
       This paper presents a detailed economic modelling analysis of public finance in the transition
       towards carbon neutrality. It outlines results from a Net-Zero Emission Ambition scenario, which
@@ -69,9 +64,6 @@ papers:
       "I. Sue Wing": "https://people.bu.edu/isw/"
     status: "R&R, Journal of the Association of Environmental and Resource Economists"
     note: "An earlier version circulated as \"Adapting to Heat Extremes with Unequal Access to Cooling: Evidence from India\"."
-    figure:
-    figure_alt: "Heat-mortality response in India by cooling technology"
-    figure_caption: "Heat–mortality response in India by cooling technology, 2014–2019."
     abstract: >-
       This paper investigates the consequences of inequality in heat adaptation, examining the
       effectiveness of alternative cooling technologies in mitigating mortality associated with
@@ -100,9 +92,6 @@ papers:
       "M. Gilli": "https://martinogilli.netlify.app/"
       "S. Shayegh": "https://www.soheilsh.com/"
     status: "Reject & resubmit, Journal of the Association of Environmental and Resource Economists"
-    figure:
-    figure_alt: "Effect of a minimum wage shock on temperature-related mortality in Mexico"
-    figure_caption: "A minimum-wage shock along the US border reduces temperature-related mortality."
     abstract: >-
       This paper examines the role of positive income shocks in helping workers adapt to extreme
       temperatures. We use daily temperature variations alongside the exogenous implementation of a
@@ -131,9 +120,6 @@ papers:
     status: "Under review"
     award: "Best Paper Award — CESifo Junior Workshop on Energy and Climate Economics 2025"
     note: "An earlier version circulated as \"Co-benefits of Substance Abuse Regulation on Temperature and Intimate Partner Violence\"."
-    figure:
-    figure_alt: "Event study of substance abuse treatment expansion on heat-related violent crime"
-    figure_caption: "Event study: treatment-facility expansion flattens the heat–violence gradient."
     abstract: >-
       Higher temperatures can increase substance abuse and exacerbate its physiological effects on
       the human body, raising the risk of violent behavior. Using administrative crime records and
@@ -161,9 +147,6 @@ papers:
     coauthor_urls:
       "G. Valenti": "https://givalenti.github.io/"
     status: "Working paper"
-    figure:
-    figure_alt: "Effect of Italy's national heat programme on extreme-heat mortality"
-    figure_caption: "Italy's 2004 heat programme cut mortality on 30 °C+ days by more than 57%."
     abstract: >-
       In 2004, Italy introduced a national program to address heat-related health risks through
       public awareness campaigns, heatwave warning systems, and hospital protocols. Leveraging
