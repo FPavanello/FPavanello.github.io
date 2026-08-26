@@ -28,14 +28,21 @@ jobs:
         # a key, say) otherwise surfaces as an opaque Jekyll crash or a failed
         # deploy. Parsing them first points at the exact file and line.
         run: |
-          ruby -ryaml -e '
+          ruby -ryaml -rdate -e '
             failed = false
             Dir["_data/**/*.yml"].sort.each do |file|
               begin
-                YAML.load_file(file)
+                # aliases: _data/ui-text.yml uses anchors and merge keys
+                # (&DEFAULT_EN / <<: *DEFAULT_EN), which Ruby 3.1+ rejects by
+                # default. Jekyll itself loads _data with aliases enabled, so
+                # refusing them here would fail files the site builds happily.
+                YAML.load_file(file, aliases: true, permitted_classes: [Date, Time])
                 puts "ok: #{file}"
-              rescue Psych::SyntaxError => e
-                puts "::error file=#{file},line=#{e.line}::#{e.problem} #{e.context}"
+              rescue => e
+                # Deliberately broad: a syntax error is only one way a data
+                # file can fail to load, and anything that stops Jekyll
+                # reading it should be reported rather than crash this step.
+                puts "::error file=#{file}::#{e.class}: #{e.message}"
                 failed = true
               end
             end

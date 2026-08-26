@@ -16,8 +16,8 @@
   venue: "Journal of Environmental Economics and Management"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S0095069625000063"
   figure: "img-jeem-2025.jpg"
-  figure_alt: "Projected global residential cooling electricity demand to 2050"
-  figure_caption: "Projected global residential cooling electricity reaches 976–1393 TWh by 2050."
+  figure_alt: "Marginal effect of air conditioning on household electricity demand, plotted against cooling degree days"
+  figure_caption: "Air conditioning raises electricity demand by 36% on average (dashed line), rising towards 60% in the hottest locations."
   abstract: >-
     We provide a first globally-relevant assessment of the electricity consumption
     consequences of households' adaptation to ambient heat through air conditioning (AC).
