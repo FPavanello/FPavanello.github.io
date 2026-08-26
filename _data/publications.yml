@@ -15,7 +15,7 @@
   year: 2025
   venue: "Journal of Environmental Economics and Management"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S0095069625000063"
-  figure:
+  figure: "img-jeem-2025.jpg"
   figure_alt: "Projected global residential cooling electricity demand to 2050"
   figure_caption: "Projected global residential cooling electricity reaches 976–1393 TWh by 2050."
   abstract: >-
@@ -95,9 +95,9 @@
   year: 2023
   venue: "Journal of Environmental Economics and Management"
   url: "https://www.sciencedirect.com/science/article/pii/S0095069623000360"
-  figure:
+  figure: "img-jeem-2023.png"
   figure_alt: "Effect of remittances on air conditioning adoption in Mexico"
-  figure_caption: "IV estimates: remittances raise AC adoption, most strongly in coastal regions."
+  figure_caption: "IV estimates: remittances raise AC adoption"
   abstract: >-
     Do remittances improve the ability of households to adapt to global warming? We try to
     answer this question by studying the behaviours of households in Mexico, a country that
