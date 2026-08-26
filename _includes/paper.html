@@ -14,12 +14,19 @@
 {% assign p = include.paper %}
 
 {% comment %}
-  Figures are for published work only. Working papers change too often for a
-  figure to stay current, and the status pill already does the signalling
-  there, so kind="wp" renders full width with no figure column.
+  Two gates on the figure column.
+
+  Working papers never show one: they change too often for a figure to stay
+  current, and the status pill already does the signalling there.
+
+  Published papers follow site.paper_figures in _config.yml, currently off.
+  The images and their captions stay in place, so flipping that one setting
+  brings the column back with nothing else to restore.
 {% endcomment %}
-{% assign show_figure = true %}
-{% if include.kind == "wp" %}{% assign show_figure = false %}{% endif %}
+{% assign show_figure = false %}
+{% if site.paper_figures and include.kind != "wp" %}
+  {% assign show_figure = true %}
+{% endif %}
 
 <article class="lg-paper{% unless show_figure %} lg-paper--nofig{% endunless %}">
   <div>

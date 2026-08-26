@@ -1,6 +1,13 @@
 # Paper figures
 
-One figure per paper, shown beside the entry on `/publications/` and `/wp/`.
+One figure per paper, shown beside the entry on `/publications/`.
+
+> **Currently switched off.** `paper_figures` in `_config.yml` is `false`, so
+> no figure column is rendered anywhere. Set it to `true` to bring it back —
+> the images here and the captions in `_data/publications.yml` are kept, so
+> that one line is the only change needed.
+>
+> Working papers never show figures, whatever that setting is.
 
 ## Adding a figure
 

@@ -23,6 +23,13 @@ repository               : "FPavanello/FPavanello.github.io"
 # on a theme we do not use. Setting this to null drops primer entirely.
 theme                    : null
 
+# Show a figure beside each published paper on /publications/. Off for now;
+# flip to true to bring them back. The images in images/papers/ and the
+# figure/figure_alt/figure_caption fields in _data/publications.yml are kept
+# either way, so this is the only line that needs changing.
+# Working papers never show figures, regardless of this setting.
+paper_figures            : false
+
 # Used by _includes/author-profile.html and _pages/cv.md
 cv_pdf                   : "/files/CV.pdf"
 # author_key is bolded wherever it appears in an author list
