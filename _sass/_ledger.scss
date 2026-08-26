@@ -72,8 +72,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
   font-weight: 600;
   line-height: 1.24;
-  text-wrap: balance;
   color: var(--ink);
+
+  /* `pretty`, not `balance`. Balance evens out line lengths, which suits a
+     short display heading but breaks a long paper title early -- leaving a
+     half-empty first line and splitting phrases like "Residential Electricity
+     Demand" across lines. `pretty` fills each line normally and only steps in
+     to avoid a lone word on the last line. Browsers without it fall back to
+     normal wrapping, which is the behaviour wanted here anyway. */
+  text-wrap: pretty;
 }
 
 a {
