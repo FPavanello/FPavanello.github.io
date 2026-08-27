@@ -9,9 +9,13 @@
 </button>
 
 <script>
-  // Disclosure buttons: the mobile nav and the mobile contact list. Each sets
-  // an attribute on its container, which CSS uses to reveal the panel, so the
-  // open state stays in the stylesheet rather than in inline styles.
+  /* Disclosure buttons: the mobile nav and the mobile contact list. Each sets
+     an attribute on its container, which CSS uses to reveal the panel, so the
+     open state stays in the stylesheet rather than in inline styles.
+
+     Block comments only in this file. The site is built through Jekyll's
+     `compress` layout, which strips every newline, so a line comment would
+     silently swallow the rest of the script. */
   (function () {
     function wire(buttonSelector, panelSelector, attribute) {
       var button = document.querySelector(buttonSelector);
@@ -37,8 +41,8 @@
 
     var root = document.documentElement;
 
-    // Light is the default; the OS preference is deliberately not consulted,
-    // so an unset attribute always means light.
+    /* Light is the default; the OS preference is deliberately not consulted,
+       so an unset attribute always means light. */
     function current() {
       return root.getAttribute("data-theme") === "dark" ? "dark" : "light";
     }

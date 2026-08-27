@@ -145,6 +145,31 @@ jobs:
           fi
           echo "ok: assets are host-relative"
 
+      - name: Inline scripts must survive HTML compression
+        # The `compress` layout strips every newline, so a // comment in an
+        # inline <script> comments out the rest of the file once flattened.
+        # Nothing throws -- the code just never runs -- so this is checked
+        # against the built output rather than the source. Use /* */ instead.
+        run: |
+          ruby -e '
+            offenders = []
+            Dir["_site/**/*.html"].each do |file|
+              html = File.read(file)
+              html.scan(%r{<script(?![^>]*\bsrc=)[^>]*>(.*?)</script>}m) do |body|
+                code = body.first
+                # ignore // inside a URL (https://) and inside JSON-LD
+                stripped = code.gsub(%r{[a-z]+://}, "")
+                offenders << file if stripped.include?("//")
+              end
+            end
+            unless offenders.empty?
+              offenders.uniq.first(10).each { |f| puts "  #{f}" }
+              puts "::error::inline script contains a // comment; compress_html strips newlines, so use /* */"
+              exit 1
+            end
+            puts "ok: no // comments in inline scripts"
+          '
+
       - name: Upload built site
         uses: actions/upload-artifact@v4
         with:
