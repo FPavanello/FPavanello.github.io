@@ -1,0 +1,148 @@
+# Talks and presentations, shown at /talks/ and (upcoming only) on the homepage.
+#
+# invited:   true  -> shows an "invited" marker
+# scheduled: true  -> not yet given; shows a "scheduled" marker and appears
+#                     in "Upcoming talks" on the homepage
+# when/where: only needed for scheduled talks, used by the homepage list
+
+- year: 2026
+  items:
+    - title: "Reducing Climate Mortality Risks"
+      venue: "Cambridge University, United Kingdom"
+      invited: true
+      when: "Jul 2026"
+    - title: "World Congress of Environmental and Resource Economists (WCERE)"
+      venue: "Carcavelos, Portugal"
+      when: "Jun 2026"
+    - title: "14th Mannheim Conference on Energy and the Environment"
+      venue: "Mannheim, Germany"
+      when: "May 2026"
+    - title: "14th IAERE Annual Conference"
+      venue: "Trento, Italy"
+    - title: "Guest lecture: Causal inference of climate change impacts, a case study"
+      venue: "University of Trieste, Italy"
+      invited: true
+    - title: "Guest lecture: Causal inference of climate change impacts"
+      venue: "University of Padua, Italy"
+      invited: true
+
+- year: 2025
+  items:
+    - title: "2nd Early Career Workshop on Applied Environmental & Climate Change Economics"
+      venue: "Milan, Italy"
+    - title: "AERNA-CE3 Durham Online Seminar in Environmental and Resource Economics"
+      venue: "Online"
+      invited: true
+    - title: "30th EAERE Annual Conference"
+      venue: "Bergen, Norway"
+    - title: "AERE Summer Conference"
+      venue: "Santa Ana Pueblo, United States"
+    - title: "Workshop \"Il tempo sta cambiando\""
+      venue: "University of Bologna, Italy"
+    - title: "13th Mannheim Conference on Energy and the Environment"
+      venue: "Mannheim, Germany"
+    - title: "CESifo Junior Workshop on Energy and Climate Economics"
+      venue: "Munich, Germany"
+    - title: "Workshop on Pro-Environmental Behavior: Drivers and Consequences"
+      venue: "Max Planck Society, Germany"
+      invited: true
+    - title: "13th IAERE Annual Conference"
+      venue: "Rome, Italy"
+    - title: "EIEE Annual Meeting"
+      venue: "Venice, Italy"
+    - title: "LMU Junior Faculty Fall Workshop"
+      venue: "Munich, Germany"
+
+- year: 2024
+  items:
+    - title: "Workshop on Gender, Environment and Social Dynamics"
+      venue: "CY Cergy Paris University, France"
+      invited: true
+    - title: "OECD Brown Bag Lunch Meeting"
+      venue: "OECD, France"
+      invited: true
+    - title: "ifo Christmas Conference"
+      venue: "Munich, Germany"
+    - title: "Guest lecture: Co-benefits of Substance Abuse Regulation on Temperature and IPV"
+      venue: "University of Bologna"
+      invited: true
+    - title: "ifo Big Data Seminar Series"
+      venue: "Munich, Germany"
+    - title: "29th EAERE Annual Conference"
+      venue: "Leuven, Belgium"
+    - title: "CMCC / EIEE Internal Seminar"
+      venue: "Venice, Italy"
+    - title: "AERE Summer Conference"
+      venue: "Washington DC, United States"
+    - title: "3rd Junior Economists Meeting"
+      venue: "University of Milan, Italy"
+    - title: "1st Verona Early Career Workshop in Economics"
+      venue: "University of Verona, Italy"
+    - title: "Internal Seminar"
+      venue: "University of Bologna, Italy"
+    - title: "12th IAERE Annual Conference"
+      venue: "Pescara, Italy"
+    - title: "Inequality and the Environment Symposium"
+      venue: "Sciences Po, France"
+
+- year: 2023
+  items:
+    - title: "11th Annual Conference of the Italian Society for Climate Sciences"
+      venue: "Milan, Italy"
+    - title: "Internal Seminar"
+      venue: "University of Bologna, Italy"
+    - title: "Bologna Environmental Economics Reading Group Seminar"
+      venue: "Bologna, Italy"
+    - title: "EIEE Monthly Meeting"
+      venue: "Online"
+    - title: "LSE Environment Week"
+      venue: "London School of Economics, United Kingdom"
+    - title: "Center for Climate and Health Seminar Series"
+      venue: "Boston University, United States"
+    - title: "March Internal Seminar"
+      venue: "CMCC and Ca' Foscari University of Venice, Italy"
+    - title: "11th IAERE Annual Conference"
+      venue: "Naples, Italy"
+    - title: "February Internal Seminar"
+      venue: "CMCC and Ca' Foscari University of Venice, Italy"
+
+- year: 2022
+  items:
+    - title: "1st Padova Workshop on Environmental and Resource Economics"
+      venue: "University of Padova"
+      invited: true
+    - title: "2nd ERC-ENERGYA Scientific Workshop"
+      venue: "Venice, Italy"
+    - title: "10th Annual Conference of the Italian Society for Climate Sciences"
+      venue: "Rome, Italy"
+    - title: "PhD Weekend Workshop"
+      venue: "University of Bologna and Unicredit Foundation, Italy"
+    - title: "Third-year PhD Internal Seminar"
+      venue: "University of Bologna, Italy"
+    - title: "27th EAERE Annual Conference"
+      venue: "Rimini, Italy"
+    - title: "10th IAERE Annual Conference"
+      venue: "Cagliari, Italy"
+
+- year: 2021
+  items:
+    - title: "1st ERC-ENERGYA Scientific Workshop"
+      venue: "Venice, Italy"
+    - title: "26th Annual Conference of the EAERE"
+      venue: "Online"
+    - title: "9th IAERE Annual Conference"
+      venue: "Online"
+    - title: "Second-year PhD Internal Seminar"
+      venue: "University of Bologna, Italy"
+    - title: "European Geosciences Union General Assembly"
+      venue: "Online"
+
+- year: 2020
+  items:
+    - title: "First-year PhD Internal Seminar"
+      venue: "University of Bologna, Italy"
+
+- year: 2019
+  items:
+    - title: "7th IAERE Annual Conference"
+      venue: "Udine, Italy"

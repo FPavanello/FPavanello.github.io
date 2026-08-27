@@ -1,0 +1,205 @@
+# Working papers and work in progress.
+#
+# `papers`   — under review or in revision, shown with status and abstract
+#              (no figures: those are for published work only)
+# `progress` — earlier-stage projects, shown as a compact list
+#
+# `status` is free text and appears as a small pill next to the title.
+
+papers:
+  - title: "Emergency department visits and temperature: Evidence from Mexico"
+    authors: "with F.P. Colelli, L. Sarmiento"
+    coauthor_urls:
+      "L. Sarmiento": "https://www.luissarmiento.com/"
+    status: "Accepted, Journal of Economic Behavior & Organization"
+    abstract: >-
+      We estimate the impact of temperatures on emergency department visits using daily data 
+      from the universe of public hospitals in Mexico from 2008 to 2021. We find that cold 
+      temperatures decrease visits by up to 9.1 percent on the same day, and warm temperatures 
+      increase visits by as much as 3.7 percent. Using distributed lag models, we then show that 
+      cold temperatures can reduce visits for the next 30 days by up to 16 percent. For warm temperatures, 
+      contemporaneous and cumulative effects are similar (limited harvesting). These findings suggest that, 
+      unlike mortality, temperatures affect the demand for emergency services linearly. Leveraging 
+      the granularity of our dataset, we also document significant heterogeneities (e.g., higher sensitivity 
+      for children and teenagers) and provide suggestive evidence about mechanisms, such as ecosystem dynamics 
+      and behavioral changes. Finally, we project that—absent adaptation—temperature-driven 
+      annual emergency department visits might increase by 0.35 percent by midcentury, resulting in an estimated 
+      increase of 8.5 million USD in annual medical expenditures in Mexico.
+    links:
+      - label: "Draft"
+        url: "/files/lsfcfp_tmpmorbidity.pdf"
+      - label: "RFF working paper"
+        url: "https://www.rff.org/publications/working-papers/emergency-department-visits-and-temperature-evidence-from-mexico/"
+      - label: "Code"
+        url: "https://github.com/FPavanello/tmp_er_admissions"
+      - label: "Data"
+        url: "https://zenodo.org/records/21873500"
+      - label: "Tool"
+        url: "https://www.luissarmiento.com/temperature-and-emergency-visits/"
+
+  - title: "Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions scenario"
+    authors: "with J. Fouré, R. Dellink, E. Lanzi"
+    status: "R&R, Energy Policy (resubmitted)"
+    abstract: >-
+      This paper presents a detailed economic modelling analysis of public finance in the transition
+      towards carbon neutrality. It outlines results from a Net-Zero Emission Ambition scenario, which
+      reflects the ambition to achieve net-zero carbon dioxide emissions globally by mid-century, using
+      a broad and region-specific policy package that combines various policy instruments: carbon
+      pricing, removal of fossil fuel support, regulations in the power sector, and other policies that
+      stimulate investments by firms and households to reduce and decarbonise energy use. The analysis
+      relies on the OECD global computable general equilibrium ENV-Linkages model. Results show that
+      transitioning towards carbon neutrality is feasible when considering economic and fiscal
+      consequences. The scenario achieves carbon neutrality while maintaining continued economic
+      growth, despite a limited negative impact on global GDP and on public revenues.
+    links:
+      - label: "OECD working paper"
+        url: "https://www.oecd-ilibrary.org/environment/public-finance-resilience-in-the-transition-towards-carbon-neutrality_7f3275e0-en"
+    media:
+      - label: "Financial Times"
+        url: "https://t.co/aip0DwlWXv"
+
+  - title: "Adaptation technology choice and implications for heat-related health risk"
+    authors: "with I. Sue Wing"
+    coauthor_urls:
+      "I. Sue Wing": "https://people.bu.edu/isw/"
+    status: "R&R, Journal of the Association of Environmental and Resource Economists"
+    note: "An earlier version circulated as \"Adapting to Heat Extremes with Unequal Access to Cooling: Evidence from India\"."
+    abstract: >-
+      This paper investigates the consequences of inequality in heat adaptation, examining the
+      effectiveness of alternative cooling technologies in mitigating mortality associated with
+      extreme heat in India for the period 2014-2019. Our empirical results highlight a critical
+      trade-off in heat adaptation. Air conditioning is highly effective in moderating heat-related
+      mortality, but it is expensive, with generally low ownership that tends to be restricted to
+      high-income cities. Conversely, many Indian households, including low-income ones, purchase
+      evaporative coolers, which are much cheaper but do not robustly mitigate the adverse health
+      consequences of humid heat. We show that coolers' limited effectiveness is due to their
+      inability to operate in the humid ambient conditions that prevail over the Indian subcontinent
+      for much of the year, and the small amount of indoor temperature reduction they provide.
+    links:
+      - label: "Draft"
+        url: "/files/fpisw_india.pdf"
+      - label: "CESifo working paper"
+        url: "https://www.ifo.de/en/cesifo/publications/2025/working-paper/adaptation-technology-choice-and-implications-heat-related-health"
+      - label: "Earlier version"
+        url: "/files/fp_jmp.pdf"
+      - label: "Code"
+        url: "https://github.com/FPavanello/india_cooling"
+
+  - title: "Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market"
+    authors: "with L. Sarmiento, M. Gilli, S. Shayegh"
+    coauthor_urls:
+      "L. Sarmiento": "https://www.luissarmiento.com/"
+      "M. Gilli": "https://martinogilli.netlify.app/"
+      "S. Shayegh": "https://www.soheilsh.com/"
+    status: "Reject & resubmit, Journal of the Association of Environmental and Resource Economists"
+    abstract: >-
+      This paper examines the role of positive income shocks in helping workers adapt to extreme
+      temperatures. We use daily temperature variations alongside the exogenous implementation of a
+      wage and fiscal policy in Mexican municipalities along the US border to show that increased
+      disposable income significantly reduces temperature-related mortality in treated areas.
+      Exploring the mechanisms, we find that income gains increase households' adaptive capacity,
+      particularly through higher electricity expenditures and the purchase of electric heaters. Our
+      findings provide causal estimates of how income influences the marginal effect of temperature
+      on mortality and contribute to the debate on the effectiveness of climate-related
+      redistribution policies.
+    links:
+      - label: "Draft"
+        url: "/files/mto.pdf"
+      - label: "CESifo working paper"
+        url: "https://www.cesifo.org/en/publications/2024/working-paper/income-shocks-adaptation-and-temperature-related-mortality-evidence"
+    featured:
+      - label: "Adaptation Inventory (Climate Impact Lab — UChicago)"
+        url: "https://impactlab.org/adaptation-inventory/"
+      - label: "Adaptation Atlas (Stanford)"
+        url: "https://adaptationatlas.org/"
+
+  - title: "Co-benefits of Substance Abuse Regulation on Temperature and Violent Crime"
+    authors: "with G. Zappalà"
+    coauthor_urls:
+      "G. Zappalà": "https://guglielmozappala.github.io/"
+    status: "Under review"
+    award: "Best Paper Award — CESifo Junior Workshop on Energy and Climate Economics 2025"
+    note: "An earlier version circulated as \"Co-benefits of Substance Abuse Regulation on Temperature and Intimate Partner Violence\"."
+    abstract: >-
+      Higher temperatures can increase substance abuse and exacerbate its physiological effects on
+      the human body, raising the risk of violent behavior. Using administrative crime records and
+      daily temperatures in the United States between 1991 and 2023, we show that two public policies
+      regulating substance abuse --- the expansion of substance abuse treatment facilities and the
+      reformulation of the prescription opioid OxyContin --- substantially moderate the impact of
+      temperature on interpersonal violent crime. We monetize the policy benefits for intimate
+      partner violence, the most widespread crime in the United States, and show that substance
+      abuse regulations can be a cost-effective tool for climate adaptation.
+    links:
+      - label: "Draft"
+        url: "/files/fpgz_sub.pdf"
+      - label: "CESifo working paper"
+        url: "https://www.ifo.de/en/cesifo/publications/2026/working-paper/co-benefits-substance-abuse-regulation-temperature-and-violent"
+      - label: "Earlier version"
+        url: "/files/fp_gz_wp_old.pdf"
+    featured:
+      - label: "Adaptation Inventory (Climate Impact Lab — UChicago)"
+        url: "https://impactlab.org/adaptation-inventory/"
+      - label: "Adaptation Atlas (Stanford)"
+        url: "https://adaptationatlas.org/"
+
+  - title: "Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy"
+    authors: "with G. Valenti"
+    coauthor_urls:
+      "G. Valenti": "https://givalenti.github.io/"
+    status: "Working paper"
+    abstract: >-
+      In 2004, Italy introduced a national program to address heat-related health risks through
+      public awareness campaigns, heatwave warning systems, and hospital protocols. Leveraging
+      administrative mortality data, temperature variations, and the plausibly exogenous timing of
+      the policy's rollout, this paper shows that the program mitigated the mortality impact of
+      extreme heat (days at or above 30 °C) by more than 57%. Exploring the mechanisms, we find that
+      the staggered implementation of the heat wave warning systems contributed to reducing excess
+      mortality on days exceeding 30 °C in treated provinces. We further show that enhancing access
+      to information is essential to achieving these mitigating effects. Our findings underscore the
+      critical role of public adaptation policies that leverage information disclosure on the health
+      risks associated with heat stress.
+    links:
+      - label: "Draft"
+        url: "/files/fp_gv_hhws.pdf"
+      - label: "FEEM working paper"
+        url: "https://www.feem.it/publications/mortality-temperature-and-public-adaptation-policy-evidence-from-italy/"
+    featured:
+      - label: "Adaptation Inventory (Climate Impact Lab — UChicago)"
+        url: "https://impactlab.org/adaptation-inventory/"
+      - label: "Adaptation Atlas (Stanford)"
+        url: "https://adaptationatlas.org/"
+
+progress:
+  - title: "Assessing climate change costs for EU households"
+    authors: "with L. Campagnolo, E. De Cian, et al."
+    status: "Preliminary draft on request"
+    project: "EESC Tender 2023"
+
+  - title: "Trade-offs in Adaptation and Energy Use"
+    authors: "with F.P. Colelli, E. De Cian, G. Falchetta, A. Mazzone, I. Sue Wing"
+    status: "Invited review, Annual Review of Resource Economics"
+
+  - title: "Temperature Extremes and Local Power Distribution: From Mechanisms to Health Impacts"
+    authors: "with F.P. Colelli, L. Sarmiento"
+    coauthor_urls:
+      "L. Sarmiento": "https://www.luissarmiento.com/"
+    status: "Draft available soon"
+
+  - title: "High temperatures and harsh parenting"
+    authors: "with E. De Cao, P.A. Naß"
+    status: "Analysis stage"
+
+  - title: "The (long-term) consequences of austerity policy on the mortality and temperature relationship: Evidence from Italy"
+    authors: "with G. Valenti, G. Zappalà"
+    status: "Analysis stage"
+
+  - title: "Does social identity influence adaptation to hot temperatures?"
+    authors: "with E. De Cian, T. Randazzo"
+    status: "Analysis stage"
+
+  - title: "Firms' climate expectations and adaptation"
+    authors: "with N. Garbarino, M.T. von Schickfus"
+    status: "Data collection"
+    links:
+      - label: "AEA RCT Registry: 0016562"
+        url: "https://www.socialscienceregistry.org/trials/16562"

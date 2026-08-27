@@ -6,8 +6,15 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
-{% if page.title %}
+{% comment %}
+  The homepage's title is the site's own name, so the usual
+  "<page> - <site>" pattern rendered as "Filippo Pavanello - Filippo
+  Pavanello". Only append the site name when it differs from the page title.
+{% endcomment %}
+{% if page.title and page.title != site.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+{% elsif page.title %}
+  {% assign seo_title = page.title %}
 {% endif %}
 
 {% if seo_title %}

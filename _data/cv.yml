@@ -1,0 +1,51 @@
+# Short CV shown at /cv/. The full PDF lives in files/CV.pdf.
+# `role` is optional and renders as a small pill.
+
+position:
+  - years: "2024 –"
+    what: "Assistant Professor (non-tenured)"
+    where: "ifo Institute & LMU Munich — Center for Energy, Climate and Resources"
+
+education:
+  - years: "2019 – 2024"
+    what: "PhD in Economics"
+    where: "University of Bologna"
+    note: "Dissertation: Essays on economics of adaptation to climate change"
+  - years: "2016 – 2018"
+    what: "MSc in Economics and Finance"
+    where: "Ca' Foscari University of Venice"
+  - years: "2013 – 2016"
+    what: "BA in Economics and Trade"
+    where: "Ca' Foscari University of Venice"
+
+past:
+  - years: "2024"
+    what: "Research Fellow"
+    where: "Parthenope University of Naples"
+  - years: "2023"
+    what: "Visiting Student"
+    where: "Boston University, Center for Innovation in Social Science"
+  - years: "2021, 2022"
+    what: "Research Intern"
+    where: "OECD, Environment Directorate"
+  - years: "2018, 2019"
+    what: "Research Assistant"
+    where: "Ca' Foscari University of Venice"
+
+# Project name, amount and role, plus the funder. Collaborator names are
+# deliberately not listed here.
+funding:
+  - years: "2026 –"
+    what: "Adapting to Climate Change: The Role of Local Public Finances"
+    amount: "€119,000"
+    role: "co-PI"
+  - years: "2025 –"
+    what: "Evaluation of climate adaptation interventions using observational data"
+    amount: "$38,500"
+    role: "co-PI"
+    funder: "Stanford University"
+  - years: "2022 – 2023"
+    what: "The cost of climate change on households and families in the EU"
+    amount: "€60,000"
+    role: "Researcher & grant co-writer"
+    funder: "European Economic and Social Committee"

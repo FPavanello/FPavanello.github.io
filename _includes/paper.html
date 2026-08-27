@@ -1,0 +1,86 @@
+{% comment %}
+  One paper entry: text on the left, figure on the right.
+
+  Parameters
+    paper — an entry from _data/publications.yml or _data/working_papers.yml
+    kind  — "pub" for published work, "wp" for working papers
+
+  The figure is optional. Until `figure:` is filled in, a labelled
+  placeholder holds the space so the layout does not shift when the real
+  image is dropped into images/papers/ later.
+{% endcomment %}
+
+{% include base_path %}
+{% assign p = include.paper %}
+
+{% comment %}
+  Two gates on the figure column.
+
+  Working papers never show one: they change too often for a figure to stay
+  current, and the status pill already does the signalling there.
+
+  Published papers follow site.paper_figures in _config.yml, currently off.
+  The images and their captions stay in place, so flipping that one setting
+  brings the column back with nothing else to restore.
+{% endcomment %}
+{% assign show_figure = false %}
+{% if site.paper_figures and include.kind != "wp" %}
+  {% assign show_figure = true %}
+{% endif %}
+
+<article class="lg-paper{% unless show_figure %} lg-paper--nofig{% endunless %}">
+  <div>
+    <h3>
+      {% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+    </h3>
+
+    <p class="lg-authors">{% include author-list.html authors=p.authors urls=p.coauthor_urls %}</p>
+
+    {% if include.kind == "wp" %}
+      {% if p.status %}<p class="lg-venue"><span class="tag tag--warm">{{ p.status }}</span></p>{% endif %}
+    {% else %}
+      <p class="lg-venue"><em>{{ p.venue }}</em> <span class="yr">· {{ p.year }}</span></p>
+    {% endif %}
+
+    {% if p.award %}<p class="lg-award">★ {{ p.award }}</p>{% endif %}
+    {% if p.note %}<p class="lg-note">{{ p.note }}</p>{% endif %}
+
+    {% if p.abstract %}
+      <details class="lg-abs">
+        <summary>Abstract</summary>
+        <p>{{ p.abstract }}</p>
+      </details>
+    {% endif %}
+
+    {% if p.links and p.links.size > 0 %}
+      <div class="lg-links">
+        {% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+      </div>
+    {% endif %}
+
+    {% if p.media and p.media.size > 0 %}
+      <p class="lg-meta">Coverage:
+        {% for m in p.media %}{% if m.url %}<a href="{{ m.url }}">{{ m.label }}</a>{% else %}{{ m.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %}
+      </p>
+    {% endif %}
+
+    {% if p.featured and p.featured.size > 0 %}
+      <p class="lg-meta">Featured in:
+        {% for f in p.featured %}<a href="{{ f.url }}">{{ f.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+      </p>
+    {% endif %}
+  </div>
+
+  {% if show_figure %}
+    <div class="lg-fig">
+      {% if p.figure and p.figure != "" %}
+        <img src="{{ '/images/papers/' | append: p.figure | prepend: base_path }}"
+             alt="{{ p.figure_alt | default: p.figure_caption | default: p.title | escape }}"
+             loading="lazy">
+      {% else %}
+        <div class="lg-fig-placeholder" aria-hidden="true">Figure to come</div>
+      {% endif %}
+      {% if p.figure_caption %}<p class="lg-figcap">{{ p.figure_caption }}</p>{% endif %}
+    </div>
+  {% endif %}
+</article>

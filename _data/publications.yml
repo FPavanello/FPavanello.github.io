@@ -1,0 +1,181 @@
+# Peer-reviewed publications, newest first.
+#
+# To add a paper: copy a block below and fill it in. Only `title` and
+# `authors` are required — every other field is optional and is simply
+# skipped if you leave it out.
+#
+# figure:      path under /images/papers/. Leave blank until you have one;
+#              a placeholder is shown in its place.
+# figure_alt:  short description for screen readers.
+# figure_caption: one sentence saying what the figure shows.
+# me:          the exact author string to bold. Set once in _config.yml.
+
+- title: "The Impact of Air Conditioning on Residential Electricity Demand across World Countries"
+  authors: "De Cian, E., Falchetta, G., Pavanello, F., Romitti, Y., Sue Wing, I."
+  year: 2025
+  venue: "Journal of Environmental Economics and Management"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0095069625000063"
+  figure: "img-jeem-2025.jpg"
+  figure_alt: "Marginal effect of air conditioning on household electricity demand, plotted against cooling degree days"
+  figure_caption: "Air conditioning raises electricity demand by 36% on average (dashed line), rising towards 60% in the hottest locations."
+  abstract: >-
+    We provide a first globally-relevant assessment of the electricity consumption
+    consequences of households' adaptation to ambient heat through air conditioning (AC).
+    We use household survey data from 25 countries within a discrete-continuous choice
+    empirical framework to model households' joint air conditioning adoption and
+    utilization decisions, and combine the estimated responses with scenarios of
+    socioeconomic, demographic, and climatic change to project air conditioning prevalence
+    and cooling electricity demand circa mid-century. We find that air conditioning
+    ownership increases households' electricity consumption by 36%, on average, but the
+    effect is heterogeneous, varying with weather conditions, income and country contexts,
+    revealing the importance of behaviors, practices, climate, and technologies. Compared
+    to the other drivers of electricity consumption, air conditioning has the leading
+    marginal effect, also accounting for a significant share of household budgets. By 2050,
+    the overall effect is a net increase in global yearly residential cooling electricity to
+    976-1393 TWh, with an additional 670-956 Mt of CO<sub>2</sub> emissions, and associated
+    social costs of $124-177 billion. Our findings highlight cooling energy expenditure as an
+    emerging indicator of energy poverty as the climate warms, and provide an initial
+    quantification of the economic and environmental risks associated with air conditioning
+    as an adaptation to climate change.
+  links:
+    - label: "Working paper (SSRN)"
+      url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4604871"
+    - label: "Code"
+      url: "https://github.com/FPavanello/acglobal"
+  media:
+    - label: "Washington Post"
+      url: "https://www.washingtonpost.com/opinions/2024/10/05/air-conditioning-climate-change/"
+    - label: "il Post"
+      url: "https://www.ilpost.it/podcasts/morning/ep-1001-i-due-rubinetti-dellestate-e-le-altre-storie-di-oggi/"
+    - label: "il Manifesto"
+      url: "https://ilmanifesto.it/condizionatori-co2-e-bollette-alle-stelle"
+    - label: "Treccani"
+      url: "https://www.treccani.it/magazine/atlante/societa/quanto-pesa-l-aria-condizionata-sul-consumo-di-energia-.html"
+    - label: "Huffington Post"
+      url: "https://www.huffingtonpost.it/dossier/terra/2025/07/07/news/nel_2023_in_europa_45_miliardi_di_danni_climatici_avanza_la_poverta_da_raffrescamento-19596894/"
+
+- title: "Inequalities in global residential cooling energy use to 2050"
+  authors: "Falchetta, G., De Cian, E., Pavanello, F., Sue Wing, I."
+  year: 2024
+  venue: "Nature Communications"
+  url: "https://www.nature.com/articles/s41467-024-52028-8"
+  figure:
+  figure_alt: "Gridded projections of air conditioning adoption worldwide to 2050"
+  figure_caption: "Gridded AC adoption to 2050; up to 4 billion people may still lack cooling."
+  abstract: >-
+    Intersecting socio-demographic transformations and warming climates portend increasing
+    worldwide heat exposures and health sequelae. Cooling adaptation via air conditioning (AC)
+    is effective, but energy-intensive and constrained by household-level differences in income
+    and adaptive capacity. Using statistical models trained on a large multi-country household
+    survey dataset (n = 673,215), we project AC adoption and energy use to mid-century at fine
+    spatial resolution worldwide. Globally, the share of households with residential AC could
+    grow from 27% to 41% (range of scenarios assessed: 33-48%), implying up to a doubling of
+    residential cooling electricity consumption, from 1220 to 1940 (scenarios range: 1590-2377)
+    terawatt-hours yr.-1, emitting between 590 and 1,365 million tons of carbon dioxide
+    equivalent (MtCO2e). AC access and utilization will remain highly unequal within and across
+    countries and income groups, with significant regressive impacts. Up to 4 billion people may
+    lack air-conditioning in 2050. Our global gridded projections facilitate incorporation of
+    AC's vulnerability, health, and decarbonization effects into integrated assessments of
+    climate change.
+  links:
+    - label: "Working paper"
+      url: "https://www.researchsquare.com/article/rs-3441530/v1"
+    - label: "Slides"
+      url: "/files/acglobalgrid_slides.pdf"
+    - label: "Code"
+      url: "https://github.com/giacfalk/ggACene"
+    - label: "Gridded data"
+      url: "https://zenodo.org/records/12697821"
+  media:
+    - label: "la Repubblica"
+      url: "https://www.repubblica.it/green-and-blue/2024/09/16/news/aria_condizionata_aumento_diseguaglianze_sociali-423503657/"
+
+- title: "Adaptation to climate change: Air-conditioning and the role of remittances"
+  authors: "Randazzo, T., Pavanello, F., De Cian, E."
+  year: 2023
+  venue: "Journal of Environmental Economics and Management"
+  url: "https://www.sciencedirect.com/science/article/pii/S0095069623000360"
+  figure: "img-jeem-2023.png"
+  figure_alt: "Effect of remittances on air conditioning adoption in Mexico"
+  figure_caption: "IV estimates: remittances raise AC adoption"
+  abstract: >-
+    Do remittances improve the ability of households to adapt to global warming? We try to
+    answer this question by studying the behaviours of households in Mexico, a country that
+    experiences a large and stable flow of remittances. Using an instrumental variable approach,
+    we find an important role of remittances in the climate adaptation process. Remittances are
+    used for adopting air-conditioning, which is an important cooling device for responding to
+    high temperatures and to maintain thermal comfort at home. We exploit climate and income
+    heterogeneity by showing that large differences exist in the use of remittances for climate
+    adaptation between coastal and inland regions, as well as among different income groups. We
+    conclude by quantifying the overall increase in welfare that households attain by adopting
+    air-conditioning.
+  links:
+    - label: "Working paper"
+      url: "/files/Randazzo_et_al_WP.pdf"
+
+- title: "Air-conditioning and the adaptation cooling deficit in emerging economies"
+  authors: "Pavanello, F., De Cian, E., Davide, M., Mistry, M., Cruz, T., Bezerra, P., Jagu, D., Renner, S., Schaeffer, R. & Lucena, A.F."
+  year: 2021
+  venue: "Nature Communications"
+  url: "https://www.nature.com/articles/s41467-021-26592-2"
+  figure:
+  figure_alt: "Air conditioning adoption by income decile in four emerging economies"
+  figure_caption: "AC adoption by income decile in Brazil, India, Indonesia and Mexico."
+  abstract: >-
+    Increasing temperatures will make space cooling a necessity for maintaining comfort and
+    protecting human health, and rising income levels will allow more people to purchase and run
+    air conditioners. Here we show that, in Brazil, India, Indonesia, and Mexico income and
+    humidity-adjusted temperature are common determinants for adopting air-conditioning, but
+    their relative contribution varies in relation to household characteristics. Adoption rates
+    are higher among households living in higher quality dwellings in urban areas, and among
+    those with higher levels of education. Air-conditioning is unevenly distributed across income
+    levels, making evident the existence of a disparity in access to cooling devices. Although the
+    adoption of air-conditioning could increase between twofold and sixteen-fold by 2040, from 64
+    to 100 million families with access to electricity will not be able to adequately satisfy their
+    demand for thermal comfort. The need to sustain electricity expenditure in response to higher
+    temperatures can also create unequal opportunities to adapt.
+  links:
+    - label: "Code"
+      url: "https://github.com/Energy-a/Comparative_paper_NatComms"
+    - label: "Data"
+      url: "https://data.mendeley.com/datasets/ws7cmwbnfg/1"
+    - label: "Interactive visualisation"
+      url: "https://public.tableau.com/app/profile/enrica.de.cian/viz/Cooling-deficit-emerging-countries-natcom/Dataviz-widescreen?publish=yes"
+  media:
+    - label: "Le Scienze"
+      url: "https://www.lescienze.it/news/2021/11/09/news/cambiamenti_climatici_aria_condizionata_emergenza_emissioni_disuguaglianze-4980185/?rss"
+    - label: "la Repubblica"
+      url: "https://www.repubblica.it/green-and-blue/2021/11/09/news/l_uso_dei_condizionatori_aumentera_in_tutto_il_mondo_con_danni_per_il_clima_e_per_i_piu_poveri-325719453/?rss"
+    - label: "LA STAMPA"
+      url: "https://www.lastampa.it/green-and-blue/2021/11/09/news/l_uso_dei_condizionatori_aumentera_in_tutto_il_mondo_con_danni_per_il_clima_e_per_i_piu_poveri-325719453/"
+    - label: "Our World in Data"
+      url: "https://ourworldindata.org/how-can-the-world-reduce-deaths-from-extreme-heat"
+
+- title: "Households' adaptation in a warming climate: Air conditioning and thermal insulation choices"
+  authors: "De Cian, E., Pavanello, F., Randazzo, T., Mistry, M.N., Davide, M."
+  year: 2019
+  venue: "Environmental Science & Policy"
+  url: "/files/De_Cian_et_al_2019.pdf"
+  figure:
+  figure_alt: "Adoption response to cumulative hot and cold days across eight OECD countries"
+  figure_caption: "Adoption response to cumulative hot and cold days across eight OECD countries."
+  abstract: >-
+    Adjustments in the final use of energy are a critical margin of adaptation for maintaining
+    indoor thermal comfort. This paper explores how households have been adopting air conditioning
+    and thermal insulation to cope with different climatic conditions, and how climatic factors
+    interact with socio-economic, demographic, and household characteristics across eight OECD
+    countries. Changes in the cumulative number of hot and cold days over the year, urbanization,
+    demographics and household characteristics, including attitudes towards energy efficiency,
+    strongly affect those two margins of adaptation, along with income. If the historically-observed
+    adaptation behaviour is maintained also under future socio-economic pathways and climate
+    scenarios, the impact of global warming and income on air conditioning adoption will be
+    reinforced by urbanization trends, which on the contrary will make it more difficult to improve
+    building thermal insulation.
+  links:
+    - label: "Working paper"
+      url: "/files/De_Cian_et_al_WP.pdf"
+    - label: "Interview (SBS.au)"
+      url: "https://www.sbs.com.au/language/italian/audio/l-impatto-dei-condizionatori-sul-cambiamento-climatico"
+  media:
+    - label: "la Repubblica"
+      url: "https://www.repubblica.it/ambiente/2019/07/15/news/cambiamenti_climatici_la_grande_corsa_ai_climatizzatori_e_gia_iniziata-231253051/"

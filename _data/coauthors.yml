@@ -1,0 +1,30 @@
+# Co-author homepages, applied everywhere an author list is rendered:
+# publications, working papers, work in progress and policy work.
+#
+# The key is matched literally against the author string, so a name needs an
+# entry for every form it is written in. Publications use "Surname, X." and
+# working papers use "X. Surname", hence the pairs below.
+#
+# Add a name here once and every page picks it up.
+
+"E. De Cian":         "https://www.unive.it/data/persone/5591358"
+"De Cian, E.":        "https://www.unive.it/data/persone/5591358"
+
+"I. Sue Wing":        "https://people.bu.edu/isw/"
+"Sue Wing, I.":       "https://people.bu.edu/isw/"
+
+"L. Sarmiento":       "https://www.luissarmiento.com/"
+"Sarmiento, L.":      "https://www.luissarmiento.com/"
+
+"T. Randazzo":        "https://sites.google.com/site/teresarandazzosite/"
+"Randazzo, T.":       "https://sites.google.com/site/teresarandazzosite/"
+
+"G. Falchetta":       "https://sites.google.com/view/g-falc/home?authuser=0"
+"Falchetta, G.":      "https://sites.google.com/view/g-falc/home?authuser=0"
+"G. Zappalà":         "https://guglielmozappala.github.io/"
+"G. Valenti":         "https://givalenti.github.io/"
+"M. Gilli":           "https://martinogilli.netlify.app/"
+"S. Shayegh":         "https://www.soheilsh.com/"
+"E. De Cao":          "http://elisabettadecao.com/"
+"N. Garbarino":       "https://www.ifo.de/en/garbarino-n"
+"M.T. von Schickfus": "https://sites.google.com/view/marietheres-vonschickfus/home"

@@ -1,3 +1,59 @@
-<!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
-<!-- end custom footer snippets -->
+{% comment %}
+  Light/dark switch. The preference is stored in localStorage and applied in
+  head.html before first paint, so there is no flash on reload. With no stored
+  preference the page follows the operating system setting.
+{% endcomment %}
+
+<button class="theme-toggle" type="button" data-theme-toggle aria-live="polite">
+  Switch theme
+</button>
+
+<script>
+  // Disclosure buttons: the mobile nav and the mobile contact list. Each sets
+  // an attribute on its container, which CSS uses to reveal the panel, so the
+  // open state stays in the stylesheet rather than in inline styles.
+  (function () {
+    function wire(buttonSelector, panelSelector, attribute) {
+      var button = document.querySelector(buttonSelector);
+      var panel = document.querySelector(panelSelector);
+      if (!button || !panel) return;
+
+      button.addEventListener("click", function () {
+        var open = panel.getAttribute(attribute) === "true";
+        panel.setAttribute(attribute, open ? "false" : "true");
+        button.setAttribute("aria-expanded", open ? "false" : "true");
+      });
+    }
+
+    wire(".lg-mast__toggle", ".lg-mast__inner", "data-nav-open");
+    wire(".author__follow", ".author__urls-wrapper", "data-links-open");
+  })();
+</script>
+
+<script>
+  (function () {
+    var btn = document.querySelector("[data-theme-toggle]");
+    if (!btn) return;
+
+    var root = document.documentElement;
+
+    // Light is the default; the OS preference is deliberately not consulted,
+    // so an unset attribute always means light.
+    function current() {
+      return root.getAttribute("data-theme") === "dark" ? "dark" : "light";
+    }
+
+    function label() {
+      btn.textContent = current() === "dark" ? "Light theme" : "Dark theme";
+    }
+
+    btn.addEventListener("click", function () {
+      var next = current() === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+      label();
+    });
+
+    label();
+  })();
+</script>

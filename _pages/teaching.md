@@ -1,42 +1,57 @@
 ---
 layout: archive
-title: ""
+title: "Teaching"
+lede: "Courses at LMU Munich and Ca' Foscari University of Venice."
 permalink: /teaching/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
+{% assign t = site.data.teaching %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if t.current and t.current.size > 0 %}
+<section class="lg-sec">
+  <h2>Currently teaching</h2>
+  {% for c in t.current %}
+    <div class="lg-course">
+      <h3>{{ c.title }}</h3>
+      <p>{{ c.programme }} · {{ c.institution }}</p>
+      <p class="term">{{ c.term }}{% if c.role %} · {{ c.role }}{% endif %}</p>
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
 
-## Teaching
+{% if t.past and t.past.size > 0 %}
+<section class="lg-sec">
+  <h2>Previous courses</h2>
+  {% for c in t.past %}
+    <div class="lg-row">
+      <div class="yr">{{ c.term }}</div>
+      <div class="what">
+        <strong>{{ c.title }}</strong>{% if c.role %} <span class="tag">{{ c.role }}</span>{% endif %}
+        {% if c.where %}<span class="where-line">{{ c.where }}</span>{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
 
-### Current
+{% comment %}
+  Thesis supervision is intentionally not shown. The records are still kept
+  under `supervision:` in _data/teaching.yml; restoring the section is a
+  matter of pasting this block back, no data to re-enter.
 
-**Applied Economics and Policy Evaluation**<br>
-PhD in Science and Management of Climate Change, Ca' Foscari University of Venice — Spring 2026
-
-**Climate Economics**<br>
-MSc in Economics, LMU Munich — Spring 2026
-
-### Past
-
-- **Spring 2025**: Topics in Climate Economics (Lecturer), BA in Economics, LMU Munich
-- **Spring 2024**: Econometrics (TA), BA in Economics, Politics, and Social Sciences, University of Bologna
-- **Fall 2023**: Econometrics (TA), MSc in Economics, University of Bologna
-- **Fall 2022**: Econometrics (TA), MSc in Economics, University of Bologna
-- **Spring 2018**: Industrial Economics (TA), BA in Economics and Trade, Ca' Foscari
-- **Spring 2017**: Industrial Economics (TA), BA in Economics and Trade, Ca' Foscari
-
-## Supervisions
-
-**Master theses** 
-- 2025: Amrei Schmidt\*, Giovanni Remonti\*, Lucia Nafziger
-
-**Bachelor theses**
-- 2026: Selin Özdemir\*
-- 2025: Johannes Kranz\*, Juliane Marie Zwing\*
-
-\* Main advisor
+  <section class="lg-sec">
+    <h2>Thesis supervision <span class="count">{{ t.supervision.size }}</span></h2>
+    {% for s in t.supervision %}
+      <div class="lg-row">
+        <div class="yr">{{ s.year }}</div>
+        <div class="what">
+          <strong>{{ s.student }}</strong>
+          <span class="where-line">{{ s.thesis }} <span class="tag{% if s.role == 'main advisor' %} tag--warm{% endif %}">{{ s.role }}</span></span>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+{% endcomment %}

@@ -1,72 +1,33 @@
 ---
 layout: archive
-title: ""
+title: "Working Papers"
+lede: "Papers under review or in revision, and projects at an earlier stage."
 permalink: /wp/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
 
-## Working Papers
+<section class="lg-sec">
+  <h2>Under review &amp; revision <span class="count">{{ site.data.working_papers.papers.size }}</span></h2>
+  {% for p in site.data.working_papers.papers %}
+    {% include paper.html paper=p kind="wp" %}
+  {% endfor %}
+</section>
 
-- **Emergency department visits and temperature: Evidence from Mexico**. <br/> 
-(with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ [Draft](https://fpavanello.github.io/files/lsfcfp_tmpmorbidity.pdf) &#124; [RFF Working Paper](https://www.rff.org/publications/working-papers/emergency-department-visits-and-temperature-evidence-from-mexico/) ] [ Status: _Accepted at Journal of Economic Behaviour and Organization_ ]
-	- <details>
-      <summary>Abstract</summary><p align="justify"> This paper estimates the impact of temperatures on emergency department visits using daily data from the universe of public hospitals in Mexico from 2008 to 2022. We find that cold temperatures decrease visits by up to 8.9% on the same day, while warm temperatures increase visits by as much as 3.6%. Using distributed lag models, we then show that cold temperatures can reduce visits for the next 30 days by up to 16.3%. For warm temperatures, contemporaneous and cumulative effects are similar (limited harvesting). These findings suggest that, unlike mortality, temperatures affect the demand for emergency services linearly. Leveraging the granularity of our dataset, we also document significant heterogeneities (e.g., higher sensitivity for children and teenagers) and relevant mechanisms like ecosystem dynamics and behavioral changes. Finally, we project that temperature-driven annual emergency department visits will increase by 0.24% by mid-century, resulting in an estimated increase of 92 million USD in annual medical expenditures in Mexico. </p></details>
-  - <font size = ""> Presented at: Workshop on Applied Environmental and Health Economics*, 13th Annual IAERE Conference*, Bank of Mexico* [* by co-author] </font>   
-
-- **Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions**. <br/> 
-(with J. Fouré, R. Dellink, E. Lanzi) [ [OECD Working Paper](https://www.oecd-ilibrary.org/environment/public-finance-resilience-in-the-transition-towards-carbon-neutrality_7f3275e0-en) ] [ Status: _R&R at Energy Policy_ ]
-  - <details>
-      <summary>Abstract</summary><p align="justify"> This paper presents a detailed economic modelling analysis of public finance in the transition towards carbon neutrality. It outlines results from a Net-Zero Emission Ambition scenario, which reflects the ambition to achieve net-zero carbon dioxide emissions globally by mid-century, using a broad and regionspecific policy package that combines various policy instruments: carbon pricing, removal of fossil fuel support, regulations in the power sector, and other policies that stimulate investments by firms and households to reduce and decarbonise energy use. The analysis relies on the OECD global computable general equilibrium ENV-Linkages model. Results show that transitioning towards carbon neutrality is feasible when considering economic and fiscal consequences. The scenario achieves carbon neutrality while maintaining continued economic growth, despite a limited negative impact on global GDP and on public revenues. The fiscal effects reflect a tradeoff between instruments that increase public revenues (carbon pricing) or reduce public expenditures (fossil fuel subsidies removal), on the one hand, and more costly instruments (subsidies) and indirect effects (tax base erosion and changes in fiscal and economic structure) on the other hand. </p></details>
-  - Media Coverage: [Financial Times](https://t.co/aip0DwlWXv) 
-  - <font size = ""> Presented at: Climate Economics Chair Annual Conference*, 25th GEA Annual Conference*, 15th IAMC Annual Meeting* [* by co-author] </font>   
-
-- **Adaptation technology choice and implications for heat-related health risk**. <br/> 
-(with [I. Sue Wing](https://people.bu.edu/isw/)) [ [Draft](https://fpavanello.github.io/files/fpisw_india.pdf) &#124; [CESifo Working Paper](https://www.ifo.de/en/cesifo/publications/2025/working-paper/adaptation-technology-choice-and-implications-heat-related-health) ] 
-(An earlier version circulated as [”Adapting to Heat Extremes with Unequal Access to Cooling: Evidence from India”](https://fpavanello.github.io/files/fp_jmp.pdf)) [ Status: _R&R at JAERE_]
-   - <details> 
-      <summary>Abstract</summary><p align="justify"> This paper investigates the consequences of inequality in heat adaptation, examining the effectiveness of alternative cooling technologies in mitigating mortality associated with extreme heat in India for the period 2014-2019. Our empirical results highlight a critical trade-off in heat adaptation. Air conditioning is highly effective in moderating heat-related mortality, but it is expensive, with generally low ownership that tends to be restricted to high-income cities. Conversely, many Indian households, including low-income ones, purchase evaporative coolers, which are much cheaper but do not robustly mitigate the adverse health consequences of humid heat. We show that coolers’ limited effectiveness is due to their inability to operate in the humid ambient conditions that prevail over the Indian subcontinent for much of the year, and the small amount of indoor temperatures reduction they provide. </p></details> 
-   - Code: [Github](https://github.com/FPavanello/india_cooling) 
-   - <font size = ""> Presented at: 14th Annual IAERE Conference, ifo EKR Retreat, 29th Annual EAERE Conference, 2024 AERE Summer Conference, 13th Annual IAERE Conference, Sciences Po Inequality and the Environment Symposium, 11th SISC Annual conference, University of Bologna Internal Seminar, CMCC@CaFoscari Internal Seminar, Boston University Center for Climate and Health, 4th University of Bologna PhD Workshop, Unibo Third-year PhD Internal Seminar, 2nd ERC-ENERGYA Scientific Workshop, 1st Padova Environmental Economics Worskhop </font>    
-
-- **Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market**. <br/> 
-(with [L. Sarmiento](https://www.luissarmiento.com/), [Martino Gilli](https://martinogilli.netlify.app/), [Soheil Shayegh](https://www.soheilsh.com/)) [ [Draft](https://fpavanello.github.io/files/mto.pdf) &#124; [CESifo Working Paper](https://www.cesifo.org/en/publications/2024/working-paper/income-shocks-adaptation-and-temperature-related-mortality-evidence) ] [ Status: _Reject and Resubmit at JAERE_ ]
-    - <details>
-      <summary>Abstract</summary><p align="justify"> This paper examines the role of positive income shocks in helping workers adapt to extreme temperatures. We use daily temperature variations alongside the exogenous implementation of a wage and fiscal policy in Mexican municipalities along the US border to show that increased disposable income significantly reduces temperature-related mortality in treated areas. Exploring the mechanisms, we find that income gains increase households’ adaptive capacity, particularly through higher electricity expenditures and the purchase of electric heaters. Our findings provide causal estimates of how income influences the marginal effect of temperature on mortality and contribute to the debate on the effectiveness of climate-related redistribution policies. </p></details>
-    - <font size = ""> Presented at: LMU Junior Faculty Fall Workshop, 2025 AERE Summer Conference </font> 
-    - Featured at: [Adaptation Inventory (Climate Impact Lab—UChicago)](https://impactlab.org/adaptation-inventory/), [Adaptation Atlas (Stanford)](https://adaptationatlas.org/)    
-	  
-- **Co-benefits of Substance Abuse Regulation on Temperature and Violent Crime**. <br/> 
-(with [G. Zappalà](https://guglielmozappala.github.io/)) [ [Draft](https://fpavanello.github.io/files/fpgz_sub.pdf) &#124; [CESifo Working Paper](https://www.ifo.de/en/cesifo/publications/2026/working-paper/co-benefits-substance-abuse-regulation-temperature-and-violent) ]
-(An earlier version circulated as [”Co-benefits of Substance Abuse Regulation on Temperature and Intimate Partner Violence”](https://fpavanello.github.io/files/fp_gz_wp_old.pdf)) [ Status: _Under Review_ ]
-  - <details> 
-      <summary>Abstract</summary><p align="justify"> Higher temperatures can increase substance abuse and exacerbate its physiological effects on the human body, raising the risk of violent behavior. Using administrative crime records and daily temperatures in the United States between 1991 and 2023, we show that two public policies regulating substance abuse --- the expansion of substance abuse treatment facilities and the reformulation of the prescription opioid OxyContin --- substantially moderate the impact of temperature on interpersonal violent crime. We monetize the policy benefits for intimate partner violence, the most widespread crime in the United States, and show that substance abuse regulations can be a cost-effective tool for climate adaptation. </p></details>
-  - <font size = ""> Presented at: 2025 AERE Summer Conference*, CESifo / ifo Junior Workshop on Energy and Climate Economics 2025, 13th Annual IAERE Conference, EIEE Annual Meeting, Gender, Environment, and Social Dynamics Worshop (CY Cergy Paris University), Big Data Seminar Series (ifo Institute), AXA Research Lab on Gender Equality Workshop (Bocconi)*, European Instiute on Economics and the Environment, IEB Public Policy Workshop*, Grantham Research Institute on Climate Change and the Environment*, 2nd Diversity and Human Capital Workshop: Well-being, 3rd Junior Economists Meeting (University Of Milan), 1st Verona Early Career Workshop in Economics (University Of Verona), University of Bologna, University of Padova* [* by co-author] </font>	
-  - _Award_: Best Paper Award at CESifo Junior Workshop on Energy and Climate Economics 2025 
-  - Featured at: [Adaptation Inventory (Climate Impact Lab—UChicago)](https://impactlab.org/adaptation-inventory/), [Adaptation Atlas (Stanford)](https://adaptationatlas.org/)
-
-
-- **Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy**. <br/> 
-(with [G. Valenti](https://givalenti.github.io/)) [ [Draft](https://fpavanello.github.io/files/fp_gv_hhws.pdf) &#124; [FEEM Working Paper](https://www.feem.it/publications/mortality-temperature-and-public-adaptation-policy-evidence-from-italy/) ]
-  - <details>
-      <summary>Abstract</summary><p align="justify"> In 2004, Italy introduced a national program to address heat-related health risks through public awareness campaigns, heatwave warning systems, and hospital protocols. Leveraging administrative mortality data, temperature variations, and the plausibly exogenous timing of the policy's rollout, this paper shows that the program mitigated the mortality impact of extreme heat (days at or above 30 °C) by more than 57%. Exploring the mechanisms, we find that the staggered implementation of the heat wave warning systems contributed to reducing excess mortality on days exceeding 30 °C in treated provinces. We further show that enhancing access to information is essential to achieving these mitigating effects. Our findings underscore the critical role of public adaptation policies that leverage information disclosure on the health risks associated with heat stress. </p></details>
-  - <font size = ""> Presented at: PIK Policy Evaluation Lab*, 2nd Early Career Workshop on Applied Environmental & Climate Change Economics, AERNA-CE3 Durham Online seminar in Environmental and Resource Economics, Workshop on Applied Environmental and Health Economics*, 30th Annual EAERE Conference, 2025 AERE Summer Conference*, 13th Mannheim Conference on Energy and the Environment, IZA Workshop on Climate and Environmental Economics: Applied and Behavioral Perspectives*, 1st IdEP PhDs and Postdocs Workshop in Sustainable Economics*, OECD Brown Bag Lunch Meeting, ifo Christmas Conference [* by co-author] </font>
-  - Featured at: [Adaptation Inventory (Climate Impact Lab—UChicago)](https://impactlab.org/adaptation-inventory/), [Adaptation Atlas (Stanford)](https://adaptationatlas.org/)
-
-- **Temperature Extremes and Local Power Distribution: From Mechanisms to Health Impacts** (with F.P. Colelli, [L. Sarmiento](https://www.luissarmiento.com/)) [ Status: _Draft Available Soon_ ]
-  - <details>
-      <summary>Abstract</summary><p align="justify">  This paper establishes a causal link between temperature, power distribution reliability, and mortality. Using daily municipal-level data from Mexico, we show that a single overload outage raises daily mortality rates by 0.04-0.24 deaths per 100,000 people in the following week. We estimate that 30 percent of overload outages result from heat shocks, increasing to nearly 80 percent during summer. Additionally, the temperature-outage relationship is significantly stronger in areas with higher adoption of energy-intensive appliances, such as air conditioning. These findings highlight the health risks associated with climate-driven grid stress, especially in developing regions with growing cooling demands. </p></details>
-  - <font size = ""> Presented at: 2nd Early Career Workshop on Applied Environmental & Climate Change Economics, 30th Annual EAERE Conference*, 13th Mannheim Conference on Energy and the Environment* [* by co-author] </font>
-      
-## (Selected) Working in Progress
-
-- **Assessing climate change costs for EU households** (with L. Campagnolo, [E. De Cian](https://www.unive.it/data/persone/5591358), et al.) [ Status: _Preliminary Draft Available upon Request_ &#124; Project: _EESC Tender 2023_ ]
-
-- **High temperatures and harsh parenting** (with [E. De Cao](http://elisabettadecao.com/) and P. A. Naß) [ Status: _Draft Available Soon_ ]  
-
-- **The (long-term) consequences of austerity policy on mortality and temperature relationship: Evidence from Italy** (with [G. Valenti](https://givalenti.github.io/) and  [G. Zappalà](https://guglielmozappala.github.io/)) [ Status: _Analysis Stage_ ]
-
-- **Does social identity influence adaptation to hot temperatures?** (with [E. De Cian](https://www.unive.it/data/persone/5591358) and [T. Randazzo](https://sites.google.com/site/teresarandazzosite/)) [ Status: _Draft Available Soon_ &#124; Project: _PRICE - PRIN2022_ ]
-
-- **Firms’ climate expectations and adaptation** (with [N. Garbarino](https://www.ifo.de/en/garbarino-n), [M.T. von Schickfus](https://sites.google.com/view/marietheres-vonschickfus/home)) [ Status: _PAP submitted_ &#124;  Pre-analysis Plan: [AEA RCT Registry: 0016562](https://www.socialscienceregistry.org/trials/16562) ]
+{% if site.data.working_papers.progress and site.data.working_papers.progress.size > 0 %}
+<section class="lg-sec">
+  <h2>Work in progress <span class="count">{{ site.data.working_papers.progress.size }}</span></h2>
+  {% for w in site.data.working_papers.progress %}
+    <div class="lg-course">
+      <h3>{{ w.title }}</h3>
+      <p>{% include author-list.html authors=w.authors urls=w.coauthor_urls %}</p>
+      <p class="term">
+        <span class="tag">{{ w.status }}</span>
+        {% if w.project %}<span class="tag">{{ w.project }}</span>{% endif %}
+        {% if w.links %}{% for l in w.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}{% endif %}
+      </p>
+    </div>
+  {% endfor %}
+</section>
+{% endif %}

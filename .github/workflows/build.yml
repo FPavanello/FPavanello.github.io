@@ -1,0 +1,153 @@
+name: Build site
+
+# Verifies that the site still builds. GitHub Pages only reports build
+# failures for the branch it publishes, so this runs on every branch and
+# catches Liquid/YAML mistakes before they reach master.
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Data files must be valid YAML
+        # These are hand-edited often, and a stray typo (a missing colon after
+        # a key, say) otherwise surfaces as an opaque Jekyll crash or a failed
+        # deploy. Parsing them first points at the exact file and line.
+        run: |
+          ruby -ryaml -rdate -e '
+            failed = false
+            Dir["_data/**/*.yml"].sort.each do |file|
+              begin
+                # aliases: _data/ui-text.yml uses anchors and merge keys
+                # (&DEFAULT_EN / <<: *DEFAULT_EN), which Ruby 3.1+ rejects by
+                # default. Jekyll itself loads _data with aliases enabled, so
+                # refusing them here would fail files the site builds happily.
+                YAML.load_file(file, aliases: true, permitted_classes: [Date, Time])
+                puts "ok: #{file}"
+              rescue => e
+                # Deliberately broad: a syntax error is only one way a data
+                # file can fail to load, and anything that stops Jekyll
+                # reading it should be reported rather than crash this step.
+                puts "::error file=#{file}::#{e.class}: #{e.message}"
+                failed = true
+              end
+            end
+            exit(failed ? 1 : 0)
+          '
+
+      - name: Stylesheets must be pure ASCII
+        # Ruby Sass 3.7 (what github-pages pins) reads .scss using Ruby's
+        # default external encoding. GitHub Actions runs with a UTF-8 locale,
+        # but Cloudflare Pages' build container uses C/POSIX, where that
+        # encoding is US-ASCII -- so a stray em dash in a comment builds fine
+        # here and hard-fails there. Keeping SCSS ASCII-only avoids the whole
+        # class of problem. Use HTML entities or \\ escapes if a glyph is
+        # genuinely needed in content.
+        run: |
+          if LC_ALL=C grep -rn '[^ -~	]' _sass assets/css --include="*.scss"; then
+            echo "::error::non-ASCII character in a stylesheet (see matches above)"
+            exit 1
+          fi
+          echo "ok: stylesheets are ASCII-only"
+
+      - name: Build with Jekyll
+        # --strict_front_matter fails on malformed front matter rather than
+        # silently skipping the page. JEKYLL_ENV=production so the output
+        # matches what GitHub Pages publishes.
+        #
+        # LANG/LC_ALL are forced to C to reproduce Cloudflare Pages' build
+        # container. Runners default to a UTF-8 locale, which made Ruby Sass
+        # encoding failures invisible here while breaking the deploy. Ruby Sass
+        # derives its file encoding from the locale, so building under C is the
+        # strictest case: if this passes, every environment passes.
+        env:
+          JEKYLL_ENV: production
+          LANG: C
+          LC_ALL: C
+        run: bundle exec jekyll build --strict_front_matter --trace
+
+      - name: Check the pages that should exist actually do
+        run: |
+          set -e
+          for page in \
+            "_site/index.html" \
+            "_site/publications/index.html" \
+            "_site/wp/index.html" \
+            "_site/cv/index.html" \
+            "_site/teaching/index.html" \
+            "_site/seminars/index.html" \
+            "_site/assets/css/main.css"
+          do
+            if [ ! -s "$page" ]; then
+              echo "::error::missing or empty: $page"
+              exit 1
+            fi
+            echo "ok: $page"
+          done
+
+      - name: Check no Liquid tags leaked into the output
+        run: |
+          if grep -rlE '\{\{|\{%' _site --include="*.html"; then
+            echo "::error::unrendered Liquid found in the build output"
+            exit 1
+          fi
+          echo "ok: no unrendered Liquid"
+
+      - name: Every referenced figure must exist
+        # A `figure:` naming a file that was never added renders a broken
+        # image rather than the "Figure to come" placeholder. Leave the field
+        # empty until the PNG is in images/papers/.
+        run: |
+          status=0
+          figures=$(grep -h '^[[:space:]]*figure:[[:space:]]*[^[:space:]]' _data/*.yml \
+                    | sed 's/.*figure:[[:space:]]*//' | tr -d '"' || true)
+          for f in $figures; do
+            if [ ! -f "images/papers/$f" ]; then
+              echo "::error::_data references images/papers/$f, which does not exist"
+              status=1
+            else
+              echo "ok: images/papers/$f"
+            fi
+          done
+          [ -z "$figures" ] && echo "no figures referenced yet"
+          exit $status
+
+      - name: Assets must not be hardcoded to the production host
+        # base_path is root-relative so the site works on preview deploys and
+        # locally. An absolute https://fpavanello.github.io/assets/... URL
+        # means a branch preview would silently load the live site's CSS.
+        run: |
+          # Only asset paths. Page URLs are deliberately absolute in
+          # rel="canonical" and og:url -- those identify the production page
+          # and must not be made relative, so canonical lines are filtered out.
+          matches=$(grep -rnE '(href|src)="https://fpavanello\.github\.io/(assets|images|files)/' \
+                      _site --include="*.html" \
+                    | grep -v 'rel="canonical"' || true)
+          if [ -n "$matches" ]; then
+            echo "Assets referenced by absolute production URL:"
+            echo "$matches" | head -40
+            echo "::error::internal asset uses an absolute production URL; use base_path"
+            exit 1
+          fi
+          echo "ok: assets are host-relative"
+
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
+          retention-days: 14
