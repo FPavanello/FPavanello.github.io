@@ -14,15 +14,13 @@ policy:
     url: "https://www.eesc.europa.eu/en/our-work/publications-other-work/publications/cost-climate-change-households-and-families-eu"
 
   - title: "Analisi preliminare propedeutica alla \"Strategia regionale di adattamento al cambiamento climatico\": gli impatti socio-economici dei cambiamenti climatici in Veneto"
-    authors: "ARPAV"
     year: 2023
-    venue: "ARPAV — in Italian"
+    venue: "ARPAV"
     url: "https://sharing.regione.veneto.it/index.php/s/LF5TfG6dM7jjCwJ?openfile=true"
 
   - title: "Projected increase in cooling demand to 2050 in C40 cities"
-    authors: "C40 Cities"
     year: 2023
-    venue: "C40 Knowledge Hub"
+    venue: "C40 Cities"
     url: "https://www.c40knowledgehub.org/s/article/Projected-increase-in-cooling-demand-to-2050-in-C40-cities?language=en_US"
 
 chapters:
