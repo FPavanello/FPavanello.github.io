@@ -22,7 +22,7 @@ author_profile: false
     <article class="lg-paper lg-paper--nofig">
       <div>
         <h3>{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
-        <p class="lg-authors">{% include author-list.html authors=p.authors %}</p>
+        {% if p.authors %}<p class="lg-authors">{% include author-list.html authors=p.authors %}</p>{% endif %}
         <p class="lg-venue"><em>{{ p.venue }}</em> <span class="yr">· {{ p.year }}</span></p>
       </div>
     </article>
@@ -37,7 +37,7 @@ author_profile: false
     <article class="lg-paper lg-paper--nofig">
       <div>
         <h3>{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
-        <p class="lg-authors">{% include author-list.html authors=p.authors %}</p>
+        {% if p.authors %}<p class="lg-authors">{% include author-list.html authors=p.authors %}</p>{% endif %}
         <p class="lg-venue"><em>{{ p.venue }}</em> <span class="yr">· {{ p.year }}</span></p>
       </div>
     </article>

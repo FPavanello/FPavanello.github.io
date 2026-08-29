@@ -16,27 +16,27 @@
   venue: "Journal of Economic Behavior & Organization"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S016726812600315X"
   abstract: >- 
-	We estimate the impact of temperatures on emergency department visits using daily data 
-      	from the universe of public hospitals in Mexico from 2008 to 2021. We find that cold 
-      	temperatures decrease visits by up to 9.1 percent on the same day, and warm temperatures 
-      	increase visits by as much as 3.7 percent. Using distributed lag models, we then show that 
-      	cold temperatures can reduce visits for the next 30 days by up to 16 percent. For warm temperatures, 
-      	contemporaneous and cumulative effects are similar (limited harvesting). These findings suggest that, 
-      	unlike mortality, temperatures affect the demand for emergency services linearly. Leveraging 
-      	the granularity of our dataset, we also document significant heterogeneities (e.g., higher sensitivity 
-      	for children and teenagers) and provide suggestive evidence about mechanisms, such as ecosystem dynamics 
-      	and behavioral changes. Finally, we project that—absent adaptation—temperature-driven 
-      	annual emergency department visits might increase by 0.35 percent by midcentury, resulting in an estimated 
-      	increase of 8.5 million USD in annual medical expenditures in Mexico.
-    links:
-      - label: "Ungated version"
-        url: "/files/lsfcfp_tmpmorbidity.pdf"
-      - label: "Code"
-        url: "https://github.com/FPavanello/tmp_er_admissions"
-      - label: "Data"
-        url: "https://zenodo.org/records/21873500"
-      - label: "Tool"
-        url: "https://www.luissarmiento.com/temperature-and-emergency-visits/"
+    We estimate the impact of temperatures on emergency department visits using daily data 
+    from the universe of public hospitals in Mexico from 2008 to 2021. We find that cold 
+    temperatures decrease visits by up to 9.1 percent on the same day, and warm temperatures 
+    increase visits by as much as 3.7 percent. Using distributed lag models, we then show that 
+    cold temperatures can reduce visits for the next 30 days by up to 16 percent. For warm temperatures, 
+    contemporaneous and cumulative effects are similar (limited harvesting). These findings suggest that, 
+    unlike mortality, temperatures affect the demand for emergency services linearly. Leveraging 
+    the granularity of our dataset, we also document significant heterogeneities (e.g., higher sensitivity 
+    for children and teenagers) and provide suggestive evidence about mechanisms, such as ecosystem dynamics 
+    and behavioral changes. Finally, we project that—absent adaptation—temperature-driven 
+    annual emergency department visits might increase by 0.35 percent by midcentury, resulting in an estimated 
+    increase of 8.5 million USD in annual medical expenditures in Mexico.
+  links:
+    - label: "Ungated version"
+      url: "/files/lsfcfp_tmpmorbidity.pdf"
+    - label: "Code"
+      url: "https://github.com/FPavanello/tmp_er_admissions"
+    - label: "Data"
+      url: "https://zenodo.org/records/21873500"
+    - label: "Tool"
+      url: "https://www.luissarmiento.com/temperature-and-emergency-visits/"
 
 - title: "The Impact of Air Conditioning on Residential Electricity Demand across World Countries"
   authors: "De Cian, E., Falchetta, G., Pavanello, F., Romitti, Y., Sue Wing, I."
