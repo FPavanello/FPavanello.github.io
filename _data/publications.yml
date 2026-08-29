@@ -11,7 +11,7 @@
 # me:          the exact author string to bold. Set once in _config.yml.
 
 - title: "Emergency department visits and temperature: Evidence from Mexico"
-  authors: "Sarmiento L., Colelli, F.P., Pavanello, F."
+  authors: "Sarmiento, L., Colelli, F.P., Pavanello, F."
   year: 2026
   venue: "Journal of Economic Behavior & Organization"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S016726812600315X"
