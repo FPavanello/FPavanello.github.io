@@ -31,6 +31,8 @@
   links:
     - label: "Ungated version"
       url: "/files/lsfcfp_tmpmorbidity.pdf"
+    - label: "RFF working paper"
+      url: "https://www.rff.org/publications/working-papers/emergency-department-visits-and-temperature-evidence-from-mexico/"
     - label: "Code"
       url: "https://github.com/FPavanello/tmp_er_admissions"
     - label: "Data"
