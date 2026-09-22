@@ -10,6 +10,35 @@
 # figure_caption: one sentence saying what the figure shows.
 # me:          the exact author string to bold. Set once in _config.yml.
 
+- title: "Public finance resilience in the transition towards carbon neutrality: Modelling policy instruments in a global net-zero emissions scenario"
+  authors: "Fouré, J. Dellink, R. Lanzi, E. Pavanello, F."
+  year: 2027
+  venue: "Energy Policy"
+  url: "https://www.sciencedirect.com/science/article/pii/S0301421526005355"
+  abstract: >-
+    This paper presents a detailed economic modelling analysis of public finance in the transition
+    towards carbon neutrality. We outline results from a Net-Zero Emission Ambition scenario, reflecting 
+    the ambition to achieve net-zero carbon dioxide emissions globally by mid-century, using
+    a broad and region-specific policy package that combines various policy instruments: carbon
+    pricing, removal of fossil fuel support, regulations in the power sector, and other policies that
+    stimulate investments by firms and households to reduce and decarbonize energy use. The analysis
+    relies on the OECD global computable general equilibrium ENV-Linkages model. Our results show that
+    transitioning towards emissions neutrality involves relatively modest economic and fiscal consequences. 
+    The scenario achieves emissions neutrality while maintaining continued economic growth, despite a limited 
+    negative impact on global GDP (which excludes the benefits from reduced climate damages) and on public revenues.
+    In our central scenario we find that net public revenues slightly decrease globally in 2050 (-0.5% of Baseline GDP).
+    The fiscal effects reflect a trade-off between instruments that increase public revenues (carbon pricing) 
+    or reduce public expenditures (fossil fuel subsidies removal), on the one hand, and more costly instruments 
+    (subsidies) and indirect effects (tax base erosion and changes in fiscal and economic structure) on the other hand.
+  links:
+    - label: "Ungated version"
+      url: /files/fdlp_net_zero_ep.pdf
+    - label: "OECD working paper"
+      url: "https://www.oecd-ilibrary.org/environment/public-finance-resilience-in-the-transition-towards-carbon-neutrality_7f3275e0-en"
+  media:
+    - label: "Financial Times"
+      url: "https://t.co/aip0DwlWXv"
+
 - title: "Emergency department visits and temperature: Evidence from Mexico"
   authors: "Sarmiento, L., Colelli, F.P., Pavanello, F."
   year: 2026
