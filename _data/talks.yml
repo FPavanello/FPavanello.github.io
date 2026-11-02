@@ -11,12 +11,12 @@
       venue: "Stavanger, Norway"
       invited: true
       scheduled: true
-      when: "Apr 2026"
+      when: "Apr 2027"
     - title: "Guest lecture: Causal inference of climate change impacts"
       venue: "University of Padua, Italy"
       invited: true
       scheduled: true
-      when: "Jan 2026"
+      when: "Jan 2027"
 
 - year: 2026
   items:
