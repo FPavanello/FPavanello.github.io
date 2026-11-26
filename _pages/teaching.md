@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Teaching"
-lede: "Courses at LMU Munich and Ca' Foscari University of Venice."
+lede: "Current and previous taught courses."
 permalink: /teaching/
 author_profile: false
 ---

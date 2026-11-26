@@ -33,6 +33,8 @@ papers:
         url: "/files/fp_jmp.pdf"
       - label: "Code"
         url: "https://github.com/FPavanello/india_cooling"
+    funding:
+      -  ERC-Starting Grant EnergyA
 
   - title: "Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market"
     authors: "with L. Sarmiento, M. Gilli, S. Shayegh"
@@ -87,12 +89,26 @@ papers:
         url: "https://impactlab.org/adaptation-inventory/"
       - label: "Adaptation Atlas (Stanford)"
         url: "https://adaptationatlas.org/"
+    funding:
+      -  Stanford Adaptation Evaluation Initiative and the Stanford Doerr School of Sustainability
+
+  - title: "Trade-offs in Adaptation and Energy Use"
+    authors: "with F.P. Colelli, E. De Cian, G. Falchetta, A. Mazzone, I. Sue Wing"
+    coauthor_urls:
+      "E. De Cian": "https://www.unive.it/web/it/18697/persone/5591358"
+      "G. Falchetta": "https://sites.google.com/view/g-falc/home?authuser=0"
+      "I. Sue Wing": "https://people.bu.edu/isw/"
+    status: "Under review - Invited review at Annual Review of Resource Economics"
+    abstract: >-
+      Climate adaptation is increasingly necessary, but many adaptation responses require energy and can unintentionally undermine individual and societal goals, such as climate change mitigation. This review examines the trade-offs between adaptation and energy use across households and firms, focusing on behavioral, technological, institutional, and nature-based responses. We show that high-energy-impact adaptation, such as air conditioning, irrigation, desalination, and backup generation, can increase emissions, raise energy prices, and exacerbate inequalities. Trade-offs emerge because of opportunity costs, but are shaped by market failures, hidden costs, behavioral biases, information, institutional, and infrastructural constraints. The review also describes how public interventions influence private adaptation and identifies opportunities for synergistic adaptation pathways through energy efficiency, nature-based solutions, improved infrastructure planning, and institutional interventions.
+     links: 
+       - label: "Draft available upon request"
 
   - title: "Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy"
     authors: "with G. Valenti"
     coauthor_urls:
       "G. Valenti": "https://givalenti.github.io/"
-    status: "Working paper"
+    status: "Working paper (New draft coming soon)"
     abstract: >-
       In 2004, Italy introduced a national program to address heat-related health risks through
       public awareness campaigns, heatwave warning systems, and hospital protocols. Leveraging
@@ -116,32 +132,25 @@ papers:
         url: "https://adaptationatlas.org/"
 
 progress:
-  - title: "Assessing climate change costs for EU households"
-    authors: "with L. Campagnolo, E. De Cian, et al."
-    status: "Preliminary draft on request"
-    project: "EESC Tender 2023"
-
-  - title: "Trade-offs in Adaptation and Energy Use"
-    authors: "with F.P. Colelli, E. De Cian, G. Falchetta, A. Mazzone, I. Sue Wing"
-    status: "Invited review, Annual Review of Resource Economics"
-
-  - title: "Temperature Extremes and Local Power Distribution: From Mechanisms to Health Impacts"
+  - title: "The Congestion of a Shared Grid: Temperature and Electricity Distribution Blackouts"
     authors: "with F.P. Colelli, L. Sarmiento"
     coauthor_urls:
       "L. Sarmiento": "https://www.luissarmiento.com/"
-    status: "Draft available soon"
+    status: "Draft available upon request"
 
   - title: "High temperatures and harsh parenting"
     authors: "with E. De Cao, P.A. Naß"
-    status: "Analysis stage"
+    status: "Draft available upon request"
 
   - title: "The (long-term) consequences of austerity policy on the mortality and temperature relationship: Evidence from Italy"
     authors: "with G. Valenti, G. Zappalà"
-    status: "Analysis stage"
+    status: "Draft available upon request" 
+    funding: Stanford Adaptation Evaluation Initiative and the Stanford Doerr School of Sustainability
 
-  - title: "Does social identity influence adaptation to hot temperatures?"
-    authors: "with E. De Cian, T. Randazzo"
+  - title: "Adapting to Climate Change: the Role of Public Finances"
+    authors: "with J. Adelowo, N. Garbarino, J. Vietz"
     status: "Analysis stage"
+    funding: ifo-Furth Bridge
 
   - title: "Firms' climate expectations and adaptation"
     authors: "with N. Garbarino, M.T. von Schickfus"

@@ -28,8 +28,8 @@ redirect_from:
       from the European Association of Environmental and Resource Economists.
     </p>
     <p>
-      I am also a research affiliate at the <a href="https://www.cmcc.it/">CMCC</a>,
-      <a href="https://www.eiee.org/">EIEE</a>, and
+      I am also a research affiliate at the <a href="https://www.cmcc.it/">CMCC</a> and
+      <a href="https://www.eiee.org/">EIEE</a>, and adjunct professor at
       <a href="https://www.unive.it/">Ca' Foscari University of Venice</a>.
     </p>
     <p>
