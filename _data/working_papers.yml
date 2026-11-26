@@ -1,12 +1,17 @@
-# Working papers and work in progress.
+# Working papers, in three sections. Each is its own key, so moving a paper
+# between sections means moving its block — nothing is inferred from `status`.
 #
-# `papers`   — under review or in revision, shown with status and abstract
-#              (no figures: those are for published work only)
-# `progress` — earlier-stage projects, shown as a compact list
+# `under_review`   — submitted: R&R, reject & resubmit, under review
+# `working_papers` — complete drafts circulating but not yet submitted
+# `progress`       — earlier-stage projects, shown as a compact list
 #
-# `status` is free text and appears as a small pill next to the title.
+# None of these show figures; those are for published work only.
+#
+# `status`  free text, shown as a small pill next to the title.
+# `funding` free text, one line. A plain string, not a list:
+#           `funding: ERC-Starting Grant EnergyA`
 
-papers:
+under_review:
   - title: "Adaptation technology choice and implications for heat-related health risk"
     authors: "with I. Sue Wing"
     coauthor_urls:
@@ -33,8 +38,7 @@ papers:
         url: "/files/fp_jmp.pdf"
       - label: "Code"
         url: "https://github.com/FPavanello/india_cooling"
-    funding:
-      -  ERC-Starting Grant EnergyA
+    funding: ERC-Starting Grant EnergyA
 
   - title: "Income shocks, adaptation, and temperature-related mortality: Evidence from the Mexican labor market"
     authors: "with L. Sarmiento, M. Gilli, S. Shayegh"
@@ -89,8 +93,7 @@ papers:
         url: "https://impactlab.org/adaptation-inventory/"
       - label: "Adaptation Atlas (Stanford)"
         url: "https://adaptationatlas.org/"
-    funding:
-      -  Stanford Adaptation Evaluation Initiative and the Stanford Doerr School of Sustainability
+    funding: Stanford Adaptation Evaluation Initiative and the Stanford Doerr School of Sustainability
 
   - title: "Trade-offs in Adaptation and Energy Use"
     authors: "with F.P. Colelli, E. De Cian, G. Falchetta, A. Mazzone, I. Sue Wing"
@@ -101,9 +104,11 @@ papers:
     status: "Under review - Invited review at Annual Review of Resource Economics"
     abstract: >-
       Climate adaptation is increasingly necessary, but many adaptation responses require energy and can unintentionally undermine individual and societal goals, such as climate change mitigation. This review examines the trade-offs between adaptation and energy use across households and firms, focusing on behavioral, technological, institutional, and nature-based responses. We show that high-energy-impact adaptation, such as air conditioning, irrigation, desalination, and backup generation, can increase emissions, raise energy prices, and exacerbate inequalities. Trade-offs emerge because of opportunity costs, but are shaped by market failures, hidden costs, behavioral biases, information, institutional, and infrastructural constraints. The review also describes how public interventions influence private adaptation and identifies opportunities for synergistic adaptation pathways through energy efficiency, nature-based solutions, improved infrastructure planning, and institutional interventions.
-     links: 
-       - label: "Draft available upon request"
+    links:
+      - label: "Draft available upon request"
 
+# Complete drafts that are circulating but not yet submitted.
+working_papers:
   - title: "Mortality, Temperature, and Public Adaptation Policy: Evidence from Italy"
     authors: "with G. Valenti"
     coauthor_urls:
