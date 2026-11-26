@@ -856,7 +856,10 @@ strong, b, .em {
     margin: 0 0 .2rem;
   }
 
-  p {
+  /* `.lg-course p` would outrank `.lg-meta` on specificity, so the funding
+     line here would render larger and darker than the identical line on the
+     entries above. Excluded so shared classes keep their own styling. */
+  p:not(.lg-meta) {
     margin: 0;
     font-size: .89rem;
     color: var(--muted);

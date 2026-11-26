@@ -135,6 +135,8 @@ working_papers:
         url: "https://impactlab.org/adaptation-inventory/"
       - label: "Adaptation Atlas (Stanford)"
         url: "https://adaptationatlas.org/"
+      - label: "Equilibri Magazine"
+        url: "https://equilibrimagazine.it/clima/2026/11/10/clima-e-ondate-di-calore-come-lallerta-salva-vite/"
 
 progress:
   - title: "The Congestion of a Shared Grid: Temperature and Electricity Distribution Blackouts"
